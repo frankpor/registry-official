@@ -5,20 +5,46 @@
     height: 2rem;
 }
 
-/* a {
+h1 {
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.py-6 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+a {
     color: rgb(6, 74, 143);
+}
+
+a:not(span a) {
     text-decoration: none;
+    border-bottom: 1px dotted rgb(6, 74, 143);
     
 }
 
-a:hover {
-    border-bottom: 5px solid #df0a0a;
-    background-color: #e8e8e9; 
-    border-bottom: 5px solid rgb(210, 1, 1); 
-} */
+a:hover:not(.nav-link):not(.navbar-brand) {
+    /* border-bottom: 3px solid red; */
+    background-color: rgba(255, 255, 0, 0.753);  
+    /* border-bottom: 5px solid rgb(210, 1, 1);  */
+} 
 
 .fas .fab {
     color: rgb(6, 74, 143);
+}
+
+.downscaled-svg {
+  width: 18px; /* Adjust to desired size */
+  height: 18px;
+}
+
+.blue-svg {
+  filter: invert(21%) sepia(91%) saturate(1487%) hue-rotate(193deg) brightness(89%) contrast(96%);
+}
+
+.grey-svg {
+  filter: invert(50%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
 }
 
 #uriBtn:hover:before {
@@ -26,11 +52,20 @@ a:hover {
 }
 
 .dropdown-item:hover {
-    background-color: lightgray !important;
+    background-color: gray !important;
 }
 
 #allConcepts {
     min-height: 380px;
+}
+
+.bg-info {
+    background: #052E37;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BFCE40, #052E37);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BFCE40, #052E37);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .cardHeaderRight {
@@ -180,21 +215,12 @@ ul.notation li {
     color: rgb(199, 3, 3);
 }
 
-#search_widget {
-    /* background-color: #425d79; */
-    background: #16222A;
-background: linear-gradient(180deg, rgba(22, 34, 41, 0.8) 0%, rgba(58, 95, 115, 0.79) 100%);
-    /* background: #fcee21;
-    background: -moz-linear-gradient(135deg, #fcee21 0%, #009245 100%);
-    background: -webkit-linear-gradient(135deg, #fcee21 0%, #009245 100%);
-    background: linear-gradient(135deg, #fcee21 0%, #009245 100%);
-    background: #00537e;
-    background: -moz-linear-gradient(to bottom, #00537e 0%, #3aa17e 100%);
-    background: -webkit-linear-gradient(to bottom, #00537e 0%, #3aa17e 100%);
-    background: linear-gradient(to bottom, #00537e 0%, #3aa17e 100%); */
-    }
 
- 
+
+#searchCard {
+    padding-top: 8px !important;
+
+}
 
 /* GO #94c425 #444444 */
 

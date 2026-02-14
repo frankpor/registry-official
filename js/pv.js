@@ -38,7 +38,7 @@ $(document).ready(function () {
         $('header').addClass('py-5');
         document.getElementsByTagName('header').innerHTML = `<div class="container">
                                                                     <div class="text-center my-5">
-                                                                        <h1 class="fw-bolder">Geodatenstellen Register</h1>
+                                                                        <h1>Geodatenstellen Register</h1>
                                                                         <p class="lead mb-0">INSPIRE Daten- &amp; Dienste Provider und Codelisten</p>
                                                                     </div>
                                                                 </div>`;
@@ -551,19 +551,19 @@ function details(divID, uri, voc_uri) { //build the web page content
                 //console.log('narrower:', jsonData.results.bindings.filter(a => a.p.value == 'http://www.w3.org/2004/02/skos/core#narrower'));
                 let r = `<span>
                             <a href="javascript:rdfTS('<${uri}> ${r_links}')" title="RDF download" style="text-decoration: none;">
-                                <i class="fa fa-cube"></i>
+                                <img src="assets/rdf-svgrepo-com.svg" class="downscaled-svg blue-svg" alt="RDF icon">
                             </a>
                         </span>&nbsp;`;
 
                 if (jsonData.results.bindings.filter(a => a.p.value == 'http://www.w3.org/2004/02/skos/core#narrower').length > 0) {
                     r += `<span>
                             <a href="tbl.html?uri=${uri}" title="table view" target="_blank" style="text-decoration: none;">
-                                <i class="fa fa-list-alt"></i>
+                                <img src="assets/table-list.svg" class="downscaled-svg blue-svg" alt="table icon">
                             </a>
                         </span>&nbsp;
                         <span>
                             <a href="diagram.html?uri=${uri}" title="tree view" target="_blank" style="text-decoration: none;">
-                                <i class="fa fa-sitemap fa-rotate-270"></i>
+                                <img src="assets/sitemap-solid-full.svg" class="downscaled-svg blue-svg" alt="tree icon">
                             </a>
                         </span>`;
                 }
@@ -584,7 +584,7 @@ function details(divID, uri, voc_uri) { //build the web page content
                 
                 $('#' + divID).append(`<hr>
                         <div style="cursor: pointer; color: #777;" id="detailsBtn"
-                        onclick="javascript: toggleRead(\'detailsBtn\', \'detailsToggle\', \'RDF statements\');"><i class="fa fa-caret-right fa-lg"></i><em>&nbsp;&nbsp;RDF statements</em>
+                        onclick="javascript: toggleRead(\'detailsBtn\', \'detailsToggle\', \'RDF statements\');"><img src="assets/caret-right-solid.svg" class="downscaled-svg grey-svg" alt="caretRight icon"><em>&nbsp;&nbsp;RDF statements</em>
                         </div>
                         <div style="display:none;position: relative;" id="detailsToggle">
                         <br>
@@ -625,7 +625,7 @@ function details(divID, uri, voc_uri) { //build the web page content
 //************************toggle the hidden details / because HTML5 is not fully supported by MS Edge**************
 
 function toggleRead(divBtn, divTxt, text) {
-    let txt = $('#' + divTxt).is(':visible') ? '<i class="fa fa-caret-right fa-lg"></i><em>&nbsp;&nbsp;' + text + '</em>' : '<i class="fa fa-caret-down fa-lg"></i><em>&nbsp;&nbsp;' + text + '</em>';
+    let txt = $('#' + divTxt).is(':visible') ? '<img src="assets/caret-right-solid.svg" class="downscaled-svg grey-svg" alt="caretRight icon"><em>&nbsp;&nbsp;' + text + '</em>' : '<img src="assets/caret-down-solid.svg" class="downscaled-svg grey-svg" alt="caretDown icon"><em>&nbsp;&nbsp;' + text + '</em>';
     $('#' + divBtn).html(txt);
     $('#' + divTxt).slideToggle();
 }
@@ -653,7 +653,7 @@ function createFrontPart(divID, uri, data, props, voc_uri) {
                     //BREADCRUMBS
                     //$('.navbar-brand').append(` / ${uri.split('/')[4]} / ${pL}`);
                         
-                    html += `<h1 id="prefLabel" class="mt-4${(!voc_uri?` text-muted`:'')}">${pL}</h1>`;
+                    html += `<h1 id="prefLabel" class="mt-4${(!voc_uri?` text-muted`:'')}">${pL}</h1><br>`;
 
                     html += `<p class="${(!voc_uri?' text-muted">':'">')}
                         <a id="uriBtn"
@@ -960,7 +960,7 @@ function insertConceptBrowser(divID, uri, offset) {
         <hr>
             <details id="conceptsList">
             <summary>
-            <i class="fa fa-caret-right fa-lg caret"></i>
+            <img src="assets/caret-right-solid.svg" class="downscaled-svg grey-svg" alt="caretRight icon" style="margin-right: 5px;">
             <em id="allConceptsHeader" style="display:inline-block;"></em>
             </summary>
             <div id="allConcepts" class="card-body"></div>
