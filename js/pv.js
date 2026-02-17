@@ -24,14 +24,19 @@ $(document).ready(function () {
         let voc_uri = uri.includes(baseURIs[0]) != uri.includes(baseURIs[1]); //true for geoscience.earth or europe-geology
         $('#pageContent').empty();
 
+        let uriArr = uri.split('\/');
+
+        if ((uriArr[3] == 'dataprovider' && uriArr.length == 4) || (uriArr[3] == 'codelist' && uriArr.length == 5)){
+            showCodelist(uri);
+        } else {
+
+            details('pageContent', uri, voc_uri);
+            if (voc_uri) {
+                insertProjCards('proj_links', vocProjects, uri.includes(baseURIs[0]) ? uri.split('\/')[5] : uri.split('\/')[3]);
+                //console.log('uri', uri, );
 
 
-        details('pageContent', uri, voc_uri);
-        if (voc_uri) {
-            insertProjCards('proj_links', vocProjects, uri.includes(baseURIs[0])?uri.split('\/')[5]:uri.split('\/')[3]);
-            //console.log('uri', uri, );
-            let uriArr = uri.split('/');
-
+            }
         }
 
     } else {
@@ -50,6 +55,90 @@ $(document).ready(function () {
     initSearch(); //provides js for fuse search
 });
 
+//************************     show CODELIST page     ****************************************************
+
+function showCodelist(uri) {
+
+    let query = encodeURIComponent(`PREFIX dcterms: <http://purl.org/dc/terms/>
+            PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+            select distinct 
+            (CONCAT('<a href="${BASE}?uri=',STR(?URI),'">',?L,'</a>') as ?Label)
+            (GROUP_CONCAT(distinct ?n; separator = '; ') as ?Notation)
+            (GROUP_CONCAT(distinct ?D; separator = '; ') as ?Definition)
+            (GROUP_CONCAT(distinct CONCAT('<a href="${BASE}?uri=',STR(?o),'">',?P,'</a>')) as ?Parent)
+            (GROUP_CONCAT(distinct ?N; separator = '; ') as ?scopeNote)
+            (COALESCE(?Lskos, ?Ldcterms) as ?title)
+            where { GRAPH ?g {
+            <${uri}> skos:hasTopConcept ?tc . ?tc skos:narrower* ?URI .
+            ?URI skos:prefLabel ?L . filter(lang(?L)="de")
+            optional {?URI skos:notation ?n}
+            optional {?URI skos:definition ?D . filter(lang(?D)="de")}
+            optional {?URI skos:scopeNote ?N . filter(lang(?N)="de")}
+            optional {?URI skos:broader ?o . ?o skos:prefLabel ?P . filter(lang(?P)="de")}
+            optional {<${uri}> skos:prefLabel ?Lskos . filter(lang(?Lskos)="de")}
+            optional {<${uri}> dcterms:title ?Ldcterms . filter(lang(?Ldcterms)="de")}
+            }}
+            group by ?URI ?L ?Lskos ?Ldcterms
+            order by ?L`);
+    
+    fetch(ENDPOINT + '?query=' + query + '&format=json')
+        .then(res => res.json()) 
+        .then(jsonData => {
+            console.log(jsonData);
+
+            let tblFields = ['Label', 'Parent'];
+
+            let data = jsonData.results.bindings.map(obj =>
+                Object.fromEntries(
+                    Object.entries(obj)
+                        .filter(([key]) => tblFields.includes(key))
+                        .map(([key, val]) => [key, val.value])
+                ));
+                console.log(data);
+
+               $('#pageContent').append(`<h1 class="mt-4">${jsonData.results.bindings[0].title.value}</h1>`);
+                $('#pageContent').append(`
+                        <a id="uriBtn"
+                            href="javascript:
+                            var dummy = $('<input>').val('${uri}').appendTo('body').select();
+                            document.execCommand('copy');
+                            dummy.remove();"><strong>URI:</strong>
+                        </a>
+                        <span id="uri" style="word-wrap: break-word;">
+                            &nbsp;${uri}
+                        </span>
+                        <br><br>`);
+
+
+                $('#pageContent').append(`<div class="p-1 col-sm-12 sortable-table">
+                    <table class="table table-hover" id="codelist"></table>
+                </div>`);
+        
+            document.getElementById('codelist').innerHTML = '<thead><tr>' +
+                Object.keys(data[0]).map(a => `<th scope="col" data-id="${a}" sortable>${a}</th>`).join('') +
+                '</tr></thead>';
+
+            const sortableTable = new SortableTable();
+            // set table element
+            sortableTable.setTable(document.querySelector('#codelist'));
+            // set data to be sorted
+            sortableTable.setData(data);
+            // handling events
+            sortableTable.events()
+                .on('sort', (event) => {
+                    console.log(`[SortableTable#onSort]
+                            event.colId=${event.colId}
+                            event.sortDir=${event.sortDir}
+                            event.data=\n${JSON.stringify(event.data)}`);
+                });
+
+            $('.progress-bar').css('width', '100%').attr('aria-valuenow', 100);
+            setTimeout(() => {
+                $('.progress').hide();
+            }, 300);
+        });
+
+}
 
 
 //********set the title of PV homepage********************************************************************
@@ -69,7 +158,7 @@ function insertCodelists(vocProjects, divID) {
     let query = encodeURIComponent(`PREFIX dcterms:<http://purl.org/dc/terms/>
                                     PREFIX skos:<http://www.w3.org/2004/02/skos/core#>
                                     PREFIX adms:<http://www.w3.org/ns/adms#>
-                                    SELECT (CONCAT('<strong><a href="',STR(?cs),'">',?l,'</a></strong>') AS ?Label) ?desc 
+                                    SELECT (CONCAT('<a href="${BASE}?uri=',STR(?cs),'">',?l,'</a>') AS ?Label) ?desc 
                                         (STRBEFORE(STR(?d),'T') AS ?Date)
                                     WHERE { GRAPH ?g {
                                     ?cs a skos:ConceptScheme; dcterms:title ?l; dcterms:description ?desc; dcterms:created ?d . 
@@ -544,6 +633,7 @@ function details(divID, uri, voc_uri) { //build the web page content
 
             if (jsonData.results.bindings.length > 1) {
                 uri = jsonData.results.bindings[0].s.value;
+                
                 for (key in FRONT_LIST) createFrontPart(divID, uri, jsonData, Array.from(FRONT_LIST[key].values()), voc_uri);
 
                 // RDF download icon added to apps (notation div or altLabel div)
@@ -591,18 +681,7 @@ function details(divID, uri, voc_uri) { //build the web page content
                         <table id="details"></table>
                         
                         </div>`); 
-                //https://schmar00.github.io/HIKE/hike_map.html?uri=https://data.geoscience.earth/ncl/geoera/hike/faults/7495
-                let mapCheckArr = jsonData.results.bindings.map(a => [a.p.value, a.o.value]);
-                if (mapCheckArr.find(b => b[1] == 'https://voc.europe-geology.eu/hike/faults')) {
-                    if (mapCheckArr.find(c => c[0] == 'http://www.w3.org/2004/02/skos/core#topConceptOf') == undefined) {
-                        //console.log('mapCheckArr', mapCheckArr);
-                        $('#appsInsert').append(`<span style="margin-right:15px; margin-left: -8px;">
-                                                    <a href="https://schmar00.github.io/HIKE/hike_map.html?uri=${uri.replace('voc.europe-geology.eu','data.geoscience.earth/ncl/geoera')}" title="HIKE map" target="_blank">
-                                                        <i class="fas fa-map-marked-alt"></i>
-                                                    </a>
-                                                </span>`);
-                    }
-                }
+
                 //console.log('jsonData: ', jsonData.results.bindings);
 
 
@@ -652,8 +731,15 @@ function createFrontPart(divID, uri, data, props, voc_uri) {
                     pL = setUserLang(Array.from(ul).join('|').replace(/  <span class="lang">/g, '@').replace(/<\/span>/g, ''));
                     //BREADCRUMBS
                     //$('.navbar-brand').append(` / ${uri.split('/')[4]} / ${pL}`);
+                    const codelist = uri.split('/').slice(0, -1).join('/');
+                    
+                    html += `<ol class="breadcrumb mt-3" style="margin-left: -12px;">
+                        <li class="breadcrumb-item"><a href="${BASE}">Registry</a></li>
+                        <li class="breadcrumb-item"><a href="${BASE}?uri=${codelist}">${codelist.split('/').pop()}</a></li>
+                        <li class="breadcrumb-item active">${pL}</li>
+                    </ol>`;
                         
-                    html += `<h1 id="prefLabel" class="mt-4${(!voc_uri?` text-muted`:'')}">${pL}</h1><br>`;
+                    html += `<h1 id="prefLabel" class="mt-4${(!voc_uri?` text-muted`:'')}">${pL}</h1>`;
 
                     html += `<p class="${(!voc_uri?' text-muted">':'">')}
                         <a id="uriBtn"

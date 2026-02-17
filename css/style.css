@@ -15,24 +15,20 @@ h1 {
 }
 
 a {
-    color: rgb(6, 74, 143);
+    color: #295471;
 }
 
 a:not(span a) {
     text-decoration: none;
-    border-bottom: 1px dotted rgb(6, 74, 143);
+    border-bottom: 1px dotted #295471;
     
 }
 
 a:hover:not(.nav-link):not(.navbar-brand) {
     /* border-bottom: 3px solid red; */
-    background-color: rgba(255, 255, 0, 0.753);  
+    background-color: rgba(211, 211, 211, 0.485);  
     /* border-bottom: 5px solid rgb(210, 1, 1);  */
 } 
-
-.fas .fab {
-    color: rgb(6, 74, 143);
-}
 
 .downscaled-svg {
   width: 18px; /* Adjust to desired size */
@@ -57,15 +53,6 @@ a:hover:not(.nav-link):not(.navbar-brand) {
 
 #allConcepts {
     min-height: 380px;
-}
-
-.bg-info {
-    background: #052E37;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #BFCE40, #052E37);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #BFCE40, #052E37);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .cardHeaderRight {
