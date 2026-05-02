@@ -101,6 +101,7 @@ function showCodelist(uri) {
                 console.log(data);
 
                $('#pageContent').append(`<h1 class="mt-4">${jsonData.results.bindings[0].title ? jsonData.results.bindings[0].title.value : 'Titel auf nicht verfügbar'}</h1>`);
+
                 $('#pageContent').append(`
                         <a id="uriBtn"
                             href="javascript:
@@ -112,7 +113,7 @@ function showCodelist(uri) {
                             &nbsp;${uri}
                         </span>
                         <br><br><p>${jsonData.results.bindings[0].Description ? jsonData.results.bindings[0].Description.value : 'Beschreibung nicht verfügbar'}</p>
-                        <br>`);
+                        <hr>`);
 
 // without pagination and sorting##############################################################
 /*                 $('#CodeList').append(`<hr><div class="p-1 col-sm-12 sortable-table">
@@ -144,6 +145,16 @@ function showCodelist(uri) {
         }); */                        
 //#############################################################################################
 // with pagination and sorting (client-side)###################################################
+
+                //dummy text for codelist info - to be replaced by actual metadata from SPARQL query
+                $('#pageContent').append(`<div class="mb-3">This version: &nbsp;https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330:1<br>
+                Version history: &nbsp;&nbsp;<a href="#">https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330:0</a><br>
+                status: &nbsp;&nbsp;<a href="#">Valid</a><br>
+                Insert date: &nbsp;&nbsp;2022-11-28 14:31 UTC<br>
+                Edit date: &nbsp;&nbsp;2022-04-20 15:54 UTC<br>
+                Available formats: &nbsp;&nbsp;<a href="#">RDF/XML</a> &nbsp;&nbsp;<a href="#">TriG/Turtle</a> &nbsp;&nbsp;<a href="#">JSON-LD</a> &nbsp;&nbsp;<a href="#">CSV</a> &nbsp;&nbsp;<a href="#">Text</a></div><br>
+                <div class="mb-3"><strong>Available items:</strong></div>`);
+
 
                 $('#CodeList').append(`<hr>
                 <div class="d-flex justify-content-between align-items-center mt-2">
