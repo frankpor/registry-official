@@ -73,7 +73,7 @@ function showCodelist(uri) {
             (MIN(CONCAT('<a href="', STR(?status), '">', REPLACE(STR(?status), "https://inspire.ec.europa.eu/registry/status/", ""), '</a>')) AS ?Status)
             where { GRAPH ?g {
             <${uri}> skos:hasTopConcept ?tc . ?tc skos:narrower* ?URI .
-            ?URI skos:prefLabel ?L; adms:status ?status . filter(lang(?L)="de")
+            ?URI skos:prefLabel ?L; adms:status ?status . #filter(lang(?L)="de")
             optional {?URI skos:notation ?n}
             optional {?URI skos:definition ?D . filter(lang(?D)="de")}
             optional {?URI skos:scopeNote ?N . filter(lang(?N)="de")}

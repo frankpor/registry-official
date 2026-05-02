@@ -2,7 +2,7 @@
 // webservices
 "use strict";
 var ws = {
-    endpoint: 'https://fuseki.geoinformation.dev/registry.inspire.gv.at/sparql',
+    endpoint: 'https://fuseki.geoinformation.dev/inspire-at/sparql',
     getProject: function (uri) {
         return config.getProject(uri);
     },

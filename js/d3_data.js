@@ -31,7 +31,7 @@ var d3data = {
             ?s ?x ?o
             (COALESCE(?oL, STRAFTER(STR(?o), "/")) AS ?oLabel) (COALESCE(?oC, '') AS ?oColor)
             ?sQ ?oQ
-            WHERE {
+            WHERE { GRAPH ?g {
                 VALUES ?root { <${uri}> }
                 # Traverse all narrower relations (of any depth)
                 ?root (skos:narrower+) ?o .
@@ -45,7 +45,7 @@ var d3data = {
                 OPTIONAL { ?o dbpo:colourHexCode ?oC }
                 OPTIONAL { ?s so:Quantity ?sQ }
                 OPTIONAL { ?o so:Quantity ?oQ }
-            }
+            }}
             ORDER BY ?s ?o
             LIMIT 500`;
         if (!d3data.visData) {
