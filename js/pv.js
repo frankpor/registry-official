@@ -11,16 +11,49 @@ $(document).ready(function () {
 
     insertSearchCard('search_widget'); //inserts search widget only
 
+
+/* if (urlParams.has("search")) {
+        //need lang parameter only for sparql requests
+        search.insertSearch(decodeURI(urlParams.get("search")).replace(/[^a-z\p{L}-]/uig, "").slice(0, 15)); //avoid injection
+        this.insertProjCards(); //quick access cards, plus extended project comments from sparql
+      } else if (urlParams.has("info")) {
+        this.insertInfo(decodeURI(urlParams.get("info")).replace(/[^a-z]/gi, "")); //avoid injection
+        this.insertProjCards(); //quick access cards, plus extended project comments from sparql
+      }  else if (urlParams.has("list")) {
+        $("#pageContent").empty();
+        let uri = "§";
+        let label = "§";
+        if (urlParams.has("uri")) {
+          uri = decodeURI(urlParams.get("uri").replace(/["';><]/gi, "")); //avoid injection
+          this.uriParameter = uri;
+          label = decodeURI(urlParams.get("list").replace(/["';><]/gi, "")); //avoid injection
+        }
+        search.insertSparql(uri, label);
+        this.insertProjCards(); //quick access cards, plus extended project comments from sparql
+      }  else if (urlParams.has("uri")) {
+        let raw = urlParams.get("uri");
+        let uri = config.checkUri(
+          ((raw.slice(0, 35) == 'https://resource.geosphere.at/thes/') ||
+          (raw.slice(0, 29) == 'http://resource.geolba.ac.at/')) ? raw : ''
+        ); */
+
+
+
+
+
     if (urlParams.has('search')) {
         $('header').empty();
         $('header').removeClass('py-5');
-        search(decodeURI(urlParams.get('search')), vocProjects);
+        search(decodeURI(urlParams.get('search').replace(/[^a-z\p{L}-]/uig, "").slice(0, 20)), vocProjects);
 
     } else if (urlParams.has('uri')) {
         $('header').empty();
         $('header').removeClass('py-5');
         let baseURIs = ['https://registry.inspire.gv.at'];
-        let uri = decodeURI(urlParams.get('uri').replace(/["';><]/gi, '')); //avoid injection
+        //let uri = decodeURI(urlParams.get('uri').replace(/["';><]/gi, '')); //avoid injection
+        let raw = urlParams.get('uri');
+        let uri = decodeURI((raw.slice(0, 30) == baseURIs[0]) ? raw : '');
+
         let voc_uri = uri.includes(baseURIs[0]) != uri.includes(baseURIs[1]); //true for geoscience.earth or europe-geology
         $('#pageContent').empty();
 
