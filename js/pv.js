@@ -99,49 +99,81 @@ function insertDataProviderList() {
 
 function showCodelist(uri) {
 
+    /* PREFIX dcterms: <http://purl.org/dc/terms/>
+        PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+        PREFIX adms:<http://www.w3.org/ns/adms#>
+
+        SELECT DISTINCT ?g
+        (CONCAT('<a href="${BASE}?uri=',STR(?URI),'">',COALESCE(?l1,?l),'</a>') AS ?Label)
+        (GROUP_CONCAT(DISTINCT ?n; separator = '; ') as ?Notation)
+        (GROUP_CONCAT(DISTINCT ?D; separator = '; ') as ?Definition)
+        (GROUP_CONCAT(DISTINCT CONCAT('<a href="',STR(?o),'">',COALESCE(?p1,?p),'</a>')) as ?Parent)
+        (GROUP_CONCAT(DISTINCT COALESCE(?tit1,?tit)) AS ?Title)
+		(GROUP_CONCAT(DISTINCT COALESCE(?desc1,?desc)) AS ?Description)
+        (MIN(CONCAT('<a href="', STR(?status), '">', REPLACE(STR(?status), "http://inspire.ec.europa.eu/registry/status/", ""), '</a>')) AS ?Status)
+
+        WHERE { GRAPH ?g {
+            <${uri}> skos:hasTopConcept ?tc; dcterms:title ?tit .
+            ?tc skos:narrower* ?URI . ?URI skos:prefLabel ?l; adms:status ?status . 
+            OPTIONAL {?URI skos:prefLabel ?l1 . FILTER(lang(?l1)="${USER_LANG}")}
+            OPTIONAL {<${uri}> dcterms:title ?tit1 . FILTER(lang(?tit1)="${USER_LANG}")}
+            OPTIONAL {<${uri}> dcterms:description ?desc}
+            OPTIONAL {<${uri}> dcterms:description ?desc1 . FILTER(lang(?desc1)="${USER_LANG}")}
+            OPTIONAL {?URI skos:notation ?n}
+            OPTIONAL {?URI skos:definition ?D . filter(lang(?D)="${USER_LANG}")}
+            OPTIONAL {?URI skos:broader ?o . ?o skos:prefLabel ?p .}
+    		OPTIONAL {?URI skos:broader ?o . ?o skos:prefLabel ?p1 . FILTER(lang(?p1)="${USER_LANG}")}
+        }}
+
+        GROUP BY ?URI ?Label ?g ?l ?l1 ?p ?p1 ?tit ?tit1 ?desc ?desc1
+        ORDER BY ?Label */
+
     let query = encodeURIComponent(`PREFIX dcterms: <http://purl.org/dc/terms/>
-            PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-            PREFIX adms:<http://www.w3.org/ns/adms#>
-            select distinct ?g
-            (CONCAT('<a href="${BASE}?uri=',STR(?URI),'">',?L,'</a>') as ?Label)
-            (GROUP_CONCAT(distinct ?n; separator = '; ') as ?Notation)
-            (GROUP_CONCAT(distinct ?D; separator = '; ') as ?Definition)
-            (GROUP_CONCAT(distinct CONCAT('<a href="${BASE}?uri=',STR(?o),'">',?P,'</a>')) as ?Parent)
-            (GROUP_CONCAT(distinct ?N; separator = '; ') as ?scopeNote)
-            (COALESCE(?Lskos, ?Ldcterms) as ?title)
-            (COALESCE(MIN(?desc), "Beschreibung nicht verfügbar") as ?Description)
-            (MIN(CONCAT('<a href="', STR(?status), '">', REPLACE(STR(?status), "http://inspire.ec.europa.eu/registry/status/", ""), '</a>')) AS ?Status)
-            where { GRAPH ?g {
-            <${uri}> skos:hasTopConcept ?tc . ?tc skos:narrower* ?URI .
-            ?URI skos:prefLabel ?L; adms:status ?status . #filter(lang(?L)="de")
-            optional {?URI skos:notation ?n}
-            optional {?URI skos:definition ?D . filter(lang(?D)="de")}
-            optional {?URI skos:scopeNote ?N . filter(lang(?N)="de")}
-            optional {?URI skos:broader ?o . ?o skos:prefLabel ?P . filter(lang(?P)="de")}
-            optional {<${uri}> skos:prefLabel ?Lskos . filter(lang(?Lskos)="de")}
-            optional {<${uri}> dcterms:title ?Ldcterms . filter(lang(?Ldcterms)="de")}
-            optional {<${uri}> dcterms:description ?desc . filter(lang(?desc)="de")}
-            }}
-            group by ?URI ?L ?Lskos ?Ldcterms ?g
-            order by ?L`);
+        PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+        PREFIX adms:<http://www.w3.org/ns/adms#>
+
+        SELECT DISTINCT ?g ?insertDate ?editDate
+        (CONCAT('<a href="${BASE}?uri=',STR(?URI),'">',COALESCE(?l1,?l),'</a>') AS ?Label)
+        (GROUP_CONCAT(DISTINCT ?n; separator = '; ') as ?Notation)
+        (GROUP_CONCAT(DISTINCT ?D; separator = '; ') as ?Definition)
+        (GROUP_CONCAT(DISTINCT CONCAT('<a href="',STR(?o),'">',COALESCE(?p1,?p),'</a>')) as ?Parent)
+        (GROUP_CONCAT(DISTINCT COALESCE(?tit1,?tit)) AS ?Title)
+		(GROUP_CONCAT(DISTINCT COALESCE(?desc1,?desc)) AS ?Description)
+        (MIN(CONCAT('<a href="', STR(?status), '">', REPLACE(STR(?status), "http://inspire.ec.europa.eu/registry/status/", ""), '</a>')) AS ?Status)
+
+        WHERE { GRAPH ?g {
+            <${uri}> skos:hasTopConcept ?tc; dcterms:title ?tit .
+            ?tc skos:narrower* ?URI . ?URI skos:prefLabel ?l; adms:status ?status . 
+            OPTIONAL {?URI skos:prefLabel ?l1 . FILTER(lang(?l1)="${USER_LANG}")}
+            OPTIONAL {<${uri}> dcterms:title ?tit1 . FILTER(lang(?tit1)="${USER_LANG}")}
+            OPTIONAL {<${uri}> dcterms:description ?desc}
+            OPTIONAL {<${uri}> dcterms:description ?desc1 . FILTER(lang(?desc1)="${USER_LANG}")}
+    		OPTIONAL {<${uri}> dcterms:created ?insertDate}
+    		OPTIONAL {<${uri}> dcterms:modified ?editDate}
+            OPTIONAL {?URI skos:notation ?n}
+            OPTIONAL {?URI skos:definition ?D . filter(lang(?D)="${USER_LANG}")}
+            OPTIONAL {?URI skos:broader ?o . ?o skos:prefLabel ?p .}
+    		OPTIONAL {?URI skos:broader ?o . ?o skos:prefLabel ?p1 . FILTER(lang(?p1)="${USER_LANG}")}
+        }}
+
+        GROUP BY ?URI ?Label ?g ?l ?l1 ?p ?p1 ?tit ?tit1 ?desc ?desc1 ?insertDate ?editDate
+        ORDER BY ?Label`);
     
     fetch(ENDPOINT + '?query=' + query + '&format=json')
         .then(res => res.json()) 
         .then(jsonData => {
-            console.log(jsonData);
+            console.log('jsonData', jsonData);
             console.log('query', decodeURIComponent(query));
 
-            let tblFields = ['Label', 'Definition', 'Status', 'Parent']; 
+            let tblFields = ['Notation', 'Label', 'Definition', 'Parent', 'Status']; 
 
             let data = jsonData.results.bindings.map(obj =>
                 Object.fromEntries(
-                    Object.entries(obj)
-                        .filter(([key]) => tblFields.includes(key))
-                        .map(([key, val]) => [key, val.value])
+                    tblFields.map((key) => [key, (obj[key] && obj[key].value) ? obj[key].value : ''])
                 ));
-                console.log(data);
+                console.log('table data: ', data);
 
-               $('#pageContent').append(`<h1 class="mt-4">${jsonData.results.bindings[0].title ? jsonData.results.bindings[0].title.value : 'Titel auf nicht verfügbar'}</h1>`);
+               $('#pageContent').append(`<h1 class="mt-4">${jsonData.results.bindings[0].Title ? jsonData.results.bindings[0].Title.value : 'Titel auf nicht verfügbar'}</h1>`);
 
                 $('#pageContent').append(`
                         <a id="uriBtn"
@@ -156,44 +188,14 @@ function showCodelist(uri) {
                         <br><br><p>${jsonData.results.bindings[0].Description ? jsonData.results.bindings[0].Description.value : 'Beschreibung nicht verfügbar'}</p>
                         <hr>`);
 
-// without pagination and sorting##############################################################
-/*                 $('#CodeList').append(`<hr><div class="p-1 col-sm-12 sortable-table">
-                    <table class="table table-hover" id="codelist"></table>
-                </div>`);
-        
-            document.getElementById('codelist').innerHTML = '<thead><tr>' +
-                Object.keys(data[0]).map(a => `<th scope="col" data-id="${a}" sortable>${a}</th>`).join('') +
-                '</tr></thead>';
-
-            const sortableTable = new SortableTable();
-            // set table element
-            sortableTable.setTable(document.querySelector('#codelist'));
-            // set data to be sorted
-            sortableTable.setData(data);
-            // handling events
-            sortableTable.events()
-                .on('sort', (event) => {
-                    console.log(`[SortableTable#onSort]
-                            event.colId=${event.colId}
-                            event.sortDir=${event.sortDir}
-                            event.data=\n${JSON.stringify(event.data)}`);
-                });
-
-            $('.progress-bar').css('width', '100%').attr('aria-valuenow', 100);
-            setTimeout(() => {
-                $('.progress').hide();
-            }, 300);
-        }); */                        
-//#############################################################################################
 // with pagination and sorting (client-side)###################################################
-
-                //dummy text for codelist info - to be replaced by actual metadata from SPARQL query
+                const fileName = 'rdf/'+jsonData.results.bindings[0].g.value.split('/')[4].replace(':','-v');
                 $('#pageContent').append(`<div class="mb-3">This version: &nbsp;${jsonData.results.bindings[0].g.value}<br>
-                Version history: &nbsp;&nbsp;<a href="#">${uri + ':' + (parseInt(jsonData.results.bindings[0].g.value.split(':')[2]) - 1)}</a><br>
-                Status: &nbsp;&nbsp;<a href="#">Valid</a><br>
-                Insert date: &nbsp;&nbsp;2022-11-28 14:31 UTC<br>
-                Edit date: &nbsp;&nbsp;2022-04-20 15:54 UTC<br>
-                Available formats: &nbsp;&nbsp;<a href="#">RDF/XML</a> &nbsp;&nbsp;<a href="#">TriG/Turtle</a> &nbsp;&nbsp;<a href="#">JSON-LD</a> &nbsp;&nbsp;<a href="#">CSV</a> &nbsp;&nbsp;<a href="#">Text</a></div><br>
+                ${jsonData.results.bindings[0].g.value.split(':')[2]==1 ? '' : ('Version history: &nbsp;&nbsp;<a href="#">'+uri + ':' + (parseInt(jsonData.results.bindings[0].g.value.split(':')[2]) - 1)+'</a><br>')}
+                Status: &nbsp;&nbsp;<a href="http://inspire.ec.europa.eu/registry/status/valid">Valid</a><br>
+                Insert date: &nbsp;&nbsp;${jsonData.results.bindings[0].insertDate ? jsonData.results.bindings[0].insertDate.value : 'N/A'}<br>
+                ${jsonData.results.bindings[0].editDate ? 'Edit date: &nbsp;&nbsp;'+jsonData.results.bindings[0].editDate.value+'<br>' : ''}
+                Available formats: &nbsp;&nbsp;<a href="${fileName+'.rdf'}">RDF/XML</a> &nbsp;&nbsp;<a href="${fileName+'.trig'}">TriG/Turtle</a> &nbsp;&nbsp;<a href="${fileName+'.json'}">JSON-LD</a> &nbsp;&nbsp;<a href="${fileName+'.csv'}">CSV</a> &nbsp;&nbsp;<a href="${fileName+'.txt'}">Text</a></div><br>
                 <div class="mb-3"><strong>Available items:</strong></div>`);
 
 
@@ -210,7 +212,7 @@ function showCodelist(uri) {
         
             // build table header
             document.getElementById('codelist').innerHTML = '<thead><tr>' +
-                Object.keys(data[0]).map(a => `<th scope="col" data-id="${a}" sortable>${a}</th>`).join('') +
+                tblFields.map(a => `<th scope="col" data-id="${a}" sortable>${a}</th>`).join('') +
                 '</tr></thead>';
 
             const sortableTable = new SortableTable();
@@ -879,7 +881,7 @@ const CITATION = [n.dcterms + 'bibliographicCitation'];
 const REF_LINKS = [n.dcterms + 'references'];
 const RELATIONS_1 = [n.skos + 'broader', n.skos + 'narrower', n.skos + 'related'];
 const RELATIONS_2 = [n.skos + 'exactMatch', n.skos + 'closeMatch', n.skos + 'relatedMatch', n.skos + 'broadMatch', n.skos + 'narrowMatch'];
-const RELATIONS_3 = [n.dbpo + 'category', n.rdfs + 'seeAlso', n.owl + 'sameAs', n.dcterms + 'relation', n.dcterms + 'hasPart', n.dcterms + 'isPartOf', n.dcterms + 'conformsTo'];
+const RELATIONS_3 = [n.dbpo + 'category', n.owl + 'sameAs', n.dcterms + 'relation', n.dcterms + 'hasPart', n.dcterms + 'isPartOf'];
 const WEB_LINK = [n.dcterms + 'source', n.dcterms + 'isReferencedBy', n.dcterms + 'subject', n.dcterms + 'isRequiredBy', n.dcterms + 'identifier', n.foaf + 'isPrimaryTopicOf', n.schema + 'subjectOf', n.foaf + 'page', n.schema + 'hasMap'];
 const ICONS = [n.foaf + 'isPrimaryTopicOf', n.schema + 'subjectOf', n.foaf + 'page', n.dcterms + 'isPartOf', n.dcterms + 'hasPart'];
 const MAPS = [n.schema + 'hasMap'];
