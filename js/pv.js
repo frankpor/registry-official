@@ -14,7 +14,6 @@ $(document).ready(function () {
     
     insertSearchCard('search_widget'); //inserts search widget only
 
-
     if (urlParams.has('search')) {
         $('header').empty();
         $('header').removeClass('py-5');
@@ -44,287 +43,6 @@ $(document).ready(function () {
     }
     initSearch(); //provides js for fuse search
 });
-
-
-function insertDataProviderCard(title, text, link) {
-    $('#data_providers').empty();
-
-    let card = `<div class="card border-light mb-3 data-provider-secondary-card">
-        <div class="card-header">${PAGE.dataprovider.cardheader[USER_LANG]}</div>
-        <div class="card-body">
-        <h4 class="card-title">${title}</h4>
-        <p class="card-text">${text}</p>
-        <a href="${link}" >${link.split('=')[1]}</a>
-        </div>
-        </div>`;
-
-    $('#data_providers').prepend(card);
-}
-
-
-function insertDataProviderList() {
-    
-    let query = encodeURIComponent(`PREFIX dcterms: <http://purl.org/dc/terms/>
-                PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-                PREFIX adms: <http://www.w3.org/ns/adms#>
-
-                SELECT DISTINCT ?s (COALESCE(?l1,?l) AS ?label) (COUNT(?cl) AS ?count)
-                WHERE {
-                GRAPH ?graph {
-                    ?s a skos:Concept; skos:prefLabel ?l; adms:status <http://inspire.ec.europa.eu/registry/status/valid> .
-                    OPTIONAL {?s skos:prefLabel ?l1 . FILTER(LANG(?l1)='${USER_LANG}')}
-                    FILTER(STRSTARTS(STR(?s), 'https://registry.inspire.gv.at/dataprovider'))
-                }
-                OPTIONAL {GRAPH ?graph {?s dcterms:relation ?cl .}
-                    GRAPH ?otherGraph {?cl adms:status <http://inspire.ec.europa.eu/registry/status/valid> .}
-                }
-                }
-                GROUP BY ?s ?label ?l1 ?l
-                ORDER BY ?label`);
-
-    fetch(ENDPOINT + '?query=' + query + '&format=json')
-        .then(res => res.json()) 
-        .then(jsonData => {
-            $('#data_provider_list').empty();
-            $('#data_provider_list_all').empty();
-
-            jsonData.results.bindings.filter(x=>x.count.value > 0).forEach(a => { 
-                let dp = `<div style="margin-bottom: 7px;"><a href="${BASE}?uri=${a.s.value}">${a.label.value}</a> <small>(${a.count.value})</small></div>`;
-                $('#data_provider_list').append(dp);
-            });
-            jsonData.results.bindings.filter(x=>x.count.value == 0).forEach(b => { 
-                let dp = `<div style="margin-bottom: 7px;"><a href="${BASE}?uri=${b.s.value}">${b.label.value}</a></div>`;
-                $('#data_provider_list_all').append(dp);
-            });            
-        });
-}
-
-//************************     show CODELIST page     ****************************************************
-
-function showCodelist(uri, cl) {
-    
-    let query = encodeURIComponent(`PREFIX dcterms: <http://purl.org/dc/terms/>
-        PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-        PREFIX adms:<http://www.w3.org/ns/adms#>
-
-        SELECT DISTINCT ?g ?insertDate ?editDate 
-        (MIN(CONCAT('<a href="', STR(?cls), '">', REPLACE(STR(?cls), "http://inspire.ec.europa.eu/registry/status/", ""), '</a>')) AS ?CLS)
-        (CONCAT('<a href="${BASE}?uri=',STR(?URI),'">',COALESCE(?l1,?l),'</a>') AS ?Label)
-        (GROUP_CONCAT(DISTINCT ?n; separator = '; ') as ?Notation)
-        (GROUP_CONCAT(DISTINCT ?D; separator = '; ') as ?Definition)
-        (GROUP_CONCAT(DISTINCT CONCAT('<a href="${BASE}?uri=',STR(?o),'">',COALESCE(?p1,?p),'</a>')) as ?Parent)
-        (GROUP_CONCAT(DISTINCT COALESCE(?tit1,?tit)) AS ?Title)
-		(GROUP_CONCAT(DISTINCT COALESCE(?desc1,?desc)) AS ?Description)
-        (MIN(CONCAT('<a href="', STR(?status), '">', REPLACE(STR(?status), "http://inspire.ec.europa.eu/registry/status/", ""), '</a>')) AS ?Status)
-        (MIN(?pub) AS ?pubURI)
-        (GROUP_CONCAT(DISTINCT COALESCE(?pubLabel1,?pubLabel)) AS ?Publisher)
-        (MIN(?pubdef) AS ?PublisherDefinition)
-
-        WHERE { GRAPH ?g {
-            <${uri}> skos:hasTopConcept ?tc; dcterms:title ?tit .
-            ?tc skos:narrower* ?URI . ?URI skos:prefLabel ?l; adms:status ?status . 
-            OPTIONAL {?URI skos:prefLabel ?l1 . FILTER(lang(?l1)="${USER_LANG}")}
-            OPTIONAL {<${uri}> dcterms:title ?tit1 . FILTER(lang(?tit1)="${USER_LANG}")}
-            OPTIONAL {<${uri}> dcterms:description ?desc}
-            OPTIONAL {<${uri}> dcterms:description ?desc1 . FILTER(lang(?desc1)="${USER_LANG}")}
-    		OPTIONAL {<${uri}> dcterms:created ?insertDate}
-    		OPTIONAL {<${uri}> dcterms:modified ?editDate}
-            OPTIONAL {<${uri}> adms:status ?cls}
-            ${cl !== 'dataprovider' ? 'OPTIONAL {<' + uri + '> dcterms:publisher ?pub . }' : ''}
-            OPTIONAL {?URI skos:notation ?n}
-            OPTIONAL {?URI skos:definition ?D . filter(lang(?D)="${USER_LANG}")}
-            OPTIONAL {?URI skos:broader ?o . ?o skos:prefLabel ?p .}
-    		OPTIONAL {?URI skos:broader ?o . ?o skos:prefLabel ?p1 . FILTER(lang(?p1)="${USER_LANG}")}
-        }
-            ${cl !== 'dataprovider' ? 'GRAPH ?dp { OPTIONAL {?pub skos:prefLabel ?pubLabel} OPTIONAL {?pub skos:definition ?pubdef} OPTIONAL {?pub skos:prefLabel ?pubLabel1 . FILTER(lang(?pubLabel1)="${USER_LANG}")}}' : ''}
-        }
-
-        GROUP BY ?URI ?Label ?g ?l ?l1 ?p ?p1 ?tit ?tit1 ?desc ?desc1 ?insertDate ?editDate
-        ORDER BY ?Label`);
-        console.log('query', decodeURIComponent(query));
-
-    fetch(ENDPOINT + '?query=' + query + '&format=json')
-        .then(res => res.json()) 
-        .then(jsonData => {
-            console.log('jsonData codelist', jsonData);
-
-            if (cl !== 'dataprovider') insertDataProviderCard(jsonData.results.bindings[0].Publisher.value, jsonData.results.bindings[0].PublisherDefinition.value, `${BASE}?uri=${jsonData.results.bindings[0].pubURI.value}`);
-            
-            let tblFields = ['Notation', 'Label', 'Definition', 'Parent', 'Status']; 
-
-            let data = jsonData.results.bindings.map(obj =>
-                Object.fromEntries(
-                    tblFields.map((key) => [key, (obj[key] && obj[key].value) ? obj[key].value : ''])
-                ));
-                console.log('table data: ', data);
-
-               $('#pageContent').append(`<h1 class="mt-4">${jsonData.results.bindings[0].Title ? jsonData.results.bindings[0].Title.value : 'Titel auf nicht verfügbar'}</h1>`);
-
-                $('#pageContent').append(`
-                        <a id="uriBtn"
-                            href="javascript:
-                            var dummy = $('<input>').val('${uri}').appendTo('body').select();
-                            document.execCommand('copy');
-                            dummy.remove();"><strong>URI:</strong>
-                        </a>
-                        <span id="uri" style="word-wrap: break-word;">
-                            &nbsp;${uri}
-                        </span>
-                        <br><br><p>${jsonData.results.bindings[0].Description ? jsonData.results.bindings[0].Description.value : 'Beschreibung nicht verfügbar'}</p>
-                        <hr>`);
-
-// with pagination and sorting (client-side)###################################################
-                let version = jsonData.results.bindings[0].g.value.split(':')[2];
-                //console.log('version', version);
-                const fileName = 'rdf/' + cl + '-v' + version;
-                $('#pageContent').append(`<div class="mb-3">This version: &nbsp;${jsonData.results.bindings[0].g.value}<br>
-                ${parseInt(version) > 1 ? 'Version history: &nbsp;&nbsp;<a href="'+fileName+'.rdf">'+uri + ':' + (parseInt(version) - 1)+'</a><br>' : ''}
-                Status: &nbsp;&nbsp;${jsonData.results.bindings[0].CLS ? jsonData.results.bindings[0].CLS.value : 'N/A'}<br>
-                Insert date: &nbsp;&nbsp;${jsonData.results.bindings[0].insertDate ? jsonData.results.bindings[0].insertDate.value : 'N/A'}<br>
-                ${jsonData.results.bindings[0].editDate ? 'Edit date: &nbsp;&nbsp;'+jsonData.results.bindings[0].editDate.value+'<br>' : ''}
-                Available formats: &nbsp;&nbsp;<a href="${fileName+'.rdf'}">RDF/XML</a> &nbsp;&nbsp;<a href="${fileName+'.trig'}">TriG/Turtle</a> &nbsp;&nbsp;<a href="${fileName+'.json'}">JSON-LD</a> &nbsp;&nbsp;<a href="${fileName+'.csv'}">CSV</a> &nbsp;&nbsp;<a href="${fileName+'.txt'}">Text</a></div><br>
-                <div class="mb-3"><strong>Available items:</strong></div>`);
-
-
-                $('#CodeList').append(`<hr>
-                <div class="d-flex justify-content-between align-items-center mt-2">
-                    <div class="small text-muted" id="codelist-info"></div>
-                    <nav aria-label="Codelist pagination">
-                        <ul class="pagination pagination-sm mb-0" id="codelist_pagination"></ul>
-                    </nav>
-                </div>
-                <div class="p-1 col-sm-12 sortable-table">
-                    <table class="table table-hover" id="codelist"></table>
-                </div>`);
-        
-            // build table header
-            document.getElementById('codelist').innerHTML = '<thead><tr>' +
-                tblFields.map(a => `<th scope="col" data-id="${a}" sortable>${a}</th>`).join('') +
-                '</tr></thead>';
-
-            const sortableTable = new SortableTable();
-            // set table element
-            sortableTable.setTable(document.querySelector('#codelist'));
-
-            // Pagination configuration
-            const masterData = Array.isArray(data) ? data.slice() : [];
-            const pageSize = 12; // change page size here
-            let currentPage = 1;
-            const totalPages = Math.max(1, Math.ceil(masterData.length / pageSize));
-
-            function getPageSlice(page) {
-                const start = (page - 1) * pageSize;
-                return masterData.slice(start, start + pageSize);
-            }
-
-            function updateCodelistInfo() {
-                const start = (masterData.length === 0) ? 0 : (currentPage - 1) * pageSize + 1;
-                const end = Math.min(masterData.length, currentPage * pageSize);
-                $('#codelist-info').text(`${start}–${end} of ${masterData.length}`);
-            }
-
-            function renderPagination() {
-                const $ul = $('#codelist_pagination');
-                $ul.empty();
-
-                if (totalPages <= 1) {
-                    $ul.hide();
-                    return;
-                }
-
-                $ul.show();
-
-                const makePageItem = (page, label = null, disabled = false, active = false) => {
-                    const text = label || page;
-                    const liClass = `page-item ${disabled ? 'disabled' : ''} ${active ? 'active' : ''}`;
-                    return `<li class="${liClass}"><a class="page-link codelist-page " href="#" data-page="${page}">${text}</a></li>`;
-                };
-
-                // Prev
-                $ul.append(makePageItem(Math.max(1, currentPage - 1), 'Prev', currentPage === 1));
-
-                // smart window for pages
-                const maxVisible = 7;
-                const half = Math.floor(maxVisible / 2);
-                let start = 1;
-                let end = totalPages;
-                if (totalPages > maxVisible) {
-                    start = Math.max(1, currentPage - half);
-                    end = Math.min(totalPages, currentPage + half);
-                    if (start === 1) end = maxVisible;
-                    if (end === totalPages) start = totalPages - maxVisible + 1;
-                }
-
-                if (start > 1) {
-                    $ul.append(makePageItem(1));
-                    if (start > 2) $ul.append(`<li class="page-item disabled"><span class="page-link">&hellip;</span></li>`);
-                }
-
-                for (let p = start; p <= end; p++) {
-                    $ul.append(makePageItem(p, null, false, p === currentPage));
-                }
-
-                if (end < totalPages) {
-                    if (end < totalPages - 1) $ul.append(`<li class="page-item disabled"><span class="page-link">&hellip;</span></li>`);
-                    $ul.append(makePageItem(totalPages));
-                }
-
-                // Next
-                $ul.append(makePageItem(Math.min(totalPages, currentPage + 1), 'Next', currentPage === totalPages));
-
-                // attach handler
-                $ul.find('.codelist-page').off('click').on('click', function (e) {
-                    e.preventDefault();
-                    const p = Number($(this).data('page')) || 1;
-                    if (p === currentPage) return;
-                    currentPage = Math.max(1, Math.min(totalPages, p));
-                    renderPage(currentPage);
-                });
-            }
-
-            function sortMasterData(colId, sortDir) {
-                const dir = sortDir === 'asc' ? 1 : -1;
-                const stripHtml = s => (typeof s === 'string') ? s.replace(/<[^>]*>/g, '').trim() : s;
-                masterData.sort((A, B) => {
-                    const a = stripHtml(A[colId] === undefined ? '' : A[colId]);
-                    const b = stripHtml(B[colId] === undefined ? '' : B[colId]);
-                    const na = parseFloat(a);
-                    const nb = parseFloat(b);
-                    if (!isNaN(na) && !isNaN(nb)) return na < nb ? -1 * dir : na > nb ? 1 * dir : 0;
-                    const ka = (a + '').toLowerCase();
-                    const kb = (b + '').toLowerCase();
-                    return ka < kb ? -1 * dir : ka > kb ? 1 * dir : 0;
-                });
-            }
-
-            function renderPage(page) {
-                const slice = getPageSlice(page);
-                sortableTable.setData(slice);
-                updateCodelistInfo();
-                renderPagination();
-            }
-
-            // initialize table with first page
-            renderPage(1);
-
-            // when user clicks a column to sort, SortableTable will emit the event;
-            // sort the masterData (so sort applies to whole dataset) and re-render current page
-            sortableTable.events()
-                .on('sort', (event) => {
-                    // event.colId & event.sortDir are provided by SortableTable
-                    sortMasterData(event.colId, event.sortDir);
-                    renderPage(currentPage);
-                    console.log(`[SortableTable#onSort] column=${event.colId} dir=${event.sortDir} totalRows=${masterData.length}`);
-                });
-
-            $('.progress-bar').css('width', '100%').attr('aria-valuenow', 100);
-            setTimeout(() => {
-                $('.progress').hide();
-            }, 300);
-        });
-
-}
-
 
 //********set start page texts for browser language********************************************************************
 // menu text in English only
@@ -505,6 +223,269 @@ function insertCodelists(divID) {
             }, 300);
         });
     }
+
+//**********************list of data providers on start page******************************
+
+function insertDataProviderList() {
+    
+    let query = encodeURIComponent(`PREFIX dcterms: <http://purl.org/dc/terms/>
+                PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+                PREFIX adms: <http://www.w3.org/ns/adms#>
+
+                SELECT DISTINCT ?s (COALESCE(?l1,?l) AS ?label) (COUNT(?cl) AS ?count)
+                WHERE {
+                GRAPH ?graph {
+                    ?s a skos:Concept; skos:prefLabel ?l; adms:status <http://inspire.ec.europa.eu/registry/status/valid> .
+                    OPTIONAL {?s skos:prefLabel ?l1 . FILTER(LANG(?l1)='${USER_LANG}')}
+                    FILTER(STRSTARTS(STR(?s), 'https://registry.inspire.gv.at/dataprovider'))
+                }
+                OPTIONAL {GRAPH ?graph {?s dcterms:relation ?cl .}
+                    GRAPH ?otherGraph {?cl adms:status <http://inspire.ec.europa.eu/registry/status/valid> .}
+                }
+                }
+                GROUP BY ?s ?label ?l1 ?l
+                ORDER BY ?label`);
+
+    fetch(ENDPOINT + '?query=' + query + '&format=json')
+        .then(res => res.json()) 
+        .then(jsonData => {
+            $('#data_provider_list').empty();
+            $('#data_provider_list_all').empty();
+
+            jsonData.results.bindings.filter(x=>x.count.value > 0).forEach(a => { 
+                let dp = `<div style="margin-bottom: 7px;"><a href="${BASE}?uri=${a.s.value}">${a.label.value}</a> <small>(${a.count.value})</small></div>`;
+                $('#data_provider_list').append(dp);
+            });
+            jsonData.results.bindings.filter(x=>x.count.value == 0).forEach(b => { 
+                let dp = `<div style="margin-bottom: 7px;"><a href="${BASE}?uri=${b.s.value}">${b.label.value}</a></div>`;
+                $('#data_provider_list_all').append(dp);
+            });            
+        });
+}
+
+//************************     show CODELIST page     ****************************************************
+
+function showCodelist(uri, cl) {
+    
+    let query = encodeURIComponent(`PREFIX dcterms: <http://purl.org/dc/terms/>
+        PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+        PREFIX adms:<http://www.w3.org/ns/adms#>
+
+        SELECT DISTINCT ?g ?insertDate ?editDate 
+        (MIN(CONCAT('<a href="', STR(?cls), '">', REPLACE(STR(?cls), "http://inspire.ec.europa.eu/registry/status/", ""), '</a>')) AS ?CLS)
+        (CONCAT('<a href="${BASE}?uri=',STR(?URI),'">',COALESCE(?l1,?l),'</a>') AS ?Label)
+        (GROUP_CONCAT(DISTINCT ?n; separator = '; ') as ?Notation)
+        (GROUP_CONCAT(DISTINCT ?D; separator = '; ') as ?Definition)
+        (GROUP_CONCAT(DISTINCT CONCAT('<a href="${BASE}?uri=',STR(?o),'">',COALESCE(?p1,?p),'</a>')) as ?Parent)
+        (GROUP_CONCAT(DISTINCT COALESCE(?tit1,?tit)) AS ?Title)
+		(GROUP_CONCAT(DISTINCT COALESCE(?desc1,?desc)) AS ?Description)
+        (MIN(CONCAT('<a href="', STR(?status), '">', REPLACE(STR(?status), "http://inspire.ec.europa.eu/registry/status/", ""), '</a>')) AS ?Status)
+        (MIN(?pub) AS ?pubURI)
+        (GROUP_CONCAT(DISTINCT COALESCE(?pubLabel1,?pubLabel)) AS ?Publisher)
+        (MIN(COALESCE(?pubdef,'')) AS ?PublisherDefinition)
+
+        WHERE { GRAPH ?g {
+            <${uri}> skos:hasTopConcept ?tc; dcterms:title ?tit .
+            ?tc skos:narrower* ?URI . ?URI skos:prefLabel ?l; adms:status ?status . 
+            OPTIONAL {?URI skos:prefLabel ?l1 . FILTER(lang(?l1)="${USER_LANG}")}
+            OPTIONAL {<${uri}> dcterms:title ?tit1 . FILTER(lang(?tit1)="${USER_LANG}")}
+            OPTIONAL {<${uri}> dcterms:description ?desc}
+            OPTIONAL {<${uri}> dcterms:description ?desc1 . FILTER(lang(?desc1)="${USER_LANG}")}
+    		OPTIONAL {<${uri}> dcterms:created ?insertDate}
+    		OPTIONAL {<${uri}> dcterms:modified ?editDate}
+            OPTIONAL {<${uri}> adms:status ?cls}
+            ${cl !== 'dataprovider' ? 'OPTIONAL {<' + uri + '> dcterms:publisher ?pub . }' : ''}
+            OPTIONAL {?URI skos:notation ?n}
+            OPTIONAL {?URI skos:definition ?D . filter(lang(?D)="${USER_LANG}")}
+            OPTIONAL {?URI skos:broader ?o . ?o skos:prefLabel ?p .}
+    		OPTIONAL {?URI skos:broader ?o . ?o skos:prefLabel ?p1 . FILTER(lang(?p1)="${USER_LANG}")}
+        }
+            ${cl !== 'dataprovider' ? 'GRAPH ?dp { OPTIONAL {?pub skos:prefLabel ?pubLabel} OPTIONAL {?pub skos:definition ?pubdef} OPTIONAL {?pub skos:prefLabel ?pubLabel1 . FILTER(lang(?pubLabel1)="${USER_LANG}")}}' : ''}
+        }
+
+        GROUP BY ?URI ?Label ?g ?l ?l1 ?p ?p1 ?tit ?tit1 ?desc ?desc1 ?insertDate ?editDate
+        ORDER BY ?Label`);
+        console.log('query', decodeURIComponent(query));
+
+    fetch(ENDPOINT + '?query=' + query + '&format=json')
+        .then(res => res.json()) 
+        .then(jsonData => {
+            console.log('jsonData codelist', jsonData);
+
+            if (cl !== 'dataprovider') insertDataProviderCard(jsonData.results.bindings[0].Publisher.value, jsonData.results.bindings[0].PublisherDefinition.value, `${BASE}?uri=${jsonData.results.bindings[0].pubURI.value}`);
+            
+            let tblFields = ['Label', 'Notation', 'Definition', 'Parent', 'Status']; 
+
+            let data = jsonData.results.bindings.map(obj =>
+                Object.fromEntries(
+                    tblFields.map((key) => [key, (obj[key] && obj[key].value) ? obj[key].value : ''])
+                ));
+                console.log('table data: ', data);
+
+               $('#pageContent').append(`<h1 class="mt-4">${jsonData.results.bindings[0].Title ? jsonData.results.bindings[0].Title.value : 'Titel auf nicht verfügbar'}</h1>`);
+
+                $('#pageContent').append(`
+                        <a id="uriBtn"
+                            href="javascript:
+                            var dummy = $('<input>').val('${uri}').appendTo('body').select();
+                            document.execCommand('copy');
+                            dummy.remove();"><strong>URI:</strong>
+                        </a>
+                        <span id="uri" style="word-wrap: break-word;">
+                            &nbsp;${uri}
+                        </span>
+                        <br><br><p>${jsonData.results.bindings[0].Description ? jsonData.results.bindings[0].Description.value : 'Beschreibung nicht verfügbar'}</p>
+                        <hr>`);
+
+// with pagination and sorting (client-side)###################################################
+                let version = jsonData.results.bindings[0].g.value.split(':')[2];
+                //console.log('version', version);
+                const fileName = 'rdf/' + cl + '-v' + version;
+                $('#pageContent').append(`<div class="mb-3">This version: &nbsp;${jsonData.results.bindings[0].g.value}<br>
+                ${parseInt(version) > 1 ? 'Version history: &nbsp;&nbsp;<a href="'+fileName+'.rdf">'+uri + ':' + (parseInt(version) - 1)+'</a><br>' : ''}
+                Status: &nbsp;&nbsp;${jsonData.results.bindings[0].CLS ? jsonData.results.bindings[0].CLS.value : 'N/A'}<br>
+                Insert date: &nbsp;&nbsp;${jsonData.results.bindings[0].insertDate ? jsonData.results.bindings[0].insertDate.value : 'N/A'}<br>
+                ${jsonData.results.bindings[0].editDate ? 'Edit date: &nbsp;&nbsp;'+jsonData.results.bindings[0].editDate.value+'<br>' : ''}
+                Available formats: &nbsp;&nbsp;<a href="${fileName+'.rdf'}">RDF/XML</a> &nbsp;&nbsp;<a href="${fileName+'.trig'}">TriG/Turtle</a> &nbsp;&nbsp;<a href="${fileName+'.json'}">JSON-LD</a> &nbsp;&nbsp;<a href="${fileName+'.csv'}">CSV</a> &nbsp;&nbsp;<a href="${fileName+'.txt'}">Text</a></div><br>
+                <div class="mb-3"><strong>Available items:</strong></div>`);
+
+
+                $('#CodeList').append(`<hr>
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                    <div class="small text-muted" id="codelist-info"></div>
+                    <nav aria-label="Codelist pagination">
+                        <ul class="pagination pagination-sm mb-0" id="codelist_pagination"></ul>
+                    </nav>
+                </div>
+                <div class="p-1 col-sm-12 sortable-table">
+                    <table class="table table-hover" id="codelist"></table>
+                </div>`);
+        
+            // build table header
+            document.getElementById('codelist').innerHTML = '<thead><tr>' +
+                tblFields.map(a => `<th scope="col" data-id="${a}" sortable>${a}</th>`).join('') +
+                '</tr></thead>';
+
+            const sortableTable = new SortableTable();
+            // set table element
+            sortableTable.setTable(document.querySelector('#codelist'));
+
+            // Pagination configuration
+            const masterData = Array.isArray(data) ? data.slice() : [];
+            const pageSize = 12; // change page size here
+            let currentPage = 1;
+            const totalPages = Math.max(1, Math.ceil(masterData.length / pageSize));
+
+            function getPageSlice(page) {
+                const start = (page - 1) * pageSize;
+                return masterData.slice(start, start + pageSize);
+            }
+
+            function updateCodelistInfo() {
+                const start = (masterData.length === 0) ? 0 : (currentPage - 1) * pageSize + 1;
+                const end = Math.min(masterData.length, currentPage * pageSize);
+                $('#codelist-info').text(`${start}–${end} of ${masterData.length}`);
+            }
+
+            function renderPagination() {
+                const $ul = $('#codelist_pagination');
+                $ul.empty();
+
+                if (totalPages <= 1) {
+                    $ul.hide();
+                    return;
+                }
+
+                $ul.show();
+
+                const makePageItem = (page, label = null, disabled = false, active = false) => {
+                    const text = label || page;
+                    const liClass = `page-item ${disabled ? 'disabled' : ''} ${active ? 'active' : ''}`;
+                    return `<li class="${liClass}"><a class="page-link codelist-page " href="#" data-page="${page}">${text}</a></li>`;
+                };
+
+                // Prev
+                $ul.append(makePageItem(Math.max(1, currentPage - 1), 'Prev', currentPage === 1));
+
+                // smart window for pages
+                const maxVisible = 7;
+                const half = Math.floor(maxVisible / 2);
+                let start = 1;
+                let end = totalPages;
+                if (totalPages > maxVisible) {
+                    start = Math.max(1, currentPage - half);
+                    end = Math.min(totalPages, currentPage + half);
+                    if (start === 1) end = maxVisible;
+                    if (end === totalPages) start = totalPages - maxVisible + 1;
+                }
+
+                if (start > 1) {
+                    $ul.append(makePageItem(1));
+                    if (start > 2) $ul.append(`<li class="page-item disabled"><span class="page-link">&hellip;</span></li>`);
+                }
+
+                for (let p = start; p <= end; p++) {
+                    $ul.append(makePageItem(p, null, false, p === currentPage));
+                }
+
+                if (end < totalPages) {
+                    if (end < totalPages - 1) $ul.append(`<li class="page-item disabled"><span class="page-link">&hellip;</span></li>`);
+                    $ul.append(makePageItem(totalPages));
+                }
+
+                // Next
+                $ul.append(makePageItem(Math.min(totalPages, currentPage + 1), 'Next', currentPage === totalPages));
+
+                // attach handler
+                $ul.find('.codelist-page').off('click').on('click', function (e) {
+                    e.preventDefault();
+                    const p = Number($(this).data('page')) || 1;
+                    if (p === currentPage) return;
+                    currentPage = Math.max(1, Math.min(totalPages, p));
+                    renderPage(currentPage);
+                });
+            }
+
+            function sortMasterData(colId, sortDir) {
+                const dir = sortDir === 'asc' ? 1 : -1;
+                const stripHtml = s => (typeof s === 'string') ? s.replace(/<[^>]*>/g, '').trim() : s;
+                masterData.sort((A, B) => {
+                    const a = stripHtml(A[colId] === undefined ? '' : A[colId]);
+                    const b = stripHtml(B[colId] === undefined ? '' : B[colId]);
+                    const na = parseFloat(a);
+                    const nb = parseFloat(b);
+                    if (!isNaN(na) && !isNaN(nb)) return na < nb ? -1 * dir : na > nb ? 1 * dir : 0;
+                    const ka = (a + '').toLowerCase();
+                    const kb = (b + '').toLowerCase();
+                    return ka < kb ? -1 * dir : ka > kb ? 1 * dir : 0;
+                });
+            }
+
+            function renderPage(page) {
+                const slice = getPageSlice(page);
+                sortableTable.setData(slice);
+                updateCodelistInfo();
+                renderPagination();
+            }
+
+            // initialize table with first page
+            renderPage(1);
+            // sort full dataset and re-render current page
+            sortableTable.events()
+                .on('sort', (event) => {
+                    // event.colId & event.sortDir are provided by SortableTable
+                    sortMasterData(event.colId, event.sortDir);
+                    renderPage(currentPage);
+                    console.log(`[SortableTable#onSort] column=${event.colId} dir=${event.sortDir} totalRows=${masterData.length}`);
+                });
+
+            $('.progress-bar').css('width', '100%').attr('aria-valuenow', 100);
+            setTimeout(() => {
+                $('.progress').hide();
+            }, 300);
+        });
+
+}
 
 //***********************set the input box for concept search****************************************
 
@@ -844,20 +825,21 @@ function details(divID, uri) { //build the web page content
                 for (key in TECHNICAL_LIST) createTechnicalPart('details', jsonData, Array.from(TECHNICAL_LIST[key].values()));
                 $('#' + divID).append('');
 
-                insertConceptBrowser(divID, uri, 50);
+                if (!dp){insertConceptBrowser(divID, uri, 50);}
 
             } else {
                 console.log(uri);
-                $('#' + divID).append(`<hr><div class="alert alert-dismissible alert-warning">
-                          <button type="button" class="close" data-dismiss="alert">&times;</button>
-                          <h4 class="alert-heading">Can´t open the page!</h4>
-                          <p class="mb-0">404 Resource Not Found<br>${uri}</p>
-                        </div>`);
+                $('#' + divID).append(`<hr>
+                    <div class="alert alert-dismissible alert-warning">
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    <h4 class="alert-heading">Can´t open the page!</h4>
+                    <p class="mb-0">404 Resource Not Found<br>${uri}</p>
+                    </div>`);
             }
         });
 }
 
-//************************toggle the hidden details / because HTML5 is not fully supported by MS Edge**************
+//************************toggle the hidden details **************
 
 function toggleRead(divBtn, divTxt, text) {
     let txt = $('#' + divTxt).is(':visible') ? '<img src="assets/caret-right-solid.svg" class="downscaled-svg grey-svg" alt="caretRight icon"><em>&nbsp;&nbsp;' + text + '</em>' : '<img src="assets/caret-down-solid.svg" class="downscaled-svg grey-svg" alt="caretDown icon"><em>&nbsp;&nbsp;' + text + '</em>';
@@ -874,7 +856,7 @@ function createFrontPart(divID, uri, data, props) {
     //console.log('ul data', data);
 
     props.forEach((i) => {
-        let ul = getObj(data, i); //console.log(data,i, ul);
+        let ul = getObj(data, i); console.log('ul', ul);
         if (ul.size > 0) {
             switch (key) {
                 case 'prefLabel':
@@ -953,7 +935,7 @@ function createFrontPart(divID, uri, data, props) {
                     if (html.search('<h4') == -1) {
                         html += '<hr><h4 style="margin-bottom: 1rem;">Concept relations</h4>';
                     }
-                    html += '<table><tr><td class="skosRel' + i.search('Match') + ' skosRel">' + i.replace(n.skos, '').replace(n.gc3d, '').replace(n.geosparql, '').replace(n.prov, '').replace(n.dcterms, '') + '</td><td class="skosRelUl"><ul><li>' + shortenText(Array.from(ul).join('</li><li>')) + '</li></ul></td></tr></table>';
+                    html += '<table><tr><td class="skosRel' + i.search('Match') + ' skosRel">' + i.replace(n.skos, '').replace(n.geosparql, '').replace(n.prov, '').replace(n.dcterms, '') + '</td><td class="skosRelUl"><ul><li>' + shortenText(Array.from(ul).join('</li><li>')) + '</li></ul></td></tr></table>';
                     break;
                 case 'picture':
                     insertImage(Array.from(ul).map(a => a.split('\"')[1]), 'image_links');
@@ -982,6 +964,23 @@ function insertImage(links, divID) {
                     </div>
                 </div>`);
     });
+}
+
+//*******************insert data provider card as side information************************************************************************
+
+function insertDataProviderCard(title, text, link) {
+    $('#data_providers').empty();
+
+    let card = `<div class="card border-light mb-3 data-provider-secondary-card">
+        <div class="card-header">${PAGE.dataprovider.cardheader[USER_LANG]}</div>
+        <div class="card-body">
+        <h4 class="card-title">${title}</h4>
+        <p class="card-text">${text}</p>
+        URI: <a href="${link}">${link.split('=')[1]}</a>
+        </div>
+        </div>`;
+
+    $('#data_providers').prepend(card);
 }
 
 //*******************replace long URIs by acronyms************************************************************************
@@ -1038,9 +1037,14 @@ function createTechnicalPart(divID, data, props) { //loop all single properties
 }
 //******************transform the sparql json query result into a set of HTML elements like <a> *************************************
 
-function getObj(data, i) { //console.log(data, i);
-    return new Set($.map(data.results.bindings.filter(item => item.p.value === i), (a => (a.Label !== undefined ? '<a href="' + BASE +
-        '?uri=' + a.o.value + '&lang=' + USER_LANG + '">' + setUserLang(a.Label.value) + '</a> ' + ' ' + addPlusSign(a.count['value']) : createHref(a.o.value) + ' ' + createDTLink(a.o.datatype) + ' ' + langTag(a.o['xml:lang'])))));
+function getObj(data, i) { //console.log('getObj',data, i);
+    return new Set(
+        $.map(data.results.bindings.filter(item => item.p.value === i), (a => (
+            a.Label !== undefined
+                ? '<a href="' + BASE + '?uri=' + a.o.value + '&lang=' + USER_LANG + '">' + setUserLang(a.Label.value) + '</a>  ' + addPlusSign(a.count['value'])
+                : createHref(a.o.value) + ' ' + createDTLink(a.o.datatype) + ' ' + langTag(a.o['xml:lang'])
+        )))
+    );
 }
 
 //*******************count of further concepts if > 0*******************
@@ -1057,11 +1061,12 @@ function addPlusSign(x) {
 
 //*******************prepare HTML links for browsing the vocabulary***************************************************
 
-function createHref(x) {
+function createHref(x) { //console.log('createHref', x);
+    let r = x.substring(0, 30)==DOMAIN?true:false;
     if (x.substring(0, 4) == 'http') {
         let a = x;
         for (const [key, value] of Object.entries(n)) a = a.replace(value, key + ':');
-        x = '<a href="' + x + '">' + a.replace(/_/g, ' ') + '</a>';
+        x = `<a href="${r?BASE+'?uri=':''}${x}">${a.replace(/_/g, ' ')}</a>`;
     }
     return x;
 }

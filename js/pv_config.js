@@ -45,37 +45,6 @@ const PAGE = {
     }
 }
 
-
-/* 
-Austrian INSPIRE Registry | Austrian INSPIRE Registry
-Footer nur Englisch
-
-codelists:
-title: Registry
-heading1: Österreichisches Register für Codelisten | Austrian code list register
-text: Das österreichische Codelistenregister enthält Referenzcodes für Vokabulare und dessen Erweiterung für die INSPIRE Implementierung. Bestehende Codelisten und deren Werte können für weitere Anpassungen des kontrollierten Vokabulars ausserhalb INSPIRE verwendet werden.
-textEN: The Austrian code list register provides reference codes for vocabulary extensions used for INSPIRE implementation. Existing code lists and their values can be used for further alignments of controlled vocabulary.
-
-dataprovider:
-title: Registry
-heading1: Geodatenstellenregister INSPIRE Österreich | Austrian data provider register
-text: Das österreichische Geodatenstellenregister enthält die INSPIRE Datenanbieter.
-textEN: The austrian data provider register contains the contributing data providers.
-
-About
-Austrian INSPIRE Registry
-Re3gistry features
-Best practices
-Re3gistry API
-Access API
-Documentation
-Registry AT
-User manual
-Administrator manual
-Contact
-E-Mail
- */
-
 var config = {
     init: function (any) {
         config.projects = [];
@@ -102,21 +71,6 @@ var ws = {
     endpoint: ENDPOINT,
     getProject: function (uri) {
         return config.getProject(uri);
-    },
-    doc: function (query, thenFunc) {
-        return fetch(this.endpoint + '?query=' + encodeURIComponent(query) + '&format=json').then(thenFunc);
-    },
-    json: function (uriPart, query, filteredItem, thenFunc) {
-        query = ws.processSparql(uriPart, query, filteredItem);
-        return fetch(this.endpoint + '?query=' + encodeURIComponent(query) + '&format=json')
-            .then(res => res.json())
-            .then(thenFunc)
-            .catch(error => $('#pageContent').append(`<br>no results for <br>URI: <span style="color: red;"><strong>${uriPart}</strong></span> <br>`));
-    },
-    docJson: function (query, thenFunc) {
-        return fetch(this.endpoint + '?query=' + encodeURIComponent(query) + '&format=json')
-            .then(res => res.json())
-            .then(thenFunc);
     },
     projectJson: function (projectId, query, filteredItem, thenFunc) { 
         console.log(query)
@@ -155,6 +109,5 @@ var ws = {
         query = query.replaceAll('@@from', from);
 
         return query;
-    },
-    getProjUrl: function (projectId, query) {}
+    }
 };
