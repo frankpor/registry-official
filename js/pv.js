@@ -970,7 +970,7 @@ function details(divID, uri) { //build the web page content
         }
         GROUP BY ?s ?p ?o ?stat ?pubLabel1 ?pubLabel
         ORDER BY ?Label`);
-
+        
     fetch(ENDPOINT + '?query=' + query + '&format=json')
         .then(res => res.json())
         .then(jsonData => {
