@@ -1,58 +1,5 @@
 [
   {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAGG",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Gewerbegebiete sind FlÃ¤chen, die bestimmt sind a) vorwiegend fÃ¼r Betriebe, die die Umgebung nicht Ã¼bermÃ¤Ãig beeintrÃ¤chtigen; b) daneben fÃ¼r Bauten der Ã¶ffentlichen Verwaltung sowie fÃ¼r betrieblich bedingte Wohnbauten"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "BAGG"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Gewerbegebiete"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
     "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/VEFP",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -106,7 +53,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLLG",
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAIG",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -123,7 +70,7 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "LÃ¤ndliche Gebiete (GrÃ¼nland im engeren Sinn) sind FlÃ¤chen, die fÃ¼r die land- oder forstwirtschaftliche oder berufsgÃ¤rtnerische Nutzung bestimmt sind"
+        "@value": "Industriegebiete sind FlÃ¤chen, die bestimmt sind fÃ¼r a) Betriebe, auch wenn sie eine Ã¼bermÃ¤Ãige BeeintrÃ¤chtigung der Umgebung verursachen oder eine besondere rÃ¤umliche Ausdehnung aufweisen; nicht jedoch Betriebe, die in hohem MaÃ Explosions- oder Strahlungsgefahr fÃ¼r die Umgebung erwarten lassen; b) betriebsbedingte Wohnungen und Einrichtungen"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -133,119 +80,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "GLLG"
+        "@value": "BAIG"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "LÃ¤ndliche Gebiete"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAEW",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Erweiterte Wohngebiete sind FlÃ¤chen, die bestimmt sind fÃ¼r a) Wohnbauten; b) hiezu gehÃ¶rige, dem Bedarf der Bewohner dienende Nebenanlagen (Garagen, GartenhÃ¤uschen, GewÃ¤chshÃ¤user udgl); c) Betriebe, die keine erhebliche Geruchs- oder LÃ¤rmbelÃ¤stigung, sonstige Luftverunreinigung oder ErschÃ¼tterung fÃ¼r die Nachbarschaft und keinen Ã¼bermÃ¤Ãigen StraÃenverkehr verursachen und keine GefÃ¤hrdung der Umgebung durch Explosion oder Strahlung zu verursachen geeignet sind; d) Bauten fÃ¼r Erziehungs-, Bildungs- und sonstige kulturelle und soziale Aufgaben sowie der Ã¶ffentlichen Verwaltung;"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "BAEW"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Erweiterte Wohngebiete"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BALK",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "LÃ¤ndliche Kerngebiete sind FlÃ¤chen im Bereich bereits Ã¼berwiegend bebauter Gebiete, die bestimmt sind fÃ¼r a) Klein- und Mittelbetriebe des Handels und des Gewerbes, die keine Ã¼bermÃ¤Ãige Geruchs- oder LÃ¤rmbelÃ¤stigung, sonstige Luftverunreinigung oder ErschÃ¼tterung fÃ¼r die Nachbarschaft und keinen Ã¼bermÃ¤Ãigen StraÃenverkehr verursachen und keine GefÃ¤hrdung der Umgebung durch Explosions- oder Strahlungsgefahr zu verursachen geeignet sind; b) Bauten des Fremdenverkehrs; c) land- und forstwirtschaftliche Betriebsbauten; d) sonstige in Z 2 angefÃ¼hrte Bauten;"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "BALK"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "LÃ¤ndliche Kerngebiete"
+        "@value": "Industriegebiete"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -299,6 +140,642 @@
       {
         "@language": "de",
         "@value": "Schipisten"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAHF",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Als FachmÃ¤rkte gelten HandelsgroÃbetriebe, die Waren einer oder mehrerer Warengruppen sowie allenfalls im geringfÃ¼gigen AusmaÃ Lebens- und GenuÃmittel anbieten, mit Ausnahme von Bau-, MÃ¶bel- oder GartenmÃ¤rkten."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "BAHF"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "FachmÃ¤rkte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAZG",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Zweitwohnungsgebiete sind FlÃ¤chen, die bestimmt sind a) vorwiegend fÃ¼r Bauten mit einer oder mehreren Zweitwohnungen, insbesondere auch in der Form von ApartmenthÃ¤usern und Feriensiedlungen; daneben fÃ¼r b) andere Wohnbauten; c) hiezu gehÃ¶rige, dem Bedarf der Bewohner dienende Nebenanlagen (Garagen, GartenhÃ¤uschen, GewÃ¤chshÃ¤user udgl); d) Betriebe, die keine erhebliche BeeintrÃ¤chtigung oder keine GefÃ¤hrdung fÃ¼r die Nachbarschaft zu verursachen geeignet und fÃ¼r eine zweckentsprechende BenÃ¼tzung dieses Gebietes erforderlich sind (Versorgungsbetriebe, HallenbÃ¤der udgl)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "BAZG"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Zweitwohngebiete"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLEG",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Erholungsgebiete sind FlÃ¤chen, die fÃ¼r Ã¶ffentlich zugÃ¤ngliche GÃ¤rten und Parkanlagen sowie sonstige fÃ¼r die Gesundheit und Erholung notwendige GrÃ¼nflÃ¤chen bestimmt sind"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "GLEG"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Erholungsgebiete"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/VEGM",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Als VerkehrsflÃ¤chen sind wichtige VerkehrsflÃ¤chen der Gemeinde samt den dazugehÃ¶rigen baulichen Anlagen und den angrenzenden GrÃ¼nstreifen auszuweisen, die fÃ¼r die Anlage oder ihren Schutz notwendig sind. Dazu gehÃ¶ren auch solche VerkehrsflÃ¤chen, die in nÃ¤chster Zukunft einem solchen Zweck gewidmet werden sollen."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "VEGM"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Wichtige VerkehrsflÃ¤chen der Gemeinde"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/VEBL",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Bundes- und LandesstraÃen und sonstige StraÃen von Ã¼berÃ¶rtlicher Bedeutung samt den im Abs. 1 angefÃ¼hrten Nebenanlagen und GrÃ¼nstreifen, Haupt- und Nebenbahnen samt ihren Nebenanlagen sowie FlugplÃ¤tze sind unter Kenntlichmachung der jeweiligen Verwendung ebenfalls als VerkehrsflÃ¤chen auszuweisen, ohne dass sich daraus fÃ¼r ihre Planung, Errichtung und Ãnderung auf Grund dieses Gesetzes BeschrÃ¤nkungen ergeben."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "VEBL"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Bundes- und LandesstraÃen"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAHE",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Als Einkaufszentren gelten HandelsgroÃbetriebe, die eine geplante Konzentration von Einzelhandels- und Dienstleistungsbetrieben darstellen, die zueinander in einem rÃ¤umlichen NaheverhÃ¤ltnis stehen und eine funktionale Einheit bilden."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "BAHE"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Einkaufszentren"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BADG",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "LÃ¤ndliche Dorfgebiete sind FlÃ¤chen, die bestimmt sind a) vorwiegend fÃ¼r land- und forstwirtschaftliche sowie berufsgÃ¤rtnerische Betriebsbauten; b) daneben fÃ¼r Betriebsbauten, die Ã¼berwiegend den wirtschaftlichen BedÃ¼rfnissen der Bewohner dieses Gebietes dienen, und fÃ¼r die in Z 1 und 2 lit d angefÃ¼hrten Bauten;"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "BADG"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "LÃ¤ndliche Dorfgebiete"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLFH",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "FriedhÃ¶fe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "GLFH"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "FriedhÃ¶fe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BABG",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Gebiete fÃ¼r BeherbergungsgroÃbetriebe sind FlÃ¤chen, die fÃ¼r BeherbergungsgroÃbetriebe samt den fÃ¼r diese Betriebe notwendigen Nebenanlagen (Garagen, HallenbÃ¤der, TennisplÃ¤tze udgl) bestimmt sind. Daneben sind Betriebe des Handels und des Gewerbes, die im selben Bau errichtet werden und auf die die Voraussetzungen der Z 2 lit c zutreffen, sowie Versammlungs-, VergnÃ¼gungs- und VeranstaltungsstÃ¤tten zulÃ¤ssig. Bei der Ausweisung solcher Gebiete ist auch die jeweils insgesamt hÃ¶chstzulÃ¤ssige Zahl an GÃ¤stezimmern festzulegen"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "BABG"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Gebeite fÃ¼r BeherbergungsgroÃbetriebe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLGG",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "GewÃ¤sser stellen grÃ¶Ãere stehende und flieÃende GewÃ¤sser dar"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "GLGG"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "GrÃ¶Ãere GewÃ¤sser"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/VESO",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Bundes- und LandesstraÃen und sonstige StraÃen von Ã¼berÃ¶rtlicher Bedeutung samt den im Abs. 1 angefÃ¼hrten Nebenanlagen und GrÃ¼nstreifen, Haupt- und Nebenbahnen samt ihren Nebenanlagen sowie FlugplÃ¤tze sind unter Kenntlichmachung der jeweiligen Verwendung ebenfalls als VerkehrsflÃ¤chen auszuweisen, ohne dass sich daraus fÃ¼r ihre Planung, Errichtung und Ãnderung auf Grund dieses Gesetzes BeschrÃ¤nkungen ergeben."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "VESO"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Sonstige StraÃen von Ã¼berÃ¶rtlicher Bedeutung"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAGG",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Gewerbegebiete sind FlÃ¤chen, die bestimmt sind a) vorwiegend fÃ¼r Betriebe, die die Umgebung nicht Ã¼bermÃ¤Ãig beeintrÃ¤chtigen; b) daneben fÃ¼r Bauten der Ã¶ffentlichen Verwaltung sowie fÃ¼r betrieblich bedingte Wohnbauten"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "BAGG"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Gewerbegebiete"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -424,536 +901,6 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BASF",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "SonderflÃ¤chen sind FlÃ¤chen fÃ¼r Bauten und Anlagen, a) die sich nach der Art oder den UmstÃ¤nden des jeweiligen Vorhabens nicht unter die Z 1 bis 10 einordnen lassen (wie Kasernen, grÃ¶Ãere Kranken- und Kuranstalten); b) die aufgrund ihres Verwendungszweckes an einen bestimmten Standort gebunden sind oder fÃ¼r die ein bestimmter Standort besonders geeignet ist (wie FernwÃ¤rmeerzeugungsanlagen, zentrale Abwasserreinigungsanlagen, Tankstellen, Liftstationen, bestehende einzelstehende Betriebe im GrÃ¼nland)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "BASF"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "SonderflÃ¤chen"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BADG",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "LÃ¤ndliche Dorfgebiete sind FlÃ¤chen, die bestimmt sind a) vorwiegend fÃ¼r land- und forstwirtschaftliche sowie berufsgÃ¤rtnerische Betriebsbauten; b) daneben fÃ¼r Betriebsbauten, die Ã¼berwiegend den wirtschaftlichen BedÃ¼rfnissen der Bewohner dieses Gebietes dienen, und fÃ¼r die in Z 1 und 2 lit d angefÃ¼hrten Bauten;"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "BADG"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "LÃ¤ndliche Dorfgebiete"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAHE",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Als Einkaufszentren gelten HandelsgroÃbetriebe, die eine geplante Konzentration von Einzelhandels- und Dienstleistungsbetrieben darstellen, die zueinander in einem rÃ¤umlichen NaheverhÃ¤ltnis stehen und eine funktionale Einheit bilden."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "BAHE"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Einkaufszentren"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLGB",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "AbstandsflÃ¤chen sind zur Trennung von Gebieten unterschiedlicher Widmung oder zur Siedlungsgliederung bestimmt"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "GLGB"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "AbstandsflÃ¤chen"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLFH",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "FriedhÃ¶fe"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "GLFH"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "FriedhÃ¶fe"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAIG",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Industriegebiete sind FlÃ¤chen, die bestimmt sind fÃ¼r a) Betriebe, auch wenn sie eine Ã¼bermÃ¤Ãige BeeintrÃ¤chtigung der Umgebung verursachen oder eine besondere rÃ¤umliche Ausdehnung aufweisen; nicht jedoch Betriebe, die in hohem MaÃ Explosions- oder Strahlungsgefahr fÃ¼r die Umgebung erwarten lassen; b) betriebsbedingte Wohnungen und Einrichtungen"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "BAIG"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Industriegebiete"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLSP",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Sportanlagen sind fÃ¼r Sportanlagen einschlieÃlich FreibÃ¤der und SpielplÃ¤tze bestimmt; bei der Ausweisung ist der Verwendungszweck der Sportanlage festzulegen"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "GLSP"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Gebiete fÃ¼r Sportanlagen, SpielplÃ¤tze, FreibÃ¤der"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAZG",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Zweitwohnungsgebiete sind FlÃ¤chen, die bestimmt sind a) vorwiegend fÃ¼r Bauten mit einer oder mehreren Zweitwohnungen, insbesondere auch in der Form von ApartmenthÃ¤usern und Feriensiedlungen; daneben fÃ¼r b) andere Wohnbauten; c) hiezu gehÃ¶rige, dem Bedarf der Bewohner dienende Nebenanlagen (Garagen, GartenhÃ¤uschen, GewÃ¤chshÃ¤user udgl); d) Betriebe, die keine erhebliche BeeintrÃ¤chtigung oder keine GefÃ¤hrdung fÃ¼r die Nachbarschaft zu verursachen geeignet und fÃ¼r eine zweckentsprechende BenÃ¼tzung dieses Gebietes erforderlich sind (Versorgungsbetriebe, HallenbÃ¤der udgl)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "BAZG"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Zweitwohngebiete"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BABE",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Betriebsgebiete sind FlÃ¤chen, die bestimmt sind a) vorwiegend fÃ¼r Betriebe, auf die die Voraussetzungen der Z 2 lit c zutreffen; b) daneben fÃ¼r Bauten der Ã¶ffentlichen Verwaltung sowie fÃ¼r betrieblich bedingte Wohnbauten"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "BABE"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Betriebsgebiete"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLAP",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "AblagerungsplÃ¤tze sind FlÃ¤chen, auf denen Materialien auf Dauer deponiert werden, um sich ihrer zu entledigen"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "GLAP"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "AblagerungsplÃ¤tze"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
     "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BARW",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -1007,7 +954,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/VEGM",
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAHB",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1024,7 +971,7 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Als VerkehrsflÃ¤chen sind wichtige VerkehrsflÃ¤chen der Gemeinde samt den dazugehÃ¶rigen baulichen Anlagen und den angrenzenden GrÃ¼nstreifen auszuweisen, die fÃ¼r die Anlage oder ihren Schutz notwendig sind. Dazu gehÃ¶ren auch solche VerkehrsflÃ¤chen, die in nÃ¤chster Zukunft einem solchen Zweck gewidmet werden sollen."
+        "@value": "Als Bau-, MÃ¶bel- oder GartenmÃ¤rkte gelten HandelsgroÃbetriebe, die Waren fÃ¼r BaumaÃnahmen, die Raumausstattung bzw die Raum- oder Gartengestaltung sowie allenfalls in geringfÃ¼gigem AusmaÃ Lebens- und GenuÃmittel anbieten."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1034,13 +981,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "VEGM"
+        "@value": "BAHB"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Wichtige VerkehrsflÃ¤chen der Gemeinde"
+        "@value": "Bau-, MÃ¶bel- oder GartenmÃ¤rkte"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -1060,7 +1007,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLEG",
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLOL",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1077,7 +1024,7 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Erholungsgebiete sind FlÃ¤chen, die fÃ¼r Ã¶ffentlich zugÃ¤ngliche GÃ¤rten und Parkanlagen sowie sonstige fÃ¼r die Gesundheit und Erholung notwendige GrÃ¼nflÃ¤chen bestimmt sind"
+        "@value": "Ãdland"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1087,13 +1034,66 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "GLEG"
+        "@value": "GLOL"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Erholungsgebiete"
+        "@value": "Ãdland"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLSO",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Sonstige FlÃ¤chen sind alle sonstigen, nicht als Bauland oder als VerkehrsflÃ¤che ausgewiesenen FlÃ¤chen"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "GLSO"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Sonstige nicht als Bauland oder VerkehrsflÃ¤che ausgewiesene FlÃ¤chen"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -1166,7 +1166,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/VESO",
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/VEEB",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1193,13 +1193,172 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "VESO"
+        "@value": "VEEB"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Sonstige StraÃen von Ã¼berÃ¶rtlicher Bedeutung"
+        "@value": "Eisenbahnen und deren Betriebsanlagen"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLMG",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "MaterialgewinnungsstÃ¤tten sind zur Materialgewinnung und zur dazu gehÃ¶rigen Materiallagerung bestimmt;"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "GLMG"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "MaterialgewinnungsstÃ¤tten und dazugehÃ¶rige MateriallagerstÃ¤tten"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLAP",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "AblagerungsplÃ¤tze sind FlÃ¤chen, auf denen Materialien auf Dauer deponiert werden, um sich ihrer zu entledigen"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "GLAP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "AblagerungsplÃ¤tze"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BASF",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "SonderflÃ¤chen sind FlÃ¤chen fÃ¼r Bauten und Anlagen, a) die sich nach der Art oder den UmstÃ¤nden des jeweiligen Vorhabens nicht unter die Z 1 bis 10 einordnen lassen (wie Kasernen, grÃ¶Ãere Kranken- und Kuranstalten); b) die aufgrund ihres Verwendungszweckes an einen bestimmten Standort gebunden sind oder fÃ¼r die ein bestimmter Standort besonders geeignet ist (wie FernwÃ¤rmeerzeugungsanlagen, zentrale Abwasserreinigungsanlagen, Tankstellen, Liftstationen, bestehende einzelstehende Betriebe im GrÃ¼nland)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "BASF"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "SonderflÃ¤chen"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -1272,7 +1431,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAHF",
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLGB",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1289,7 +1448,7 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Als FachmÃ¤rkte gelten HandelsgroÃbetriebe, die Waren einer oder mehrerer Warengruppen sowie allenfalls im geringfÃ¼gigen AusmaÃ Lebens- und GenuÃmittel anbieten, mit Ausnahme von Bau-, MÃ¶bel- oder GartenmÃ¤rkten."
+        "@value": "AbstandsflÃ¤chen sind zur Trennung von Gebieten unterschiedlicher Widmung oder zur Siedlungsgliederung bestimmt"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1299,13 +1458,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "BAHF"
+        "@value": "GLGB"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "FachmÃ¤rkte"
+        "@value": "AbstandsflÃ¤chen"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -1506,7 +1665,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLGG",
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLIM",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1523,7 +1682,7 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "GewÃ¤sser stellen grÃ¶Ãere stehende und flieÃende GewÃ¤sser dar"
+        "@value": "Anmerkung zu Immissionsschutzstreifen: In der Beurteilungspraxis erweist sich - als Faustregel - ein Abstand von 30 m zwischen Gewerbegebiet und schutzwÃ¼rdigem Gebiet (ohne zusÃ¤tzliche MaÃnahmen) als absolutes Minimum."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1533,13 +1692,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "GLGG"
+        "@value": "GLIM"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "GrÃ¶Ãere GewÃ¤sser"
+        "@value": "Immissionsschutzstreifen"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -1559,7 +1718,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLCA",
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLSP",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1576,7 +1735,7 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "CampingplÃ¤tze sind fÃ¼r den Betrieb eines Campingplatzes bestimmt"
+        "@value": "Sportanlagen sind fÃ¼r Sportanlagen einschlieÃlich FreibÃ¤der und SpielplÃ¤tze bestimmt; bei der Ausweisung ist der Verwendungszweck der Sportanlage festzulegen"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1586,13 +1745,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "GLCA"
+        "@value": "GLSP"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "CampingplÃ¤tze"
+        "@value": "Gebiete fÃ¼r Sportanlagen, SpielplÃ¤tze, FreibÃ¤der"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -1612,7 +1771,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAKG",
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BABE",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1629,7 +1788,7 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Kerngebiete sind FlÃ¤chen, die bestimmt sind a) fÃ¼r Betriebe des Handels und des Gewerbes, auf die die Voraussetzungen der Z 2 lit c zutreffen, fÃ¼r Bauten der in Z 2 lit d genannten Art, sowie fÃ¼r Versammlungs-, VergnÃ¼gungs- und VeranstaltungsstÃ¤tten sowie fÃ¼r Bauten des Fremdenverkehrs samt den dazugehÃ¶rigen Anlagen und Einrichtungen; b) fÃ¼r sonstige in Z 1 und 2 angefÃ¼hrte Bauten mit allenfalls besonderer Verdichtung;"
+        "@value": "Betriebsgebiete sind FlÃ¤chen, die bestimmt sind a) vorwiegend fÃ¼r Betriebe, auf die die Voraussetzungen der Z 2 lit c zutreffen; b) daneben fÃ¼r Bauten der Ã¶ffentlichen Verwaltung sowie fÃ¼r betrieblich bedingte Wohnbauten"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1639,172 +1798,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "BAKG"
+        "@value": "BABE"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Kerngebiete"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/VEBL",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Bundes- und LandesstraÃen und sonstige StraÃen von Ã¼berÃ¶rtlicher Bedeutung samt den im Abs. 1 angefÃ¼hrten Nebenanlagen und GrÃ¼nstreifen, Haupt- und Nebenbahnen samt ihren Nebenanlagen sowie FlugplÃ¤tze sind unter Kenntlichmachung der jeweiligen Verwendung ebenfalls als VerkehrsflÃ¤chen auszuweisen, ohne dass sich daraus fÃ¼r ihre Planung, Errichtung und Ãnderung auf Grund dieses Gesetzes BeschrÃ¤nkungen ergeben."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "VEBL"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Bundes- und LandesstraÃen"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/VEEB",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Bundes- und LandesstraÃen und sonstige StraÃen von Ã¼berÃ¶rtlicher Bedeutung samt den im Abs. 1 angefÃ¼hrten Nebenanlagen und GrÃ¼nstreifen, Haupt- und Nebenbahnen samt ihren Nebenanlagen sowie FlugplÃ¤tze sind unter Kenntlichmachung der jeweiligen Verwendung ebenfalls als VerkehrsflÃ¤chen auszuweisen, ohne dass sich daraus fÃ¼r ihre Planung, Errichtung und Ãnderung auf Grund dieses Gesetzes BeschrÃ¤nkungen ergeben."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "VEEB"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Eisenbahnen und deren Betriebsanlagen"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLMG",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "MaterialgewinnungsstÃ¤tten sind zur Materialgewinnung und zur dazu gehÃ¶rigen Materiallagerung bestimmt;"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "GLMG"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "MaterialgewinnungsstÃ¤tten und dazugehÃ¶rige MateriallagerstÃ¤tten"
+        "@value": "Betriebsgebiete"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -1877,7 +1877,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLSO",
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLLG",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1894,7 +1894,7 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Sonstige FlÃ¤chen sind alle sonstigen, nicht als Bauland oder als VerkehrsflÃ¤che ausgewiesenen FlÃ¤chen"
+        "@value": "LÃ¤ndliche Gebiete (GrÃ¼nland im engeren Sinn) sind FlÃ¤chen, die fÃ¼r die land- oder forstwirtschaftliche oder berufsgÃ¤rtnerische Nutzung bestimmt sind"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1904,13 +1904,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "GLSO"
+        "@value": "GLLG"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Sonstige nicht als Bauland oder VerkehrsflÃ¤che ausgewiesene FlÃ¤chen"
+        "@value": "LÃ¤ndliche Gebiete"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -1930,7 +1930,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAHB",
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLCA",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1947,7 +1947,7 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Als Bau-, MÃ¶bel- oder GartenmÃ¤rkte gelten HandelsgroÃbetriebe, die Waren fÃ¼r BaumaÃnahmen, die Raumausstattung bzw die Raum- oder Gartengestaltung sowie allenfalls in geringfÃ¼gigem AusmaÃ Lebens- und GenuÃmittel anbieten."
+        "@value": "CampingplÃ¤tze sind fÃ¼r den Betrieb eines Campingplatzes bestimmt"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1957,13 +1957,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "BAHB"
+        "@value": "GLCA"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Bau-, MÃ¶bel- oder GartenmÃ¤rkte"
+        "@value": "CampingplÃ¤tze"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -1983,7 +1983,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BABG",
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BALK",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -2000,7 +2000,7 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Gebiete fÃ¼r BeherbergungsgroÃbetriebe sind FlÃ¤chen, die fÃ¼r BeherbergungsgroÃbetriebe samt den fÃ¼r diese Betriebe notwendigen Nebenanlagen (Garagen, HallenbÃ¤der, TennisplÃ¤tze udgl) bestimmt sind. Daneben sind Betriebe des Handels und des Gewerbes, die im selben Bau errichtet werden und auf die die Voraussetzungen der Z 2 lit c zutreffen, sowie Versammlungs-, VergnÃ¼gungs- und VeranstaltungsstÃ¤tten zulÃ¤ssig. Bei der Ausweisung solcher Gebiete ist auch die jeweils insgesamt hÃ¶chstzulÃ¤ssige Zahl an GÃ¤stezimmern festzulegen"
+        "@value": "LÃ¤ndliche Kerngebiete sind FlÃ¤chen im Bereich bereits Ã¼berwiegend bebauter Gebiete, die bestimmt sind fÃ¼r a) Klein- und Mittelbetriebe des Handels und des Gewerbes, die keine Ã¼bermÃ¤Ãige Geruchs- oder LÃ¤rmbelÃ¤stigung, sonstige Luftverunreinigung oder ErschÃ¼tterung fÃ¼r die Nachbarschaft und keinen Ã¼bermÃ¤Ãigen StraÃenverkehr verursachen und keine GefÃ¤hrdung der Umgebung durch Explosions- oder Strahlungsgefahr zu verursachen geeignet sind; b) Bauten des Fremdenverkehrs; c) land- und forstwirtschaftliche Betriebsbauten; d) sonstige in Z 2 angefÃ¼hrte Bauten;"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -2010,13 +2010,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "BABG"
+        "@value": "BALK"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Gebeite fÃ¼r BeherbergungsgroÃbetriebe"
+        "@value": "LÃ¤ndliche Kerngebiete"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -2036,7 +2036,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLOL",
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAKG",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -2053,7 +2053,7 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Ãdland"
+        "@value": "Kerngebiete sind FlÃ¤chen, die bestimmt sind a) fÃ¼r Betriebe des Handels und des Gewerbes, auf die die Voraussetzungen der Z 2 lit c zutreffen, fÃ¼r Bauten der in Z 2 lit d genannten Art, sowie fÃ¼r Versammlungs-, VergnÃ¼gungs- und VeranstaltungsstÃ¤tten sowie fÃ¼r Bauten des Fremdenverkehrs samt den dazugehÃ¶rigen Anlagen und Einrichtungen; b) fÃ¼r sonstige in Z 1 und 2 angefÃ¼hrte Bauten mit allenfalls besonderer Verdichtung;"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -2063,13 +2063,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "GLOL"
+        "@value": "BAKG"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Ãdland"
+        "@value": "Kerngebiete"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -2089,7 +2089,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLIM",
+    "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAEW",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -2106,7 +2106,7 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Anmerkung zu Immissionsschutzstreifen: In der Beurteilungspraxis erweist sich - als Faustregel - ein Abstand von 30 m zwischen Gewerbegebiet und schutzwÃ¼rdigem Gebiet (ohne zusÃ¤tzliche MaÃnahmen) als absolutes Minimum."
+        "@value": "Erweiterte Wohngebiete sind FlÃ¤chen, die bestimmt sind fÃ¼r a) Wohnbauten; b) hiezu gehÃ¶rige, dem Bedarf der Bewohner dienende Nebenanlagen (Garagen, GartenhÃ¤uschen, GewÃ¤chshÃ¤user udgl); c) Betriebe, die keine erhebliche Geruchs- oder LÃ¤rmbelÃ¤stigung, sonstige Luftverunreinigung oder ErschÃ¼tterung fÃ¼r die Nachbarschaft und keinen Ã¼bermÃ¤Ãigen StraÃenverkehr verursachen und keine GefÃ¤hrdung der Umgebung durch Explosion oder Strahlung zu verursachen geeignet sind; d) Bauten fÃ¼r Erziehungs-, Bildungs- und sonstige kulturelle und soziale Aufgaben sowie der Ã¶ffentlichen Verwaltung;"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -2116,13 +2116,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "GLIM"
+        "@value": "BAEW"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Immissionsschutzstreifen"
+        "@value": "Erweiterte Wohngebiete"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [

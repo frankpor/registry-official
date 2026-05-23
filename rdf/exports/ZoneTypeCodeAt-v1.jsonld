@@ -1,5 +1,76 @@
 [
   {
+    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Sanierungsgebiet_Luftreinhalteprogramm",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. UBA"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. UBA"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/am"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Sanierungsgebiet ist ein Gebiet, in dem sich die Emissionsquellen befinden, die einen erheblichen Beitrag zur Ãberschreitung eines Immissionsgrenzwerts geleistet haben und fÃ¼r die in einem Luftreinhalte-Programm MaÃnahmen vorgesehen werden kÃ¶nnen."
+      },
+      {
+        "@language": "en",
+        "@value": "air quality improvement zone is an area in which the emission sources are located that have made a significant contribution to exceeding an air quality limit value and for which measures can be provided in an air pollution control program."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "Sanierungsgebiet_Luftreinhalteprogramm"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Sanierungsgebiet Luftreinhalteprogramm"
+      },
+      {
+        "@language": "en",
+        "@value": "air quality improvement zone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
     "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Jagdkastaster",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -61,129 +132,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Impoundment",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/am"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Water stretch with anthropogenically caused reductions of average flow velocity in cross sections to less than 0.3 meters per second for medium water level."
-      },
-      {
-        "@language": "de",
-        "@value": "GewÃ¤sserstrecke mit anthropogen bedingter Reduktionen der mittleren FlieÃgeschwindigkeit im Querprofil auf unter 0.3 Meter pro Sekunde bei Mittelwasser (MQ)."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "Impoundment"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Staustrecke"
-      },
-      {
-        "@language": "en",
-        "@value": "Impoundment"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/WaterAbstraction",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/am"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Section of a flowing water which is affected by anthropogenically caused drainage or restraint due to a reduction of its natural runoff."
-      },
-      {
-        "@language": "de",
-        "@value": "Abschnitt eines GewÃ¤ssers, der durch anthropogen bedingte Ableitung bzw. durch anthropogen bedingten RÃ¼ckhalt von einer Abminderung des natÃ¼rlichen Abflusses betroffen ist."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "WaterAbstraction"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Water abstraction"
-      },
-      {
-        "@language": "de",
-        "@value": "Restwasserstrecke"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/LandwirtschaftlicheHauptproduktionsgebiete",
+    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/ALSAG_Gebiete",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -199,12 +148,12 @@
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@language": "en",
-        "@value": "Small and main agricultural production areas in Austria based on political municipalities"
+        "@language": "de",
+        "@value": "Gebiete gemaess Altlastensanierungsgesetz (ALSAG). Vom Landeshauptmann gemeldete Altablagerungen (alte Deponien) und Altstandorte (ehemalige Fabriken), die vor 1989 kontaminiert sein koennen, werden nach DurchfÃ¼hrung einer Gefaehrdungsabschaetzung und Feststellung einer erheblichen Gefaehrdung fÃ¼r die Umwelt und Gesundheit (nach Bewertung durch das Umweltbundesamt) als sicherungs- und sanierungsbeduerftige Altlasten vom Bundesminister in der AltlastenVO ausgewiesen. Die Bewertung der Dringlichkeit von erforderlichen Sanierungsmassnahmen werden mittels drei PrioritÃ¤tenklassen unterschieden. Eine Einstufung in die PrioritÃ¤tenklasse 1 bedeutet die hÃ¶echste Dringlichkeit von SanierungsmaÃnahmen. Nach Bestaetigung des Sanierungserfolges werden die Daten zur Altlast vom Umweltbundesamt aktualisiert und in der AltlastenVO vom Bundesminister als sanierte oder gesicherte Altlast gekennzeichnet."
       },
       {
-        "@language": "de",
-        "@value": "Landwirtschaftliche Klein- und Hauptproduktionsgebiete Ãsterreichs auf Basis politischer Gemeinden"
+        "@language": "en",
+        "@value": "Areas pursuant to the Contaminated Sites Remediation Act."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -214,17 +163,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "LandwirtschaftlicheHauptproduktionsgebiete"
+        "@value": "ALSAG_Gebiete"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
-        "@language": "en",
-        "@value": "Main agricultural production areas"
+        "@language": "de",
+        "@value": "Gebiete gemaess Altlastensanierungsgesetz"
       },
       {
-        "@language": "de",
-        "@value": "Landwirtschaftliche Hauptproduktionsgebiete"
+        "@language": "en",
+        "@value": "Contaminated Site Area"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -286,67 +235,6 @@
       {
         "@language": "de",
         "@value": "Almhauptregionen"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/fishingCadastre",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/am"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "fishing districts and owner of fishing license"
-      },
-      {
-        "@language": "de",
-        "@value": "Fischereireviere bzw. Fischereirechtsinhaber"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "fishingCadastre"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "fishing cadastre"
-      },
-      {
-        "@language": "de",
-        "@value": "Fischereikataster"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -472,7 +360,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Bewirtschaftungsgebiete",
+    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/wISPointinformation",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -488,12 +376,12 @@
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@language": "de",
-        "@value": "Landwirtschaftliche Lagen Ãsterreichs auf Basis NUTS III Gebiete"
+        "@language": "en",
+        "@value": "Water law approved facilities (water register), Styria."
       },
       {
-        "@language": "en",
-        "@value": "Agricultural areas of Austria based on NUTS III regions"
+        "@language": "de",
+        "@value": "Wasserrechtlich bewilligte Anlagen (Wasserbuch), Steiermark"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -503,78 +391,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "Bewirtschaftungsgebiete"
+        "@value": "wISPointinformation"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Landwirtschaftliche Bewirtschaftungsgebiete"
+        "@value": "WIS-Punktinformationen"
       },
       {
         "@language": "en",
-        "@value": "Agricultural management areas"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/ALSAG_Gebiete",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/am"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Gebiete gemaess Altlastensanierungsgesetz (ALSAG). Vom Landeshauptmann gemeldete Altablagerungen (alte Deponien) und Altstandorte (ehemalige Fabriken), die vor 1989 kontaminiert sein koennen, werden nach DurchfÃ¼hrung einer Gefaehrdungsabschaetzung und Feststellung einer erheblichen Gefaehrdung fÃ¼r die Umwelt und Gesundheit (nach Bewertung durch das Umweltbundesamt) als sicherungs- und sanierungsbeduerftige Altlasten vom Bundesminister in der AltlastenVO ausgewiesen. Die Bewertung der Dringlichkeit von erforderlichen Sanierungsmassnahmen werden mittels drei PrioritÃ¤tenklassen unterschieden. Eine Einstufung in die PrioritÃ¤tenklasse 1 bedeutet die hÃ¶echste Dringlichkeit von SanierungsmaÃnahmen. Nach Bestaetigung des Sanierungserfolges werden die Daten zur Altlast vom Umweltbundesamt aktualisiert und in der AltlastenVO vom Bundesminister als sanierte oder gesicherte Altlast gekennzeichnet."
-      },
-      {
-        "@language": "en",
-        "@value": "Areas pursuant to the Contaminated Sites Remediation Act."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "ALSAG_Gebiete"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Gebiete gemaess Altlastensanierungsgesetz"
-      },
-      {
-        "@language": "en",
-        "@value": "Contaminated Site Area"
+        "@value": "waterinformationsystem"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -655,6 +482,67 @@
     ]
   },
   {
+    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Impoundment",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/am"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Water stretch with anthropogenically caused reductions of average flow velocity in cross sections to less than 0.3 meters per second for medium water level."
+      },
+      {
+        "@language": "de",
+        "@value": "GewÃ¤sserstrecke mit anthropogen bedingter Reduktionen der mittleren FlieÃgeschwindigkeit im Querprofil auf unter 0.3 Meter pro Sekunde bei Mittelwasser (MQ)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "Impoundment"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Staustrecke"
+      },
+      {
+        "@language": "en",
+        "@value": "Impoundment"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
     "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/saproWindEnergy",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -716,7 +604,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/wISPointinformation",
+    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/LandwirtschaftlicheHauptproduktionsgebiete",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -733,11 +621,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "Water law approved facilities (water register), Styria."
+        "@value": "Small and main agricultural production areas in Austria based on political municipalities"
       },
       {
         "@language": "de",
-        "@value": "Wasserrechtlich bewilligte Anlagen (Wasserbuch), Steiermark"
+        "@value": "Landwirtschaftliche Klein- und Hauptproduktionsgebiete Ãsterreichs auf Basis politischer Gemeinden"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -747,17 +635,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "wISPointinformation"
+        "@value": "LandwirtschaftlicheHauptproduktionsgebiete"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
-        "@language": "de",
-        "@value": "WIS-Punktinformationen"
+        "@language": "en",
+        "@value": "Main agricultural production areas"
       },
       {
-        "@language": "en",
-        "@value": "waterinformationsystem"
+        "@language": "de",
+        "@value": "Landwirtschaftliche Hauptproduktionsgebiete"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -777,7 +665,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Sanierungsgebiet_Luftreinhalteprogramm",
+    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/WaterAbstraction",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -786,14 +674,65 @@
         "@id": "http://inspire.ec.europa.eu/applicationschema/am"
       }
     ],
-    "http://purl.org/dc/terms/description": [
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/am"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "Def. UBA"
+        "@value": "Section of a flowing water which is affected by anthropogenically caused drainage or restraint due to a reduction of its natural runoff."
       },
       {
         "@language": "de",
-        "@value": "Def. UBA"
+        "@value": "Abschnitt eines GewÃ¤ssers, der durch anthropogen bedingte Ableitung bzw. durch anthropogen bedingten RÃ¼ckhalt von einer Abminderung des natÃ¼rlichen Abflusses betroffen ist."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "WaterAbstraction"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Water abstraction"
+      },
+      {
+        "@language": "de",
+        "@value": "Restwasserstrecke"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Bewirtschaftungsgebiete",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
       }
     ],
     "http://purl.org/dc/terms/subject": [
@@ -804,11 +743,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Sanierungsgebiet ist ein Gebiet, in dem sich die Emissionsquellen befinden, die einen erheblichen Beitrag zur Ãberschreitung eines Immissionsgrenzwerts geleistet haben und fÃ¼r die in einem Luftreinhalte-Programm MaÃnahmen vorgesehen werden kÃ¶nnen."
+        "@value": "Landwirtschaftliche Lagen Ãsterreichs auf Basis NUTS III Gebiete"
       },
       {
         "@language": "en",
-        "@value": "air quality improvement zone is an area in which the emission sources are located that have made a significant contribution to exceeding an air quality limit value and for which measures can be provided in an air pollution control program."
+        "@value": "Agricultural areas of Austria based on NUTS III regions"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -818,17 +757,78 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "Sanierungsgebiet_Luftreinhalteprogramm"
+        "@value": "Bewirtschaftungsgebiete"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Sanierungsgebiet Luftreinhalteprogramm"
+        "@value": "Landwirtschaftliche Bewirtschaftungsgebiete"
       },
       {
         "@language": "en",
-        "@value": "air quality improvement zone"
+        "@value": "Agricultural management areas"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/fishingCadastre",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/am"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "fishing districts and owner of fishing license"
+      },
+      {
+        "@language": "de",
+        "@value": "Fischereireviere bzw. Fischereirechtsinhaber"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "fishingCadastre"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "fishing cadastre"
+      },
+      {
+        "@language": "de",
+        "@value": "Fischereikataster"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [

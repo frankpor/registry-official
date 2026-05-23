@@ -1,6 +1,6 @@
 [
   {
-    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/yellowHazardZone",
+    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/brownReferenceArea",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -17,11 +17,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "In yellow hazard zones the permanent use for settlement and transport purposes is impaired by snow avalanches /torrential floods. Building in these areas is only possible with specific building control requirements"
+        "@value": "The brown reference areas indicate hazards other than those evoked by torrents and avalanches (e.g. stone fall and slide areas)."
       },
       {
         "@language": "de",
-        "@value": "In gelben Gefahrenzonen ist die dauerhafte Nutzung fÃ¼r Siedlungs- und Transportzwecke durch Lawinen/sturzflutartiges Hochwasser beeintrÃ¤chtigt. Das Bauen in diesen Gebieten ist nur unter besonderen Auflagen mÃ¶glich."
+        "@value": "Die braunen Hinweisbereiche weisen auf Gefahren hin, die nicht durch WildbÃ¤che und Lawinen hervorgerufen werden (z.B. Steinschlag- und Rutschgebiete)."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -31,200 +31,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "yellowHazardZone"
+        "@value": "brownReferenceArea"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "yellow hazard zone"
+        "@value": "brown reference area"
       },
       {
         "@language": "de",
-        "@value": "Gelbe Gefahrenzone"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/blueReservationArea",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Blue reservation areas are areas which are to be kept free for future technical (e.g. construction of a sedimentation basin) or biological control measures (e.g. afforestation)."
-      },
-      {
-        "@language": "de",
-        "@value": "Blaue Vorbehaltsbereiche sind FlÃ¤chen, die fÃ¼r zukÃ¼nftige technische (z.B. Bau eines Absetzbeckens) oder biologische BekÃ¤mpfungsmaÃnahmen (z.B. Aufforstungen) freigehalten werden sollen."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "blueReservationArea"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "blue reservation area"
-      },
-      {
-        "@language": "de",
-        "@value": "Blauer Vorbehaltsbereich"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/partiallyRelevantArea",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Unter Raumrelevanten Bereichen im Sinne der Gefahrenzonenplanung der Wildbach- und Lawinenverbauung (WLV) sind FlÃ¤chen zu verstehen, die derzeitigem oder kÃ¼nftig mÃ¶glichem Bauland mit den unmittelbar dazugehÃ¶rigen VerkehrsflÃ¤chen vorbehalten sind. Ebenso sind Gebiete mit besonderer Nutzung, wie CampingplÃ¤tze, SportplÃ¤tze, SchwimmbÃ¤der, jeweils samt zugehÃ¶rigen VerkehrsflÃ¤chen, als Raumrelevanter Bereich auszuweisen. Weiters sollte Raumrelevanz auch jenen FlÃ¤chen zuerkannt werden, die aufgrund ihrer Lage, ihrer AufschlieÃung oder sonstiger Funktion eine Gefahrenzonenplanung vorteilhaft erscheinen lassen. Insbesondere sind auch 'nicht als Bauland gewidmete FlÃ¤chen' als raumrelevant auszuweisen, wenn fÃ¼r sie in absehbarer Zeit (bis zur Revision des Gefahrenzonenplans) eine Umwidmung zum Zwecke einer Bebauung wahrscheinlich ist."
-      },
-      {
-        "@language": "en",
-        "@value": "Parts of the plan area, which were defined as areas of interest for hazard zone planning. These include present and future building land, residential areas, areas for public use."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "partiallyRelevantArea"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Raumrelevanter Bereich"
-      },
-      {
-        "@language": "en",
-        "@value": "patially relevant area"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/avalancheCatchmentArea",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "The avalanche catchment area indicates the eligibility of an avalanche to be fed, the area in which it breaks off and the area in which it deposits. A snow mass with typically a volume greater than 100 mÂ³ and a minimum length of 50 meters that slides rapidly downhill."
-      },
-      {
-        "@language": "de",
-        "@value": "Das Lawinen-Einzugsgebiet kennzeichnet den NÃ¤hr-, Abbruch- und Ablagerungsbereich einer Lawine. Eine Schneemasse mit typischerweise einem Volumen von mehr als 100 mÂ³ und einer MindestlÃ¤nge von 50 Metern, die schnell talwÃ¤rts rutscht."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "avalancheCatchmentArea"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Lawinen-Einzugsgebiet"
-      },
-      {
-        "@language": "en",
-        "@value": "avalanche catchment area"
+        "@value": "Brauner Hinweisbereich"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -305,67 +122,6 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/redHazardZone",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "In red hazard zones the threat due to snow avalanches /torrential floods is so high that permanent settlement is not possible or only possible with a disproportionately high expenditure. The construction of new buildings is not recommended."
-      },
-      {
-        "@language": "de",
-        "@value": "In den roten Gefahrenzonen ist die Bedrohung durch Lawinen/sturzflutartiges Hochwasser so hoch, dass eine dauerhafte Besiedlung nicht oder nur mit unverhÃ¤ltnismÃ¤Ãig hohem Aufwand mÃ¶glich ist. Der Bau neuer GebÃ¤ude wird nicht empfohlen."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "redHazardZone"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Rote Gefahrenzone"
-      },
-      {
-        "@language": "en",
-        "@value": "red hazard zone"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
     "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/purpleReferenceArea",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -427,7 +183,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/planArea",
+    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/redHazardZone",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -444,11 +200,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "The plan area defines the municipality or parts of a municipality for which the hazard zone map was elaborated."
+        "@value": "In red hazard zones the threat due to snow avalanches /torrential floods is so high that permanent settlement is not possible or only possible with a disproportionately high expenditure. The construction of new buildings is not recommended."
       },
       {
         "@language": "de",
-        "@value": "Das Plangebiet im Sinne der Gefahrenzonenplanung der WLV umfasst gemÃ¤Ã Â§ 3 der GZP-Verordnung in der Regel das Gebiet einer Gemeinde. Es darf aber, falls erforderlich und begrÃ¼ndbar, auch auf Teile eines Gemeindegebietes beschrÃ¤nkt werden."
+        "@value": "In den roten Gefahrenzonen ist die Bedrohung durch Lawinen/sturzflutartiges Hochwasser so hoch, dass eine dauerhafte Besiedlung nicht oder nur mit unverhÃ¤ltnismÃ¤Ãig hohem Aufwand mÃ¶glich ist. Der Bau neuer GebÃ¤ude wird nicht empfohlen."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -458,17 +214,139 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "planArea"
+        "@value": "redHazardZone"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Plangebiet"
+        "@value": "Rote Gefahrenzone"
       },
       {
         "@language": "en",
-        "@value": "plan area"
+        "@value": "red hazard zone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/blueReservationArea",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Blue reservation areas are areas which are to be kept free for future technical (e.g. construction of a sedimentation basin) or biological control measures (e.g. afforestation)."
+      },
+      {
+        "@language": "de",
+        "@value": "Blaue Vorbehaltsbereiche sind FlÃ¤chen, die fÃ¼r zukÃ¼nftige technische (z.B. Bau eines Absetzbeckens) oder biologische BekÃ¤mpfungsmaÃnahmen (z.B. Aufforstungen) freigehalten werden sollen."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "blueReservationArea"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "blue reservation area"
+      },
+      {
+        "@language": "de",
+        "@value": "Blauer Vorbehaltsbereich"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/avalancheCatchmentArea",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The avalanche catchment area indicates the eligibility of an avalanche to be fed, the area in which it breaks off and the area in which it deposits. A snow mass with typically a volume greater than 100 mÂ³ and a minimum length of 50 meters that slides rapidly downhill."
+      },
+      {
+        "@language": "de",
+        "@value": "Das Lawinen-Einzugsgebiet kennzeichnet den NÃ¤hr-, Abbruch- und Ablagerungsbereich einer Lawine. Eine Schneemasse mit typischerweise einem Volumen von mehr als 100 mÂ³ und einer MindestlÃ¤nge von 50 Metern, die schnell talwÃ¤rts rutscht."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "avalancheCatchmentArea"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Lawinen-Einzugsgebiet"
+      },
+      {
+        "@language": "en",
+        "@value": "avalanche catchment area"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -585,7 +463,68 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/brownReferenceArea",
+    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/partiallyRelevantArea",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Unter Raumrelevanten Bereichen im Sinne der Gefahrenzonenplanung der Wildbach- und Lawinenverbauung (WLV) sind FlÃ¤chen zu verstehen, die derzeitigem oder kÃ¼nftig mÃ¶glichem Bauland mit den unmittelbar dazugehÃ¶rigen VerkehrsflÃ¤chen vorbehalten sind. Ebenso sind Gebiete mit besonderer Nutzung, wie CampingplÃ¤tze, SportplÃ¤tze, SchwimmbÃ¤der, jeweils samt zugehÃ¶rigen VerkehrsflÃ¤chen, als Raumrelevanter Bereich auszuweisen. Weiters sollte Raumrelevanz auch jenen FlÃ¤chen zuerkannt werden, die aufgrund ihrer Lage, ihrer AufschlieÃung oder sonstiger Funktion eine Gefahrenzonenplanung vorteilhaft erscheinen lassen. Insbesondere sind auch 'nicht als Bauland gewidmete FlÃ¤chen' als raumrelevant auszuweisen, wenn fÃ¼r sie in absehbarer Zeit (bis zur Revision des Gefahrenzonenplans) eine Umwidmung zum Zwecke einer Bebauung wahrscheinlich ist."
+      },
+      {
+        "@language": "en",
+        "@value": "Parts of the plan area, which were defined as areas of interest for hazard zone planning. These include present and future building land, residential areas, areas for public use."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "partiallyRelevantArea"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Raumrelevanter Bereich"
+      },
+      {
+        "@language": "en",
+        "@value": "patially relevant area"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/planArea",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -602,11 +541,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "The brown reference areas indicate hazards other than those evoked by torrents and avalanches (e.g. stone fall and slide areas)."
+        "@value": "The plan area defines the municipality or parts of a municipality for which the hazard zone map was elaborated."
       },
       {
         "@language": "de",
-        "@value": "Die braunen Hinweisbereiche weisen auf Gefahren hin, die nicht durch WildbÃ¤che und Lawinen hervorgerufen werden (z.B. Steinschlag- und Rutschgebiete)."
+        "@value": "Das Plangebiet im Sinne der Gefahrenzonenplanung der WLV umfasst gemÃ¤Ã Â§ 3 der GZP-Verordnung in der Regel das Gebiet einer Gemeinde. Es darf aber, falls erforderlich und begrÃ¼ndbar, auch auf Teile eines Gemeindegebietes beschrÃ¤nkt werden."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -616,17 +555,78 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "brownReferenceArea"
+        "@value": "planArea"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Plangebiet"
+      },
+      {
+        "@language": "en",
+        "@value": "plan area"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/yellowHazardZone",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "In yellow hazard zones the permanent use for settlement and transport purposes is impaired by snow avalanches /torrential floods. Building in these areas is only possible with specific building control requirements"
+      },
+      {
+        "@language": "de",
+        "@value": "In gelben Gefahrenzonen ist die dauerhafte Nutzung fÃ¼r Siedlungs- und Transportzwecke durch Lawinen/sturzflutartiges Hochwasser beeintrÃ¤chtigt. Das Bauen in diesen Gebieten ist nur unter besonderen Auflagen mÃ¶glich."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "yellowHazardZone"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "brown reference area"
+        "@value": "yellow hazard zone"
       },
       {
         "@language": "de",
-        "@value": "Brauner Hinweisbereich"
+        "@value": "Gelbe Gefahrenzone"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [

@@ -1,6 +1,70 @@
 [
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2312",
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1100",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Moor- und Anmoorgruppe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1103"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1102"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1101"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1100"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Moor- und Anmoorgruppe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1903",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -16,13 +80,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2310"
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1900"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Textur-Ortsboden"
+        "@value": "Parabraunerde"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -32,18 +96,132 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "2312"
+        "@value": "1903"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Textur-Ortsboden"
+        "@value": "Parabraunerde"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2101",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2100"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "typischer Pseudogley"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2101"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "typischer Pseudogley"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1600",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Rohbodengruppe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1602"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1601"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1600"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Rohbodengruppe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -123,112 +301,6 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1403",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1400"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Hanggley"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1403"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Hanggley"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1903",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1900"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Parabraunerde"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1903"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Parabraunerde"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
     "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2330",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -282,386 +354,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1502",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1500"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Solontschak - Solonetz"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1502"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Solontschak - Solonetz"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2203",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2200"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Roterde"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "2203"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Roterde"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2323",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2320"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Gartenboden"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "2323"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Gartenboden"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1503",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1500"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Solonetz"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1503"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Solonetz"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1600",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Rohbodengruppe"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1602"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1601"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1600"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Rohbodengruppe"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1702",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1700"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Pararendsina"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1702"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Pararendsina"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2322",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2320"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Kulturrohboden"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "2322"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Kulturrohboden"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1602",
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1601",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -683,7 +376,7 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Lockersediment-Rohboden"
+        "@value": "Gesteinsrohboden"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -693,74 +386,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "1602"
+        "@value": "1601"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Lockersediment-Rohboden"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2340",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2300"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "SchÃ¼ttungsboden"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2342"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2341"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "2340"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "SchÃ¼ttungsboden"
+        "@value": "Gesteinsrohboden"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -828,7 +460,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1805",
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1303",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -844,13 +476,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1800"
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1300"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Feuchtschwarzerde"
+        "@value": "brauner Auboden"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -860,13 +492,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "1805"
+        "@value": "1303"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Feuchtschwarzerde"
+        "@value": "brauner Auboden"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -881,7 +513,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2002",
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1401",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -897,13 +529,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2000"
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1400"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "typischer Podsol"
+        "@value": "typischer Gley"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -913,13 +545,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "2002"
+        "@value": "1401"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "typischer Podsol"
+        "@value": "typischer Gley"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -934,74 +566,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2300",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "atypische BÃ¶den"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2340"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2330"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2320"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2310"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "2300"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "atypische BÃ¶den"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1803",
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1703",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1017,13 +582,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1800"
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1700"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Brauner Tschernosem"
+        "@value": "Ranker"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1033,13 +598,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "1803"
+        "@value": "1703"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Brauner Tschernosem"
+        "@value": "Ranker"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -1054,7 +619,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2204",
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1502",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1070,13 +635,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2200"
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1500"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Reliktpseudogley"
+        "@value": "Solontschak - Solonetz"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1086,138 +651,18 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "2204"
+        "@value": "1502"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Reliktpseudogley"
+        "@value": "Solontschak - Solonetz"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1801",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1800"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Gebirgsschwarzerde"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1801"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Gebirgsschwarzerde"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1300",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Aubodengruppe"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1304"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1303"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1302"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1301"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1300"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Aubodengruppe"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -1291,7 +736,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1601",
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2341",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1307,13 +752,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1600"
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2340"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Gesteinsrohboden"
+        "@value": "Haldenboden, Planieboden"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1323,13 +768,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "1601"
+        "@value": "2341"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Gesteinsrohboden"
+        "@value": "Haldenboden, Planieboden"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -1344,7 +789,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1401",
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2104",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1360,13 +805,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1400"
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2100"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "typischer Gley"
+        "@value": "Hangpseudogley"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1376,13 +821,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "1401"
+        "@value": "2104"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "typischer Gley"
+        "@value": "Hangpseudogley"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -1397,7 +842,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1303",
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1702",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1413,13 +858,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1300"
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1700"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "brauner Auboden"
+        "@value": "Pararendsina"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1429,13 +874,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "1303"
+        "@value": "1702"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "brauner Auboden"
+        "@value": "Pararendsina"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -1450,71 +895,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1400",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Gleygruppe"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1403"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1402"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1401"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1400"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Gleygruppe"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1302",
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2001",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1530,13 +911,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1300"
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2000"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "grauer Auboden"
+        "@value": "Semipodsol"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1546,13 +927,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "1302"
+        "@value": "2001"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "grauer Auboden"
+        "@value": "Semipodsol"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -1567,470 +948,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1901",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1900"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Felsbraunerde"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1901"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Felsbraunerde"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1800",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Schwarzerdegruppe"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1805"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1804"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1803"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1802"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1801"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1800"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Schwarzerdegruppe"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1402",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1400"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "extremer Gley"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1402"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "extremer Gley"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2400",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "nicht identifizierbare BÃ¶den"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "2400"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "nicht identifizierbare BÃ¶den"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1100",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Moor- und Anmoorgruppe"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1103"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1102"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1101"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1100"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Moor- und Anmoorgruppe"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1700",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Rendsina - Ranker - Gruppe"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1703"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1702"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1701"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1700"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Rendsina - Ranker - Gruppe"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2201",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2200"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Braunlehm"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "2201"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Braunlehm"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2321",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2320"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Restboden"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "2321"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Restboden"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2311",
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2312",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -2052,7 +970,7 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Farb-Ortsboden"
+        "@value": "Textur-Ortsboden"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -2062,13 +980,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "2311"
+        "@value": "2312"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Farb-Ortsboden"
+        "@value": "Textur-Ortsboden"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -2083,7 +1001,71 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1501",
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1900",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Braunerdegruppe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1903"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1902"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1901"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1900"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Braunerdegruppe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2323",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -2099,13 +1081,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1500"
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2320"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Solontschak"
+        "@value": "Gartenboden"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -2115,13 +1097,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "1501"
+        "@value": "2323"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Solontschak"
+        "@value": "Gartenboden"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -2251,6 +1233,59 @@
     ]
   },
   {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2400",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "nicht identifizierbare BÃ¶den"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2400"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "nicht identifizierbare BÃ¶den"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
     "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2202",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -2304,272 +1339,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1101",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1100"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Hochmoor"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1101"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Hochmoor"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2342",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2340"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Kolluvium, Bodensedimente"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "2342"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Kolluvium, Bodensedimente"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2205",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2200"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Terra Fusca"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "2205"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Terra Fusca"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2104",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2100"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Hangpseudogley"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "2104"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Hangpseudogley"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2101",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2100"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "typischer Pseudogley"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "2101"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "typischer Pseudogley"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1201",
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1300",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -2586,60 +1356,7 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Anmoor"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1201"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Anmoor"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1900",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Braunerdegruppe"
+        "@value": "Aubodengruppe"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -2649,24 +1366,27 @@
     ],
     "http://www.w3.org/2004/02/skos/core#narrower": [
       {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1903"
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1304"
       },
       {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1902"
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1303"
       },
       {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1901"
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1302"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1301"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "1900"
+        "@value": "1300"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Braunerdegruppe"
+        "@value": "Aubodengruppe"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -2686,7 +1406,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1304",
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1503",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -2702,13 +1422,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1300"
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1500"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Schwemmboden"
+        "@value": "Solonetz"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -2718,13 +1438,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "1304"
+        "@value": "1503"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Schwemmboden"
+        "@value": "Solonetz"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -2739,7 +1459,74 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1802",
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2300",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "atypische BÃ¶den"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2340"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2330"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2320"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2310"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2300"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "atypische BÃ¶den"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1805",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -2761,7 +1548,7 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Tschernosem"
+        "@value": "Feuchtschwarzerde"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -2771,289 +1558,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "1802"
+        "@value": "1805"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Tschernosem"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2313",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2310"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Struktur-Ortsboden"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "2313"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Struktur-Ortsboden"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2341",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2340"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Haldenboden, Planieboden"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "2341"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Haldenboden, Planieboden"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2001",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2000"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Semipodsol"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "2001"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Semipodsol"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1500",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Salzbodengruppe"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1503"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1502"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1501"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1500"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Salzbodengruppe"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1701",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1700"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Rendsina"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1701"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Rendsina"
+        "@value": "Feuchtschwarzerde"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -3121,7 +1632,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2103",
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2201",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -3137,13 +1648,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2100"
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2200"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Stagnogley"
+        "@value": "Braunlehm"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -3153,13 +1664,297 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "2103"
+        "@value": "2201"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Stagnogley"
+        "@value": "Braunlehm"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2340",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2300"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "SchÃ¼ttungsboden"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2342"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2341"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2340"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "SchÃ¼ttungsboden"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/0",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "keine Angabe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "keine Angabe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1602",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1600"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Lockersediment-Rohboden"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1602"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Lockersediment-Rohboden"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1700",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Rendsina - Ranker - Gruppe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1703"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1702"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1701"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1700"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Rendsina - Ranker - Gruppe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1501",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1500"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Solontschak"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1501"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Solontschak"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -3238,6 +2033,631 @@
     ]
   },
   {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2100",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Pseudogley-Gruppe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2104"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2103"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2102"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2101"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2100"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Pseudogley-Gruppe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1802",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1800"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Tschernosem"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1802"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Tschernosem"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1803",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1800"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Brauner Tschernosem"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1803"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Brauner Tschernosem"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1101",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1100"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Hochmoor"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1101"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Hochmoor"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1701",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1700"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Rendsina"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1701"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Rendsina"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1400",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Gleygruppe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1403"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1402"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1401"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1400"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Gleygruppe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1800",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Schwarzerdegruppe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1805"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1804"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1803"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1802"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1801"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1800"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Schwarzerdegruppe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1901",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1900"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Felsbraunerde"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1901"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Felsbraunerde"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1801",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1800"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Gebirgsschwarzerde"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1801"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Gebirgsschwarzerde"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1402",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1400"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "extremer Gley"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1402"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "extremer Gley"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2103",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2100"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Stagnogley"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2103"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Stagnogley"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
     "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1902",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -3277,112 +2697,6 @@
       {
         "@language": "de",
         "@value": "Lockersedimentbraunerde"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1804",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1800"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Paratschernosem"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1804"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Paratschernosem"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1301",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/so"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1300"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Rohauboden"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1301"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Rohauboden"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -3450,7 +2764,537 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/0",
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2321",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2320"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Restboden"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2321"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Restboden"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1804",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1800"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Paratschernosem"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1804"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Paratschernosem"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2311",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2310"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Farb-Ortsboden"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2311"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Farb-Ortsboden"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1302",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1300"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "grauer Auboden"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1302"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "grauer Auboden"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1304",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1300"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Schwemmboden"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1304"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Schwemmboden"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2313",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2310"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Struktur-Ortsboden"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2313"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Struktur-Ortsboden"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2002",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2000"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "typischer Podsol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2002"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "typischer Podsol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2322",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2320"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Kulturrohboden"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2322"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Kulturrohboden"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2342",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2340"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Kolluvium, Bodensedimente"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2342"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Kolluvium, Bodensedimente"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2204",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2200"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Reliktpseudogley"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2204"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Reliktpseudogley"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1201",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -3467,7 +3311,7 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "keine Angabe"
+        "@value": "Anmoor"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -3477,13 +3321,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "0"
+        "@value": "1201"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "keine Angabe"
+        "@value": "Anmoor"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -3564,7 +3408,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1703",
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1403",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -3580,13 +3424,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1700"
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1400"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Ranker"
+        "@value": "Hanggley"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -3596,13 +3440,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "1703"
+        "@value": "1403"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Ranker"
+        "@value": "Hanggley"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -3617,7 +3461,166 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2100",
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1301",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1300"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Rohauboden"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1301"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Rohauboden"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2203",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2200"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Roterde"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2203"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Roterde"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2205",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/so"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/so"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2200"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Terra Fusca"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2205"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Terra Fusca"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1500",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -3634,7 +3637,7 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Pseudogley-Gruppe"
+        "@value": "Salzbodengruppe"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -3644,27 +3647,24 @@
     ],
     "http://www.w3.org/2004/02/skos/core#narrower": [
       {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2104"
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1503"
       },
       {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2103"
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1502"
       },
       {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2102"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2101"
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1501"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "2100"
+        "@value": "1500"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Pseudogley-Gruppe"
+        "@value": "Salzbodengruppe"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [

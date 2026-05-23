@@ -1,5 +1,222 @@
 [
   {
+    "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/G",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "GRÃNLAND"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "G"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "GRÃNLAND"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/FO",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "FORST"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "FO"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "FORST"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WI",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "WEINGARTENFLÃCHEN IM ERTRAG INKL. JUNGANLAGEN UND SCHNITTWEINGÃRTEN"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "WI"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "WEINGARTENFLÃCHEN"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/LM",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "ALMFELDSTÃCK - MITBESTOSSEN"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "LM"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "ALMFELDSTÃCK - MITBESTOSSEN"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
     "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/AN",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -34,59 +251,6 @@
       {
         "@language": "de",
         "@value": "ACKER NICHT KPF BEIHILFEFÃHIG"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/DM",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "WEIDEFELDSTÃCK - MITBESTOSSEN"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "DM"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "WEIDEFELDSTÃCK - MITBESTOSSEN"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -164,7 +328,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/FO",
+    "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/A",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -181,7 +345,7 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "FORST"
+        "@value": "ACKERLAND"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -191,13 +355,119 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "FO"
+        "@value": "A"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "FORST"
+        "@value": "ACKERLAND"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WT",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WI"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "WEINGARTENFLÃCHEN IM ERTRAG INKL. JUNGANLAGEN UND SCHNITTWEINGÃRTEN - TERRASSENANLAGEN"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "WT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "WEINGARTENFLÃCHEN TERRASSAN"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/DM",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "WEIDEFELDSTÃCK - MITBESTOSSEN"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "DM"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "WEIDEFELDSTÃCK - MITBESTOSSEN"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -270,218 +540,6 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/GA",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "GESCHÃTZTER ANBAU"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "GA"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "GESCHÃTZTER ANBAU"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/PF",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "PFLEGEFLÃCHE"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "PF"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "PFLEGEFLÃCHE"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/LM",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "ALMFELDSTÃCK - MITBESTOSSEN"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "LM"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "ALMFELDSTÃCK - MITBESTOSSEN"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/A",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "ACKERLAND"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "A"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "ACKERLAND"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
     "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/L",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -535,7 +593,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/TF",
+    "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/NF",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -552,7 +610,7 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "TEICHFLÃCHEN"
+        "@value": "SONSTIGE NUTZFLÃCHE"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -562,124 +620,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "TF"
+        "@value": "NF"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "TEICHFLÃCHEN"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/G",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "GRÃNLAND"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "G"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "GRÃNLAND"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WI",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "WEINGARTENFLÃCHEN IM ERTRAG INKL. JUNGANLAGEN UND SCHNITTWEINGÃRTEN"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WT"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "WI"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "WEINGARTENFLÃCHEN"
+        "@value": "SONSTIGE NUTZFLÃCHE"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -811,112 +758,6 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/NF",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "SONSTIGE NUTZFLÃCHE"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "NF"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "SONSTIGE NUTZFLÃCHE"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WT",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WI"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "WEINGARTENFLÃCHEN IM ERTRAG INKL. JUNGANLAGEN UND SCHNITTWEINGÃRTEN - TERRASSENANLAGEN"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "WT"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "WEINGARTENFLÃCHEN TERRASSAN"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
     "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/D",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -951,6 +792,165 @@
       {
         "@language": "de",
         "@value": "GEMEINSCHAFTSWEIDE"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/TF",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "TEICHFLÃCHEN"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "TF"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "TEICHFLÃCHEN"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/PF",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "PFLEGEFLÃCHE"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "PF"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "PFLEGEFLÃCHE"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/GA",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "GESCHÃTZTER ANBAU"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "GA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "GESCHÃTZTER ANBAU"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [

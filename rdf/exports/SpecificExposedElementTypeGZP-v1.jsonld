@@ -1,76 +1,5 @@
 [
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ100",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. UBA"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. UBA"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Hochwasser mittlerer Wahrscheinlichkeit mit einem voraussichtlichen Wiederkehrintervall von zumindest 100 Jahren"
-      },
-      {
-        "@language": "en",
-        "@value": "not available"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "UeberflutungsflaechenHQ100"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "ÃberflutungsflÃ¤chen HQ100"
-      },
-      {
-        "@language": "de",
-        "@value": "ÃberflutungsflÃ¤chen HQ100"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
     "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ300",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -123,148 +52,6 @@
       {
         "@language": "de",
         "@value": "ÃberflutungsflÃ¤chen HQ300"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/BlaueFunktionsbereiche",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. UBA"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. UBA"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "not available"
-      },
-      {
-        "@language": "de",
-        "@value": "FlÃ¤chen, die fÃ¼r die DurchfÃ¼hrung sowie fÃ¼r die Aufrechterhaltung der Funktionen geplanter schutzwasserwirtschaftlicher MaÃnahmen benÃ¶tigt werden."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "BlaueFunktionsbereiche"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Blaue Funktionsbereiche"
-      },
-      {
-        "@language": "de",
-        "@value": "Blaue Funktionsbereiche"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ30",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. UBA"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. UBA"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Hochwasser hoher Wahrscheinlichkeit mit einem voraussichtlichen Wiederkehrintervall von 30 Jahren"
-      },
-      {
-        "@language": "en",
-        "@value": "not available"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "UeberflutungsflaechenHQ30"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "ÃberflutungsflÃ¤chen HQ30"
-      },
-      {
-        "@language": "de",
-        "@value": "ÃberflutungsflÃ¤chen HQ30"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -355,7 +142,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/GelbeGefahrenzonen",
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ30",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -382,7 +169,7 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Alle Ã¼brigen durch das Bemessungsereignis mittlerer Wahrscheinlichkeit betroffenen ÃberflutungsflÃ¤chen. In diesen FlÃ¤chen kÃ¶nnen unterschiedliche GefÃ¤hrdungen geringeren AusmaÃes oder BeeintrÃ¤chtigungen der Nutzung fÃ¼r Siedlungs- und Verkehrszwecke auftreten oder sind BeschÃ¤digungen von Bauobjekten und Verkehrsanlagen mÃ¶glich."
+        "@value": "Hochwasser hoher Wahrscheinlichkeit mit einem voraussichtlichen Wiederkehrintervall von 30 Jahren"
       },
       {
         "@language": "en",
@@ -396,159 +183,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "GelbeGefahrenzonen"
+        "@value": "UeberflutungsflaechenHQ30"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Gelbe Gefahrenzonen"
+        "@value": "ÃberflutungsflÃ¤chen HQ30"
       },
       {
         "@language": "de",
-        "@value": "Gelbe Gefahrenzonen"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/Restrisikogebiete",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. UBA"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. UBA"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Zonen mit GefÃ¤hrdung niedriger Wahrscheinlichkeit (Restrisikogebiete') basieren auf dem Hochwasser niedriger Wahrscheinlichkeit (HQ300 oder Extremereignisse) und weisen auf die RestgefÃ¤hrdung beispielsweise bei Ãberschreiten des Schutzgrades bzw. erhÃ¶hte Schadenswirkung bei Versagen von SchutzmaÃnahmen hin."
-      },
-      {
-        "@language": "en",
-        "@value": "not available"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "Restrisikogebiete"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Restrisikogebiete"
-      },
-      {
-        "@language": "de",
-        "@value": "Restrisikogebiete"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RoteGefahrenzonen",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. UBA"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. UBA"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "FlÃ¤chen, die durch das Bemessungsereignis mittlerer Wahrscheinlichkeit derart gefÃ¤hrdet sind, dass ihre stÃ¤ndige BenÃ¼tzung fÃ¼r Siedlungs- und Verkehrszwecke wegen der voraussichtlichen Schadenswirkungen nicht oder nur mit unverhÃ¤ltnismÃ¤Ãig hohem Aufwand mÃ¶glich ist (Gefahr fÃ¼r Leib und Leben)."
-      },
-      {
-        "@language": "en",
-        "@value": "not available"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "RoteGefahrenzonen"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Rote Gefahrenzonen"
-      },
-      {
-        "@language": "de",
-        "@value": "Rote Gefahrenzonen"
+        "@value": "ÃberflutungsflÃ¤chen HQ30"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -643,6 +288,361 @@
       {
         "@language": "en",
         "@value": "INSPIRE extensibility: open, internal by value"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/Restrisikogebiete",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. UBA"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. UBA"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Zonen mit GefÃ¤hrdung niedriger Wahrscheinlichkeit (Restrisikogebiete') basieren auf dem Hochwasser niedriger Wahrscheinlichkeit (HQ300 oder Extremereignisse) und weisen auf die RestgefÃ¤hrdung beispielsweise bei Ãberschreiten des Schutzgrades bzw. erhÃ¶hte Schadenswirkung bei Versagen von SchutzmaÃnahmen hin."
+      },
+      {
+        "@language": "en",
+        "@value": "not available"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "Restrisikogebiete"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Restrisikogebiete"
+      },
+      {
+        "@language": "de",
+        "@value": "Restrisikogebiete"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ100",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. UBA"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. UBA"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Hochwasser mittlerer Wahrscheinlichkeit mit einem voraussichtlichen Wiederkehrintervall von zumindest 100 Jahren"
+      },
+      {
+        "@language": "en",
+        "@value": "not available"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "UeberflutungsflaechenHQ100"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "ÃberflutungsflÃ¤chen HQ100"
+      },
+      {
+        "@language": "de",
+        "@value": "ÃberflutungsflÃ¤chen HQ100"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RoteGefahrenzonen",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. UBA"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. UBA"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "FlÃ¤chen, die durch das Bemessungsereignis mittlerer Wahrscheinlichkeit derart gefÃ¤hrdet sind, dass ihre stÃ¤ndige BenÃ¼tzung fÃ¼r Siedlungs- und Verkehrszwecke wegen der voraussichtlichen Schadenswirkungen nicht oder nur mit unverhÃ¤ltnismÃ¤Ãig hohem Aufwand mÃ¶glich ist (Gefahr fÃ¼r Leib und Leben)."
+      },
+      {
+        "@language": "en",
+        "@value": "not available"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "RoteGefahrenzonen"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Rote Gefahrenzonen"
+      },
+      {
+        "@language": "de",
+        "@value": "Rote Gefahrenzonen"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/GelbeGefahrenzonen",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. UBA"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. UBA"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Alle Ã¼brigen durch das Bemessungsereignis mittlerer Wahrscheinlichkeit betroffenen ÃberflutungsflÃ¤chen. In diesen FlÃ¤chen kÃ¶nnen unterschiedliche GefÃ¤hrdungen geringeren AusmaÃes oder BeeintrÃ¤chtigungen der Nutzung fÃ¼r Siedlungs- und Verkehrszwecke auftreten oder sind BeschÃ¤digungen von Bauobjekten und Verkehrsanlagen mÃ¶glich."
+      },
+      {
+        "@language": "en",
+        "@value": "not available"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "GelbeGefahrenzonen"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Gelbe Gefahrenzonen"
+      },
+      {
+        "@language": "de",
+        "@value": "Gelbe Gefahrenzonen"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/BlaueFunktionsbereiche",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. UBA"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. UBA"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "not available"
+      },
+      {
+        "@language": "de",
+        "@value": "FlÃ¤chen, die fÃ¼r die DurchfÃ¼hrung sowie fÃ¼r die Aufrechterhaltung der Funktionen geplanter schutzwasserwirtschaftlicher MaÃnahmen benÃ¶tigt werden."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "BlaueFunktionsbereiche"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Blaue Funktionsbereiche"
+      },
+      {
+        "@language": "de",
+        "@value": "Blaue Funktionsbereiche"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"
       }
     ],
     "http://www.w3.org/ns/adms#status": [

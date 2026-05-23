@@ -6,6 +6,34 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/MoorObjekt">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/hb"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"/>
+    <skos:definition xml:lang="de">MoorflÃ¤chen aus dem Moorschutzkatalog (Steiner et al. 1992), Hrsg.: Bundesministerium fÃ¼r Gesundheit und Umweltschutz, Credits: Gert Michael STEINER unter Mitarbeit von P. Englmaier, M. Fink, F, GrÃ¼nweis, I. HÃ¶fner I. Korner, A. StrÃ¶hle und W. Wolf (im Auftrag des Bundesministeriums fÃ¼r Gesundheit und Umweltschutz), Wien, 1992</skos:definition>
+    <skos:definition xml:lang="en">Bog and mire inventory</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"/>
+    <skos:notation>MoorObjekt</skos:notation>
+    <skos:prefLabel xml:lang="de">Moorobjekt</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bog and Mire object</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/TrockenrasenObjekt">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/hb"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"/>
+    <skos:definition xml:lang="en">Mapping of dry meadows in Austria</skos:definition>
+    <skos:definition xml:lang="de">FlÃ¤chenhaft abgegrenzte Trockenrasen Ãsterreichs mit Stand 1986; vielfach schon sehr veralterte Information, Gesamtanzahl der flÃ¤chenhaft abgegrenzten Trockenrasen: 682. Erstabgrenzung anhand der topographischen Karte ÃK 50; Abgrenzung vor allem in OstÃ¶sterreich (Sauberer), ErgÃ¤nzung im Jahr 2008 durch VINCA und Aufbereitung durch Digitalisierung.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"/>
+    <skos:notation>TrockenrasenObjekt</skos:notation>
+    <skos:prefLabel xml:lang="de">Trockenrasenobjekt</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Dry meadow object</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
@@ -24,20 +52,6 @@
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/AuenObjekt">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/hb"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"/>
-    <skos:definition xml:lang="en">Inventory of floodplain objects in Austria (minimum area 20 ha) and detailed mapping in Carinthia and Styria (minimum area 5 ha).822 floodplain properties with a total area of 95,541 ha were designated.Â  Credits: Werner LAZOWSKI and Ulrich SCHWARZ, Aueninventar Austria: Report on the nationwide overview of floodplain objects, Vienna, 2011; Reference: Siehe: https://www.bmlrt.gv.at/dam/jcr:988293c2-2c0e-424d-86dd-91721197be61/%C3%96sterreichisches%20Aueninventar_Final_20111108.pdf</skos:definition>
-    <skos:definition xml:lang="de">Inventar der Auobjekte Ãsterreichs (MinimalflÃ¤che 20 ha) und Detailkartierung in KÃ¤rnten und Steiermark (MinimalflÃ¤che 5 ha). 822 Auenobjekte mit einer GesamtflÃ¤che von 95.541 ha. , Credits: Werner LAZOWSKI und Ulrich SCHWARZ, Aueninventar Ãsterreich: Bericht zur bundesweiten Ãbersicht der Auobjekte, Wien, 2011; Siehe: https://www.bmlrt.gv.at/dam/jcr:988293c2-2c0e-424d-86dd-91721197be61/%C3%96sterreichisches%20Aueninventar_Final_20111108.pdf</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"/>
-    <skos:notation>AuenObjekt</skos:notation>
-    <skos:prefLabel xml:lang="en">Floodplain object</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Auenobjekt</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
@@ -54,6 +68,20 @@
     <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/AuenObjekt">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/hb"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"/>
+    <skos:definition xml:lang="en">Inventory of floodplain objects in Austria (minimum area 20 ha) and detailed mapping in Carinthia and Styria (minimum area 5 ha).822 floodplain properties with a total area of 95,541 ha were designated.Â  Credits: Werner LAZOWSKI and Ulrich SCHWARZ, Aueninventar Austria: Report on the nationwide overview of floodplain objects, Vienna, 2011; Reference: Siehe: https://www.bmlrt.gv.at/dam/jcr:988293c2-2c0e-424d-86dd-91721197be61/%C3%96sterreichisches%20Aueninventar_Final_20111108.pdf</skos:definition>
+    <skos:definition xml:lang="de">Inventar der Auobjekte Ãsterreichs (MinimalflÃ¤che 20 ha) und Detailkartierung in KÃ¤rnten und Steiermark (MinimalflÃ¤che 5 ha). 822 Auenobjekte mit einer GesamtflÃ¤che von 95.541 ha. , Credits: Werner LAZOWSKI und Ulrich SCHWARZ, Aueninventar Ãsterreich: Bericht zur bundesweiten Ãbersicht der Auobjekte, Wien, 2011; Siehe: https://www.bmlrt.gv.at/dam/jcr:988293c2-2c0e-424d-86dd-91721197be61/%C3%96sterreichisches%20Aueninventar_Final_20111108.pdf</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"/>
+    <skos:notation>AuenObjekt</skos:notation>
+    <skos:prefLabel xml:lang="en">Floodplain object</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Auenobjekt</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/FeuchtgebietsObjekt">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
@@ -65,34 +93,6 @@
     <skos:notation>FeuchtgebietsObjekt</skos:notation>
     <skos:prefLabel xml:lang="en">Wetland object</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Feuchtgebietsobjekt</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/TrockenrasenObjekt">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/hb"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"/>
-    <skos:definition xml:lang="en">Mapping of dry meadows in Austria</skos:definition>
-    <skos:definition xml:lang="de">FlÃ¤chenhaft abgegrenzte Trockenrasen Ãsterreichs mit Stand 1986; vielfach schon sehr veralterte Information, Gesamtanzahl der flÃ¤chenhaft abgegrenzten Trockenrasen: 682. Erstabgrenzung anhand der topographischen Karte ÃK 50; Abgrenzung vor allem in OstÃ¶sterreich (Sauberer), ErgÃ¤nzung im Jahr 2008 durch VINCA und Aufbereitung durch Digitalisierung.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"/>
-    <skos:notation>TrockenrasenObjekt</skos:notation>
-    <skos:prefLabel xml:lang="de">Trockenrasenobjekt</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Dry meadow object</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/MoorObjekt">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/hb"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"/>
-    <skos:definition xml:lang="de">MoorflÃ¤chen aus dem Moorschutzkatalog (Steiner et al. 1992), Hrsg.: Bundesministerium fÃ¼r Gesundheit und Umweltschutz, Credits: Gert Michael STEINER unter Mitarbeit von P. Englmaier, M. Fink, F, GrÃ¼nweis, I. HÃ¶fner I. Korner, A. StrÃ¶hle und W. Wolf (im Auftrag des Bundesministeriums fÃ¼r Gesundheit und Umweltschutz), Wien, 1992</skos:definition>
-    <skos:definition xml:lang="en">Bog and mire inventory</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"/>
-    <skos:notation>MoorObjekt</skos:notation>
-    <skos:prefLabel xml:lang="de">Moorobjekt</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Bog and Mire object</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
