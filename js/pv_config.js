@@ -1,5 +1,5 @@
 
-const ENDPOINT = 'https://fuseki.geoinformation.dev/codelist-registry/sparql';
+const ENDPOINT = 'https://fuseki.geoinformation.dev/codelists-at/sparql';
 const DOMAIN = 'https://registry.inspire.gv.at';
 
 const PAGE = {

@@ -426,7 +426,7 @@ function insertDataProviderList() {
 //************************     show CODELIST page     ****************************************************
 
 function showCodelist(uri, cl) {
-    
+    // every codelist must have a publisher except the dataprovider codelist itself, which is a special case and does not have a publisher (as of now)
     let query = encodeURIComponent(`PREFIX dcterms: <http://purl.org/dc/terms/>
         PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
         PREFIX adms:<http://www.w3.org/ns/adms#>
@@ -460,11 +460,12 @@ function showCodelist(uri, cl) {
             OPTIONAL {?URI skos:broader ?o . ?o skos:prefLabel ?p .}
     		OPTIONAL {?URI skos:broader ?o . ?o skos:prefLabel ?p1 . FILTER(lang(?p1)="${USER_LANG}")}
         }
-            ${cl !== 'dataprovider' ? 'GRAPH ?dp { OPTIONAL {?pub skos:prefLabel ?pubLabel} OPTIONAL {?pub skos:definition ?pubdef} OPTIONAL {?pub skos:prefLabel ?pubLabel1 . FILTER(lang(?pubLabel1)="${USER_LANG}")}}' : ''}
+            ${cl !== 'dataprovider' ? `GRAPH ?dp { OPTIONAL {?pub skos:prefLabel ?pubLabel} OPTIONAL {?pub skos:definition ?pubdef} OPTIONAL {?pub skos:prefLabel ?pubLabel1 . FILTER(lang(?pubLabel1)="${USER_LANG}")}}` : ''}
         }
 
         GROUP BY ?URI ?Label ?g ?l ?l1 ?p ?p1 ?tit ?tit1 ?desc ?desc1 ?insertDate ?editDate
         ORDER BY ?Label`);
+
     fetch(ENDPOINT + '?query=' + query + '&format=json')
         .then(res => res.json()) 
         .then(jsonData => {
