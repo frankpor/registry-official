@@ -1,6 +1,6 @@
 [
   {
-    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandParkArea",
+    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteLand",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -12,11 +12,11 @@
     "http://purl.org/dc/terms/description": [
       {
         "@language": "en",
-        "@value": "Â§ 20 (2) Z 12"
+        "@value": "§ 20 (2) Z 16"
       },
       {
         "@language": "de",
-        "@value": "Â§ 20 (2) Z 12"
+        "@value": "§ 20 (2) Z 16"
       }
     ],
     "http://purl.org/dc/terms/subject": [
@@ -27,11 +27,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Gruenland Parkanlagen: Flaechen, die zur Erholung und/oder Repraesentation im Freien dienen und nach einem Gesamtkonzept gestaltet und bepflanzt sind oder werden sollen."
+        "@value": "Gruenland Oedland/Oekoflaechen: Flaechen, die keiner oder nur einer unbedeutenden wirtschaftlichen Nutzung dienen."
       },
       {
         "@language": "en",
-        "@value": "Green land - park areas: areas meant for recreation and/or representation in the outdoors and that are or are intended to be designed and planted according to an overall concept"
+        "@value": "Green land - uncultivated/ecological areas: areas that serve no or only insignificant economic purpose"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -41,17 +41,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "greenLandParkArea"
+        "@value": "greenLandWasteLand"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Gruenland-Parkanlagen"
+        "@value": "Gruenland-Oedland"
       },
       {
         "@language": "en",
-        "@value": "Green land - park area"
+        "@value": "Green land-waste land"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -71,7 +71,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandAgricultureAndForestryFarm",
+    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCampsite",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -83,11 +83,11 @@
     "http://purl.org/dc/terms/description": [
       {
         "@language": "en",
-        "@value": "Â§ 20 (2) Z 1b"
+        "@value": "§ 20 (2) Z 10"
       },
       {
         "@language": "de",
-        "@value": "Â§ 20 (2) Z 1b"
+        "@value": "§ 20 (2) Z 10"
       },
       {
         "@language": "en",
@@ -106,11 +106,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Gruenland land- und forstwirtschaftliche Hofstellen."
+        "@value": "Gruenland Campingplaetze."
       },
       {
         "@language": "en",
-        "@value": "Green land - agricultural and forestry farms."
+        "@value": "Green land - campsites."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -120,96 +120,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "greenLandAgricultureAndForestryFarm"
+        "@value": "greenLandCampsite"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Gruenland land- und forstwirtschaftliche Hofstelle"
+        "@value": "Gruenland Campingplatz"
       },
       {
         "@language": "en",
-        "@value": "Green land agricultural and forestry farm"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/centreZone",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Â§ 14 (2) Z 15 Â§ 18 (1)"
-      },
-      {
-        "@language": "de",
-        "@value": "Â§ 14 (2) Z 15 Â§ 18 (1)"
-      },
-      {
-        "@language": "en",
-        "@value": "Def. NOE"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. NOE"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Zentrumszone."
-      },
-      {
-        "@language": "en",
-        "@value": "The land use type 'Building land - core area commercial facilities' is only in this zone allowed."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "centreZone"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Zentrumszone"
-      },
-      {
-        "@language": "en",
-        "@value": "Centre zone"
+        "@value": "Green land campsite"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -241,11 +162,11 @@
     "http://purl.org/dc/terms/description": [
       {
         "@language": "en",
-        "@value": "Â§ 20 (2) Z 21"
+        "@value": "§ 20 (2) Z 21"
       },
       {
         "@language": "de",
-        "@value": "Â§ 20 (2) Z 21"
+        "@value": "§ 20 (2) Z 21"
       },
       {
         "@language": "en",
@@ -308,6 +229,77 @@
     ]
   },
   {
+    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandShelter",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "§ 20 (2) Z 3"
+      },
+      {
+        "@language": "de",
+        "@value": "§ 20 (2) Z 3"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Gruenland Schutzhauuser: Gast- und Beherbergungsbetriebe sowie Unterstandshuetten, die für die Beduerfnisse des fußwegigen Tourismus erforderlich sind."
+      },
+      {
+        "@language": "en",
+        "@value": "Green land - shelters: guesthouses, lodgings and shelter structures that are required to meet the needs of pedestrian tourism"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "greenLandShelter"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Gruenland-Schutzhaus"
+      },
+      {
+        "@language": "en",
+        "@value": "Green land - shelter"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
     "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#ConceptScheme"
@@ -330,7 +322,7 @@
       },
       {
         "@language": "de",
-        "@value": "Ãsterreich-Erweiterung fÃ¼r NiederÃsterreich spezifische Landnutzungsklassifizierung"
+        "@value": "Österreich-Erweiterung für NiederÖsterreich spezifische Landnutzungsklassifizierung"
       }
     ],
     "http://purl.org/dc/terms/publisher": [
@@ -453,7 +445,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandStorageSpace",
+    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandBuildingWorthyOfPreservation",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -465,698 +457,11 @@
     "http://purl.org/dc/terms/description": [
       {
         "@language": "en",
-        "@value": "Â§ 20 (2) Z 15"
+        "@value": "§ 20 (2) Z 4"
       },
       {
         "@language": "de",
-        "@value": "Â§ 20 (2) Z 15"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Gruenland Lagerplaetze: Flaechen, die der vorÃ¼bergehenden Lagerung von Waren aller Art - auÃerhalb von Gebaeuden - dienen."
-      },
-      {
-        "@language": "en",
-        "@value": "Green land - storage spaces: areas intended for temporary storage of all types of goods outside of buildings."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "greenLandStorageSpace"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Gruenland-Lagerplatz"
-      },
-      {
-        "@language": "en",
-        "@value": "Green land - storage space"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandLandfill",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Â§ 20 (2) Z 14"
-      },
-      {
-        "@language": "de",
-        "@value": "Â§ 20 (2) Z 14"
-      },
-      {
-        "@language": "en",
-        "@value": "Def. NOE"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. NOE"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Gruenland Aushubdeponien."
-      },
-      {
-        "@language": "en",
-        "@value": "Green land - landfills."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "greenLandLandfill"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Gruenland Aushubdeponie"
-      },
-      {
-        "@language": "en",
-        "@value": "Green land landfill"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCommercialUse",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Â§ 16 (1) Z 3 and 4"
-      },
-      {
-        "@language": "de",
-        "@value": "Â§ 16 (1) Z 3 and 4"
-      },
-      {
-        "@language": "en",
-        "@value": "Def. NOE"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. NOE"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Fasst die Baulandwidmungsarten Industriegebiete (BI) und Betriebsgebiete (BB) zusammen."
-      },
-      {
-        "@language": "en",
-        "@value": "Covers building land use types industrial areas (BI) and commercial (BB) areas."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "buildingLandCommercialUse"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "building land commercial use"
-      },
-      {
-        "@language": "de",
-        "@value": "Bauland Betriebsnutzung"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteTreatmentFacility",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Â§ 20 (2) Z 13"
-      },
-      {
-        "@language": "de",
-        "@value": "Â§ 20 (2) Z 13"
-      },
-      {
-        "@language": "en",
-        "@value": "Def. NOE"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. NOE"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Gruenland Abfallbehandlungsanlagen."
-      },
-      {
-        "@language": "en",
-        "@value": "Green land - waste treatment facilities."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "greenLandWasteTreatmentFacility"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Gruenland-Abfallbehandlungsanlage"
-      },
-      {
-        "@language": "en",
-        "@value": "Green land waste treatment facility"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandShelter",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Â§ 20 (2) Z 3"
-      },
-      {
-        "@language": "de",
-        "@value": "Â§ 20 (2) Z 3"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Gruenland Schutzhauuser: Gast- und Beherbergungsbetriebe sowie Unterstandshuetten, die fÃ¼r die Beduerfnisse des fuÃwegigen Tourismus erforderlich sind."
-      },
-      {
-        "@language": "en",
-        "@value": "Green land - shelters: guesthouses, lodgings and shelter structures that are required to meet the needs of pedestrian tourism"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "greenLandShelter"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Gruenland-Schutzhaus"
-      },
-      {
-        "@language": "en",
-        "@value": "Green land - shelter"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandResourceExtractionSite",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Â§ 20 (2) Z 5"
-      },
-      {
-        "@language": "de",
-        "@value": "Â§ 20 (2) Z 5"
-      },
-      {
-        "@language": "en",
-        "@value": "Def. NOE"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. NOE"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Gruenland Materialgewinnungsstaetten (Gewinnung von div. Rohstoffen)."
-      },
-      {
-        "@language": "en",
-        "@value": "Green land - resource extraction sites (recovery of various raw materials)."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "greenLandResourceExtractionSite"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Gruenland Materialgewinnungsstaette"
-      },
-      {
-        "@language": "en",
-        "@value": "Green land resource extraction site"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteLand",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Â§ 20 (2) Z 16"
-      },
-      {
-        "@language": "de",
-        "@value": "Â§ 20 (2) Z 16"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Gruenland Oedland/Oekoflaechen: Flaechen, die keiner oder nur einer unbedeutenden wirtschaftlichen Nutzung dienen."
-      },
-      {
-        "@language": "en",
-        "@value": "Green land - uncultivated/ecological areas: areas that serve no or only insignificant economic purpose"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "greenLandWasteLand"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Gruenland-Oedland"
-      },
-      {
-        "@language": "en",
-        "@value": "Green land-waste land"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCampsite",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Â§ 20 (2) Z 10"
-      },
-      {
-        "@language": "de",
-        "@value": "Â§ 20 (2) Z 10"
-      },
-      {
-        "@language": "en",
-        "@value": "Def. NOE"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. NOE"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Gruenland Campingplaetze."
-      },
-      {
-        "@language": "en",
-        "@value": "Green land - campsites."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "greenLandCampsite"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Gruenland Campingplatz"
-      },
-      {
-        "@language": "en",
-        "@value": "Green land campsite"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSportsFacility",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Â§ 20 (2) Z 8"
-      },
-      {
-        "@language": "de",
-        "@value": "Â§ 20 (2) Z 8"
-      },
-      {
-        "@language": "en",
-        "@value": "v"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. NOE"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Gruenland Sportstaetten."
-      },
-      {
-        "@language": "en",
-        "@value": "Green land - sports facilities."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "greenLandSportsFacility"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Gruenland Sportstaette"
-      },
-      {
-        "@language": "en",
-        "@value": "Green land sports facility"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandSpecialZone",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Â§ 16 (1) Z 6 and 16 (2)"
-      },
-      {
-        "@language": "de",
-        "@value": "Â§ 16 (1) Z 6 and 16 (2)"
+        "@value": "§ 20 (2) Z 4"
       },
       {
         "@language": "en",
@@ -1175,11 +480,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "Building land - special zones for uses that require particular protection such as hospitals, schools, nursing homes, or that are to be assigned a specific location, such as asphalt mixing plants, or that cannot be categorised under other building use types, such as barracks or sports facilities."
+        "@value": "Green land - buildings worthy of preservation."
       },
       {
         "@language": "de",
-        "@value": "Bauland Sondergebiete, fuer Nutzungen, die einen besonderen Schutz wie Krankenanstalten, Schulen, Pflegeheime erfordern oder denen ein bestimmter Standort zugeordnet werden soll wie Asphaltmischanalgen oder die sich nicht in die anderen Baulandwidmungen einordnen lassen wie Kasernen oder Sportanlagen."
+        "@value": "Erhaltenswerte Gebaeude im Gruenland."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1189,17 +494,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "buildingLandSpecialZone"
+        "@value": "greenLandBuildingWorthyOfPreservation"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Building land special zone"
+        "@value": "Green land building worthy of preservation"
       },
       {
         "@language": "de",
-        "@value": "Bauland-Sondergebiet"
+        "@value": "Erhaltenswerte Gebaeude im Gruenland"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -1231,11 +536,11 @@
     "http://purl.org/dc/terms/description": [
       {
         "@language": "en",
-        "@value": "Â§ 20 (2) Z 6"
+        "@value": "§ 20 (2) Z 6"
       },
       {
         "@language": "de",
-        "@value": "Â§ 20 (2) Z 6"
+        "@value": "§ 20 (2) Z 6"
       },
       {
         "@language": "en",
@@ -1298,7 +603,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCemetery",
+    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPlayground",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1310,11 +615,11 @@
     "http://purl.org/dc/terms/description": [
       {
         "@language": "en",
-        "@value": "Â§ 20 (2) Z 11"
+        "@value": "§ 20 (2) Z 9"
       },
       {
         "@language": "de",
-        "@value": "Â§ 20 (2) Z 11"
+        "@value": "§ 20 (2) Z 9"
       },
       {
         "@language": "en",
@@ -1333,11 +638,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Gruenland Friedhoefe."
+        "@value": "Gruenland Spielplaetze."
       },
       {
         "@language": "en",
-        "@value": "Green land cemeteries."
+        "@value": "Green land - playgrounds."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1347,17 +652,175 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "greenLandCemetery"
+        "@value": "greenLandPlayground"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Gruenland-Friedhof"
+        "@value": "Gruenland Spielplatz"
       },
       {
         "@language": "en",
-        "@value": "Green land cemetery"
+        "@value": "Green land playground"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandLandfill",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "§ 20 (2) Z 14"
+      },
+      {
+        "@language": "de",
+        "@value": "§ 20 (2) Z 14"
+      },
+      {
+        "@language": "en",
+        "@value": "Def. NOE"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. NOE"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Gruenland Aushubdeponien."
+      },
+      {
+        "@language": "en",
+        "@value": "Green land - landfills."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "greenLandLandfill"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Gruenland Aushubdeponie"
+      },
+      {
+        "@language": "en",
+        "@value": "Green land landfill"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWindPowerPlant",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "§ 20 (2) Z 19"
+      },
+      {
+        "@language": "de",
+        "@value": "§ 20 (2) Z 19"
+      },
+      {
+        "@language": "en",
+        "@value": "Def. NOE"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. NOE"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Gruenland Windkraftanlagen."
+      },
+      {
+        "@language": "en",
+        "@value": "Green land - wind power plants."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "greenLandWindPowerPlant"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Gruenland Windkraftanlage"
+      },
+      {
+        "@language": "en",
+        "@value": "Green land wind power plant"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -1389,11 +852,11 @@
     "http://purl.org/dc/terms/description": [
       {
         "@language": "en",
-        "@value": "Â§ 20 (2) Z 18"
+        "@value": "§ 20 (2) Z 18"
       },
       {
         "@language": "de",
-        "@value": "Â§ 20 (2) Z 18"
+        "@value": "§ 20 (2) Z 18"
       },
       {
         "@language": "en",
@@ -1437,85 +900,6 @@
       {
         "@language": "en",
         "@value": "Green land open space area"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSmallGardenPlot",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Â§ 20 (2) Z 7"
-      },
-      {
-        "@language": "de",
-        "@value": "Â§ 20 (2) Z 7"
-      },
-      {
-        "@language": "en",
-        "@value": "Def. NOE"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. NOE"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Gruenland Kleingaerten."
-      },
-      {
-        "@language": "en",
-        "@value": "Green land - small garden plots."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "greenLandSmallGardenPlot"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Gruenland Kleingarten"
-      },
-      {
-        "@language": "en",
-        "@value": "Green land small garden plot"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -1594,7 +978,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandBuildingWorthyOfPreservation",
+    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCemetery",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1606,90 +990,11 @@
     "http://purl.org/dc/terms/description": [
       {
         "@language": "en",
-        "@value": "Â§ 20 (2) Z 4"
+        "@value": "§ 20 (2) Z 11"
       },
       {
         "@language": "de",
-        "@value": "Â§ 20 (2) Z 4"
-      },
-      {
-        "@language": "en",
-        "@value": "Def. NOE"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. NOE"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Green land - buildings worthy of preservation."
-      },
-      {
-        "@language": "de",
-        "@value": "Erhaltenswerte Gebaeude im Gruenland."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "greenLandBuildingWorthyOfPreservation"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Green land building worthy of preservation"
-      },
-      {
-        "@language": "de",
-        "@value": "Erhaltenswerte Gebaeude im Gruenland"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPlayground",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Â§ 20 (2) Z 9"
-      },
-      {
-        "@language": "de",
-        "@value": "Â§ 20 (2) Z 9"
+        "@value": "§ 20 (2) Z 11"
       },
       {
         "@language": "en",
@@ -1708,11 +1013,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Gruenland Spielplaetze."
+        "@value": "Gruenland Friedhoefe."
       },
       {
         "@language": "en",
-        "@value": "Green land - playgrounds."
+        "@value": "Green land cemeteries."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1722,17 +1027,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "greenLandPlayground"
+        "@value": "greenLandCemetery"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Gruenland Spielplatz"
+        "@value": "Gruenland-Friedhof"
       },
       {
         "@language": "en",
-        "@value": "Green land playground"
+        "@value": "Green land cemetery"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -1823,7 +1128,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWindPowerPlant",
+    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/centreZone",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1835,11 +1140,11 @@
     "http://purl.org/dc/terms/description": [
       {
         "@language": "en",
-        "@value": "Â§ 20 (2) Z 19"
+        "@value": "§ 14 (2) Z 15 § 18 (1)"
       },
       {
         "@language": "de",
-        "@value": "Â§ 20 (2) Z 19"
+        "@value": "§ 14 (2) Z 15 § 18 (1)"
       },
       {
         "@language": "en",
@@ -1858,11 +1163,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Gruenland Windkraftanlagen."
+        "@value": "Zentrumszone."
       },
       {
         "@language": "en",
-        "@value": "Green land - wind power plants."
+        "@value": "The land use type 'Building land - core area commercial facilities' is only in this zone allowed."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1872,17 +1177,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "greenLandWindPowerPlant"
+        "@value": "centreZone"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Gruenland Windkraftanlage"
+        "@value": "Zentrumszone"
       },
       {
         "@language": "en",
-        "@value": "Green land wind power plant"
+        "@value": "Centre zone"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -1902,7 +1207,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandResidentialOrMixedUse",
+    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSportsFacility",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1913,20 +1218,20 @@
     ],
     "http://purl.org/dc/terms/description": [
       {
-        "@language": "de",
-        "@value": "Def. NOE"
-      },
-      {
         "@language": "en",
-        "@value": "Def. NOE"
+        "@value": "§ 20 (2) Z 8"
       },
       {
         "@language": "de",
-        "@value": "Â§ 16 (1) Z 1, 2, 5 and 7"
+        "@value": "§ 20 (2) Z 8"
       },
       {
         "@language": "en",
-        "@value": "Â§ 16 (1) Z 1, 2, 5 and 7"
+        "@value": "v"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. NOE"
       }
     ],
     "http://purl.org/dc/terms/subject": [
@@ -1936,16 +1241,12 @@
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
+        "@language": "de",
+        "@value": "Gruenland Sportstaetten."
+      },
+      {
         "@language": "en",
-        "@value": "Covers building land use types residential areas (BW), agricultural areas (BA), core areas (BK) and areas with local structures worth preserving (BO) (incl. development zones or if subsequent type of use is specified)."
-      },
-      {
-        "@language": "de",
-        "@value": "Fasst die Baulandwidmungsarten Wohngebiete (BW), Agrargebiete (BA), Kerngebiete (BK) und Gebiete fuer erhaltenswerte Ortsstrukturen (BO) zusammen (inkl. AufschlieÃungszonen bzw. wenn als Folgenutzungsart angegeben)."
-      },
-      {
-        "@language": "de",
-        "@value": "Fasst die Baulandwidmungsarten Wohngebiete (BW), Agrargebiete (BA), Kerngebiete (BK) und Gebiete fuer erhaltenswerte Ortsstrukturen (BO) zusammen (inkl. AufschlieâÃ¼ungszonen bzw. wenn als Folgenutzungsart angegeben)."
+        "@value": "Green land - sports facilities."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1955,17 +1256,325 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "buildingLandResidentialOrMixedUse"
+        "@value": "greenLandSportsFacility"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Bauland Wohn oder Mischnutzung"
+        "@value": "Gruenland Sportstaette"
       },
       {
         "@language": "en",
-        "@value": "Building land residential or mixed use"
+        "@value": "Green land sports facility"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteTreatmentFacility",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "§ 20 (2) Z 13"
+      },
+      {
+        "@language": "de",
+        "@value": "§ 20 (2) Z 13"
+      },
+      {
+        "@language": "en",
+        "@value": "Def. NOE"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. NOE"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Gruenland Abfallbehandlungsanlagen."
+      },
+      {
+        "@language": "en",
+        "@value": "Green land - waste treatment facilities."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "greenLandWasteTreatmentFacility"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Gruenland-Abfallbehandlungsanlage"
+      },
+      {
+        "@language": "en",
+        "@value": "Green land waste treatment facility"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSmallGardenPlot",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "§ 20 (2) Z 7"
+      },
+      {
+        "@language": "de",
+        "@value": "§ 20 (2) Z 7"
+      },
+      {
+        "@language": "en",
+        "@value": "Def. NOE"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. NOE"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Gruenland Kleingaerten."
+      },
+      {
+        "@language": "en",
+        "@value": "Green land - small garden plots."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "greenLandSmallGardenPlot"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Gruenland Kleingarten"
+      },
+      {
+        "@language": "en",
+        "@value": "Green land small garden plot"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandStorageSpace",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "§ 20 (2) Z 15"
+      },
+      {
+        "@language": "de",
+        "@value": "§ 20 (2) Z 15"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Gruenland Lagerplaetze: Flaechen, die der vorübergehenden Lagerung von Waren aller Art - außerhalb von Gebaeuden - dienen."
+      },
+      {
+        "@language": "en",
+        "@value": "Green land - storage spaces: areas intended for temporary storage of all types of goods outside of buildings."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "greenLandStorageSpace"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Gruenland-Lagerplatz"
+      },
+      {
+        "@language": "en",
+        "@value": "Green land - storage space"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandAgricultureAndForestryFarm",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "§ 20 (2) Z 1b"
+      },
+      {
+        "@language": "de",
+        "@value": "§ 20 (2) Z 1b"
+      },
+      {
+        "@language": "en",
+        "@value": "Def. NOE"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. NOE"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Gruenland land- und forstwirtschaftliche Hofstellen."
+      },
+      {
+        "@language": "en",
+        "@value": "Green land - agricultural and forestry farms."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "greenLandAgricultureAndForestryFarm"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Gruenland land- und forstwirtschaftliche Hofstelle"
+      },
+      {
+        "@language": "en",
+        "@value": "Green land agricultural and forestry farm"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -1997,11 +1606,11 @@
     "http://purl.org/dc/terms/description": [
       {
         "@language": "en",
-        "@value": "Â§ 20 (2) Z 20"
+        "@value": "§ 20 (2) Z 20"
       },
       {
         "@language": "de",
-        "@value": "Â§ 20 (2) Z 20"
+        "@value": "§ 20 (2) Z 20"
       },
       {
         "@language": "en",
@@ -2045,6 +1654,397 @@
       {
         "@language": "en",
         "@value": "Green land wine cellar lane"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandParkArea",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "§ 20 (2) Z 12"
+      },
+      {
+        "@language": "de",
+        "@value": "§ 20 (2) Z 12"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Gruenland Parkanlagen: Flaechen, die zur Erholung und/oder Repraesentation im Freien dienen und nach einem Gesamtkonzept gestaltet und bepflanzt sind oder werden sollen."
+      },
+      {
+        "@language": "en",
+        "@value": "Green land - park areas: areas meant for recreation and/or representation in the outdoors and that are or are intended to be designed and planted according to an overall concept"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "greenLandParkArea"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Gruenland-Parkanlagen"
+      },
+      {
+        "@language": "en",
+        "@value": "Green land - park area"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandResidentialOrMixedUse",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "de",
+        "@value": "Def. NOE"
+      },
+      {
+        "@language": "en",
+        "@value": "Def. NOE"
+      },
+      {
+        "@language": "de",
+        "@value": "§ 16 (1) Z 1, 2, 5 and 7"
+      },
+      {
+        "@language": "en",
+        "@value": "§ 16 (1) Z 1, 2, 5 and 7"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Covers building land use types residential areas (BW), agricultural areas (BA), core areas (BK) and areas with local structures worth preserving (BO) (incl. development zones or if subsequent type of use is specified)."
+      },
+      {
+        "@language": "de",
+        "@value": "Fasst die Baulandwidmungsarten Wohngebiete (BW), Agrargebiete (BA), Kerngebiete (BK) und Gebiete fuer erhaltenswerte Ortsstrukturen (BO) zusammen (inkl. Aufschließungszonen bzw. wenn als Folgenutzungsart angegeben)."
+      },
+      {
+        "@language": "de",
+        "@value": "Fasst die Baulandwidmungsarten Wohngebiete (BW), Agrargebiete (BA), Kerngebiete (BK) und Gebiete fuer erhaltenswerte Ortsstrukturen (BO) zusammen (inkl. Aufschlie√üungszonen bzw. wenn als Folgenutzungsart angegeben)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "buildingLandResidentialOrMixedUse"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Bauland Wohn oder Mischnutzung"
+      },
+      {
+        "@language": "en",
+        "@value": "Building land residential or mixed use"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandSpecialZone",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "§ 16 (1) Z 6 and 16 (2)"
+      },
+      {
+        "@language": "de",
+        "@value": "§ 16 (1) Z 6 and 16 (2)"
+      },
+      {
+        "@language": "en",
+        "@value": "Def. NOE"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. NOE"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Building land - special zones for uses that require particular protection such as hospitals, schools, nursing homes, or that are to be assigned a specific location, such as asphalt mixing plants, or that cannot be categorised under other building use types, such as barracks or sports facilities."
+      },
+      {
+        "@language": "de",
+        "@value": "Bauland Sondergebiete, fuer Nutzungen, die einen besonderen Schutz wie Krankenanstalten, Schulen, Pflegeheime erfordern oder denen ein bestimmter Standort zugeordnet werden soll wie Asphaltmischanalgen oder die sich nicht in die anderen Baulandwidmungen einordnen lassen wie Kasernen oder Sportanlagen."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "buildingLandSpecialZone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Building land special zone"
+      },
+      {
+        "@language": "de",
+        "@value": "Bauland-Sondergebiet"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandResourceExtractionSite",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "§ 20 (2) Z 5"
+      },
+      {
+        "@language": "de",
+        "@value": "§ 20 (2) Z 5"
+      },
+      {
+        "@language": "en",
+        "@value": "Def. NOE"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. NOE"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Gruenland Materialgewinnungsstaetten (Gewinnung von div. Rohstoffen)."
+      },
+      {
+        "@language": "en",
+        "@value": "Green land - resource extraction sites (recovery of various raw materials)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "greenLandResourceExtractionSite"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Gruenland Materialgewinnungsstaette"
+      },
+      {
+        "@language": "en",
+        "@value": "Green land resource extraction site"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCommercialUse",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "§ 16 (1) Z 3 and 4"
+      },
+      {
+        "@language": "de",
+        "@value": "§ 16 (1) Z 3 and 4"
+      },
+      {
+        "@language": "en",
+        "@value": "Def. NOE"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. NOE"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Fasst die Baulandwidmungsarten Industriegebiete (BI) und Betriebsgebiete (BB) zusammen."
+      },
+      {
+        "@language": "en",
+        "@value": "Covers building land use types industrial areas (BI) and commercial (BB) areas."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "buildingLandCommercialUse"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "building land commercial use"
+      },
+      {
+        "@language": "de",
+        "@value": "Bauland Betriebsnutzung"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [

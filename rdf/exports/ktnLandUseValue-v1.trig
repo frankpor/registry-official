@@ -415,7 +415,7 @@
     <https://registry.inspire.gv.at/codelist/ktnLandUseValue> a skos:ConceptScheme ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:created "2026-05-05T14:30:11+00:00"^^xsd:dateTime ;
-        dcterms:description "Ãsterreich-Erweiterung fÃ¼r KÃ¤rnten spezifische Landnutzungsklassifizierung"@de,
+        dcterms:description "Österreich-Erweiterung für Kärnten spezifische Landnutzungsklassifizierung"@de,
             "Austrian extension for Carinthian specific land use classification"@en ;
         dcterms:publisher <https://registry.inspire.gv.at/dataprovider/0019> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;

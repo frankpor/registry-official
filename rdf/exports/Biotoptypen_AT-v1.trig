@@ -813,7 +813,7 @@
         skos:broader <https://registry.inspire.gv.at/codelist/Biotoptypen_AT/11_5_1> ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> ;
         skos:notation "11_5_1_1" ;
-        skos:prefLabel "Unbefestigte StraÃe"@de ;
+        skos:prefLabel "Unbefestigte Straße"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -825,7 +825,7 @@
         skos:definition "https://eunis.eea.europa.eu/habitats/417"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> ;
         skos:notation "11_5_1_2" ;
-        skos:prefLabel "Befestigte StraÃe"@de ;
+        skos:prefLabel "Befestigte Straße"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -847,7 +847,7 @@
         skos:broader <https://registry.inspire.gv.at/codelist/Biotoptypen_AT/11_5_2> ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> ;
         skos:notation "11_5_2_1" ;
-        skos:prefLabel "Unbefestigter Rad- und FuÃweg"@de ;
+        skos:prefLabel "Unbefestigter Rad- und Fußweg"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -859,7 +859,7 @@
         skos:definition "https://eunis.eea.europa.eu/habitats/417"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> ;
         skos:notation "11_5_2_2" ;
-        skos:prefLabel "Befestigter Rad- und FuÃweg"@de ;
+        skos:prefLabel "Befestigter Rad- und Fußweg"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1856,7 +1856,7 @@
         skos:definition "https://eunis.eea.europa.eu/habitats/410"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> ;
         skos:notation "1_3_3_6" ;
-        skos:prefLabel "Torrentes FlieÃgewaesser"@de ;
+        skos:prefLabel "Torrentes Fließgewaesser"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1892,7 +1892,7 @@
         skos:definition "https://eunis.eea.europa.eu/habitats/1778"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> ;
         skos:notation "1_3_4_1" ;
-        skos:prefLabel "Vegetationslose Schotter- und Sandbank der FlieÃgewaesser"@de ;
+        skos:prefLabel "Vegetationslose Schotter- und Sandbank der Fließgewaesser"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1904,7 +1904,7 @@
         skos:definition "https://eunis.eea.europa.eu/habitats/69"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> ;
         skos:notation "1_3_4_2" ;
-        skos:prefLabel "Schotter- und Sandbank der FlieÃgewaesser mit Pioniervegetation"@de ;
+        skos:prefLabel "Schotter- und Sandbank der Fließgewaesser mit Pioniervegetation"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1916,7 +1916,7 @@
         skos:definition "https://eunis.eea.europa.eu/habitats/1778"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> ;
         skos:notation "1_3_4_3" ;
-        skos:prefLabel "Vegetationsloses Schlammufer der FlieÃgewaesser"@de ;
+        skos:prefLabel "Vegetationsloses Schlammufer der Fließgewaesser"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1928,7 +1928,7 @@
         skos:definition "https://eunis.eea.europa.eu/habitats/69"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> ;
         skos:notation "1_3_4_4" ;
-        skos:prefLabel "Schlammufer der FlieÃgewaesser mit Pioniervegetation"@de ;
+        skos:prefLabel "Schlammufer der Fließgewaesser mit Pioniervegetation"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2228,7 +2228,7 @@
         skos:definition "https://eunis.eea.europa.eu/habitats/66"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> ;
         skos:notation "1_4_9_1_1" ;
-        skos:prefLabel "Submerse GefaeÃpflanzenvegetation"@de ;
+        skos:prefLabel "Submerse Gefaeßpflanzenvegetation"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2288,7 +2288,7 @@
         skos:definition "https://eunis.eea.europa.eu/habitats/79"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> ;
         skos:notation "1_4_9_2_4" ;
-        skos:prefLabel "WasserhahnenfuÃvegetation in FlieÃgewaessern"@de ;
+        skos:prefLabel "Wasserhahnenfußvegetation in Fließgewaessern"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2372,7 +2372,7 @@
         skos:definition "https://eunis.eea.europa.eu/habitats/1721"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> ;
         skos:notation "2_2_1_1" ;
-        skos:prefLabel "Horstiges GroÃseggenried"@de ;
+        skos:prefLabel "Horstiges Großseggenried"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2384,7 +2384,7 @@
         skos:definition "https://eunis.eea.europa.eu/habitats/1721"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> ;
         skos:notation "2_2_1_2_1" ;
-        skos:prefLabel "Rasiges GroÃseggenried, typischer Subtyp"@de ;
+        skos:prefLabel "Rasiges Großseggenried, typischer Subtyp"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2408,7 +2408,7 @@
         skos:definition "https://eunis.eea.europa.eu/habitats/269"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> ;
         skos:notation "2_2_2_1_1" ;
-        skos:prefLabel "GroÃroehricht an FlieÃgewaesser ueber Feinsubstrat"@de ;
+        skos:prefLabel "Großroehricht an Fließgewaesser ueber Feinsubstrat"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2420,7 +2420,7 @@
         skos:definition "https://eunis.eea.europa.eu/habitats/269"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> ;
         skos:notation "2_2_2_1_2" ;
-        skos:prefLabel "GroÃroehricht an FlieÃgewaesser ueber Grobsubstrat"@de ;
+        skos:prefLabel "Großroehricht an Fließgewaesser ueber Grobsubstrat"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2432,7 +2432,7 @@
         skos:definition "https://eunis.eea.europa.eu/habitats/269"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> ;
         skos:notation "2_2_2_2_1_1" ;
-        skos:prefLabel "SueÃwasser-GroÃroehricht an Stillgewaesser und Landroehricht"@de ;
+        skos:prefLabel "Sueßwasser-Großroehricht an Stillgewaesser und Landroehricht"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2444,7 +2444,7 @@
         skos:definition "https://eunis.eea.europa.eu/habitats/1753"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> ;
         skos:notation "2_2_2_2_1_2" ;
-        skos:prefLabel "Brackwasser-GroÃroehricht an Stillgewaesser"@de ;
+        skos:prefLabel "Brackwasser-Großroehricht an Stillgewaesser"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2456,7 +2456,7 @@
         skos:definition "https://eunis.eea.europa.eu/habitats/268"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> ;
         skos:notation "2_2_2_3_1_1" ;
-        skos:prefLabel "Kleinroehricht an FlieÃgewaesser"@de ;
+        skos:prefLabel "Kleinroehricht an Fließgewaesser"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3200,7 +3200,7 @@
         skos:definition "https://eunis.eea.europa.eu/habitats/1002"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> ;
         skos:notation "3_3_2_5_1" ;
-        skos:prefLabel "LoeÃtrockenrasen"@de ;
+        skos:prefLabel "Loeßtrockenrasen"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3488,7 +3488,7 @@
         skos:definition "https://eunis.eea.europa.eu/habitats/1020"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> ;
         skos:notation "4_3_2_2" ;
-        skos:prefLabel "GefaeÃpflanzendominierter Silikat-Schneeboden"@de ;
+        skos:prefLabel "Gefaeßpflanzendominierter Silikat-Schneeboden"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3824,7 +3824,7 @@
         skos:definition "https://eunis.eea.europa.eu/habitats/164"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> ;
         skos:notation "6_1_1_2" ;
-        skos:prefLabel "MaedesueÃflur"@de ;
+        skos:prefLabel "Maedesueßflur"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3992,7 +3992,7 @@
         skos:definition "https://eunis.eea.europa.eu/habitats/2421"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> ;
         skos:notation "6_3_2_1" ;
-        skos:prefLabel "MaeÃig naehrstoffarmer frischer bis feuchter Waldsaum ueber Karbonat"@de ;
+        skos:prefLabel "Maeßig naehrstoffarmer frischer bis feuchter Waldsaum ueber Karbonat"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -4323,7 +4323,7 @@
         skos:definition "https://eunis.eea.europa.eu/habitats/183"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> ;
         skos:notation "8_3_2" ;
-        skos:prefLabel "Laubbaumfeldgehoelz aus standortstypischen SchluÃbaumarten"@de ;
+        skos:prefLabel "Laubbaumfeldgehoelz aus standortstypischen Schlußbaumarten"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -4335,7 +4335,7 @@
         skos:definition "https://eunis.eea.europa.eu/habitats/202"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> ;
         skos:notation "8_3_3" ;
-        skos:prefLabel "Nadelbaumfeldgehoelz aus standortstypischen SchluÃbaumarten"@de ;
+        skos:prefLabel "Nadelbaumfeldgehoelz aus standortstypischen Schlußbaumarten"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -5966,7 +5966,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> ;
         skos:narrower <https://registry.inspire.gv.at/codelist/Biotoptypen_AT/2_2_2_2_1> ;
         skos:notation "2_2_2_2" ;
-        skos:prefLabel "GroÃroehrichte an Stillgewaessern und Landroehricht"@de ;
+        skos:prefLabel "Großroehrichte an Stillgewaessern und Landroehricht"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -6427,7 +6427,7 @@
         skos:narrower <https://registry.inspire.gv.at/codelist/Biotoptypen_AT/11_5_2_1>,
             <https://registry.inspire.gv.at/codelist/Biotoptypen_AT/11_5_2_2> ;
         skos:notation "11_5_2" ;
-        skos:prefLabel "Rad- und FuÃwege"@de ;
+        skos:prefLabel "Rad- und Fußwege"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -6607,7 +6607,7 @@
         skos:narrower <https://registry.inspire.gv.at/codelist/Biotoptypen_AT/2_2_1_1>,
             <https://registry.inspire.gv.at/codelist/Biotoptypen_AT/2_2_1_2> ;
         skos:notation "2_2_1" ;
-        skos:prefLabel "GroÃseggenrieder"@de ;
+        skos:prefLabel "Großseggenrieder"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -6621,7 +6621,7 @@
         skos:narrower <https://registry.inspire.gv.at/codelist/Biotoptypen_AT/2_2_1_2_1>,
             <https://registry.inspire.gv.at/codelist/Biotoptypen_AT/2_2_1_2_2> ;
         skos:notation "2_2_1_2" ;
-        skos:prefLabel "Rasiges GroÃseggenried"@de ;
+        skos:prefLabel "Rasiges Großseggenried"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -6633,7 +6633,7 @@
         skos:narrower <https://registry.inspire.gv.at/codelist/Biotoptypen_AT/2_2_2_1_1>,
             <https://registry.inspire.gv.at/codelist/Biotoptypen_AT/2_2_2_1_2> ;
         skos:notation "2_2_2_1" ;
-        skos:prefLabel "GroÃroehrichte an FlieÃgewaessern"@de ;
+        skos:prefLabel "Großroehrichte an Fließgewaessern"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -6647,7 +6647,7 @@
         skos:narrower <https://registry.inspire.gv.at/codelist/Biotoptypen_AT/2_2_2_2_1_1>,
             <https://registry.inspire.gv.at/codelist/Biotoptypen_AT/2_2_2_2_1_2> ;
         skos:notation "2_2_2_2_1" ;
-        skos:prefLabel "GroÃroehricht an Stillgewaesser und Landroehricht"@de ;
+        skos:prefLabel "Großroehricht an Stillgewaesser und Landroehricht"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -7520,7 +7520,7 @@
             <https://registry.inspire.gv.at/codelist/Biotoptypen_AT/11_5_1_2>,
             <https://registry.inspire.gv.at/codelist/Biotoptypen_AT/11_5_1_3> ;
         skos:notation "11_5_1" ;
-        skos:prefLabel "StraÃen und Bahnstrecken"@de ;
+        skos:prefLabel "Straßen und Bahnstrecken"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -8079,7 +8079,7 @@
             <https://registry.inspire.gv.at/codelist/Biotoptypen_AT/1_3_3>,
             <https://registry.inspire.gv.at/codelist/Biotoptypen_AT/1_3_4> ;
         skos:notation "1_3" ;
-        skos:prefLabel "FlieÃgewaesser"@de ;
+        skos:prefLabel "Fließgewaesser"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -8121,7 +8121,7 @@
             <https://registry.inspire.gv.at/codelist/Biotoptypen_AT/1_3_4_3>,
             <https://registry.inspire.gv.at/codelist/Biotoptypen_AT/1_3_4_4> ;
         skos:notation "1_3_4" ;
-        skos:prefLabel "Alluvionen und Uferpionierstandorte der FlieÃgewaessern"@de ;
+        skos:prefLabel "Alluvionen und Uferpionierstandorte der Fließgewaessern"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -8908,7 +8908,7 @@
             <https://registry.inspire.gv.at/codelist/Biotoptypen_AT/1_3_3_7>,
             <https://registry.inspire.gv.at/codelist/Biotoptypen_AT/1_3_3_8> ;
         skos:notation "1_3_3" ;
-        skos:prefLabel "FlieÃgewaessersondertypen"@de ;
+        skos:prefLabel "Fließgewaessersondertypen"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -9035,11 +9035,11 @@
     <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> a skos:ConceptScheme ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/hb> ;
         dcterms:created "2026-05-05T14:30:11+00:00"^^xsd:dateTime ;
-        dcterms:description "Rote Liste gefaehrdeter Biotoptypen Ãsterreichs, Wien, 2002 (Essl, F., Egger G., Ellmauer, T.), Umweltbundesamt Band 155"@de,
+        dcterms:description "Rote Liste gefaehrdeter Biotoptypen Österreichs, Wien, 2002 (Essl, F., Egger G., Ellmauer, T.), Umweltbundesamt Band 155"@de,
             "Red list of endangered habitat types in Austria, Vienna, 2002 (Essl, F., Egger G., Ellmauer, T.), Umweltbundesamt Report 155"@en ;
         dcterms:publisher <https://registry.inspire.gv.at/dataprovider/0008> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/hb> ;
-        dcterms:title "Biotoptypen Ãsterreich"@de,
+        dcterms:title "Biotoptypen Österreich"@de,
             "National habitat types in Austria"@en ;
         dcterms:type <http://inspire.ec.europa.eu/codelist/LocalNameCodeValue> ;
         owl:versionInfo "1.0.0" ;

@@ -10,7 +10,7 @@
         dcterms:description "OOE"@de,
             "OOE"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/hb> ;
-        skos:definition "Gebiete mit hoher Waldausstattung (> 50 % FlÃ¤chenanteil) und guter Eignung als Lebensraum fÃ¼r waldgebundene Tierarten mit groÃen RaumansprÃ¼chen. GrÃ¶Ãere geschlossene Waldgebiete, kaum Siedlungsinfrastruktur und Zerschneidung durch hochrangige VerkehrstrÃ¤ger, kleinteilige Kulturlandschaft."@de,
+        skos:definition "Gebiete mit hoher Waldausstattung (> 50 % Flächenanteil) und guter Eignung als Lebensraum für waldgebundene Tierarten mit großen Raumansprüchen. Größere geschlossene Waldgebiete, kaum Siedlungsinfrastruktur und Zerschneidung durch hochrangige Verkehrsträger, kleinteilige Kulturlandschaft."@de,
             "Areas with a high portion of woodland (more than 50 % of total amount) and appropriate habitat function for large forest animals. Larger closed woodland areas or highly diverse cultural landscapes, hardly or not fragmented by traffic infrastructure and settlements."@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
         skos:notation "coreArea" ;
@@ -25,7 +25,7 @@
         dcterms:description "OOE"@de,
             "OOE"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/hb> ;
-        skos:definition "International bedeutender Wildtierkorridor zur Lebensraumvernetzung fÃ¼r weitwandernde GroÃsÃ¤uger."@de,
+        skos:definition "International bedeutender Wildtierkorridor zur Lebensraumvernetzung für weitwandernde Großsäuger."@de,
             "Wildlife corridor of international importance for the dispersion of migrating large mammals."@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
         skos:notation "corridorA" ;
@@ -40,7 +40,7 @@
         dcterms:description "OOE"@de,
             "OOE"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/hb> ;
-        skos:definition "Regional bedeutender Wildtierkorridor zur Lebensraumvernetzung fÃ¼r weitwandernde GroÃsÃ¤uger."@de,
+        skos:definition "Regional bedeutender Wildtierkorridor zur Lebensraumvernetzung für weitwandernde Großsäuger."@de,
             "Wildlife corridor of regional importance for the dispersion of migrating large mammals."@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
         skos:notation "corridorB" ;
@@ -55,7 +55,7 @@
         dcterms:description "OOE"@de,
             "OOE"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/hb> ;
-        skos:definition "Abschnitt eines international bedeutenden Wildtierkorridors mit erheblich eingeschrÃ¤nkter FunktionalitÃ¤t."@de,
+        skos:definition "Abschnitt eines international bedeutenden Wildtierkorridors mit erheblich eingeschränkter Funktionalität."@de,
             "Section of an international important wildlife corridor with highly reduced functionality."@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
         skos:notation "redAreaA" ;
@@ -70,7 +70,7 @@
         dcterms:description "OOE"@de,
             "OOE"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/hb> ;
-        skos:definition "Abschnitt eines regional bedeutenden Wildtierkorridors mit erheblich eingeschrÃ¤nkter FunktionalitÃ¤t."@de,
+        skos:definition "Abschnitt eines regional bedeutenden Wildtierkorridors mit erheblich eingeschränkter Funktionalität."@de,
             "Section of a regional important wildlife corridor with highly reduced functionality."@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
         skos:notation "redAreaB" ;
@@ -85,7 +85,7 @@
         dcterms:description "OOE"@de,
             "OOE"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/hb> ;
-        skos:definition "Waldgebiete mit RÃ¼ckzugs- und Vernetzungsfunktion entlang der Donau zur Ãberwindung natÃ¼rlicher Barrieren."@de,
+        skos:definition "Waldgebiete mit Rückzugs- und Vernetzungsfunktion entlang der Donau zur Überwindung natürlicher Barrieren."@de,
             "Woodland areas highly important for ecological landscape connectivity along the Danube river."@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
         skos:notation "steppingStone" ;
@@ -100,7 +100,7 @@
         dcterms:description "OOE"@de,
             "OOE"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/hb> ;
-        skos:definition "Gebiete mit signifikanter Waldausstattung (30-50 % FlÃ¤chenanteil) und eingeschrÃ¤nkter Eignung als Lebensraum fÃ¼r waldgebundene Tierarten mit groÃen RaumansprÃ¼chen. Strukturreiche Kulturlandschaft mit vielen KleinwaldflÃ¤chen, wenig Siedlungsinfrastruktur, geringe Zerschneidung durch hochrangige VerkehrstrÃ¤ger."@de,
+        skos:definition "Gebiete mit signifikanter Waldausstattung (30-50 % Flächenanteil) und eingeschränkter Eignung als Lebensraum für waldgebundene Tierarten mit großen Raumansprüchen. Strukturreiche Kulturlandschaft mit vielen Kleinwaldflächen, wenig Siedlungsinfrastruktur, geringe Zerschneidung durch hochrangige Verkehrsträger."@de,
             "Areas with a sginificant portion of woodland (30-50 % of total amount) and reduced habitat function for large forest animals. Diverse cultural landscape with small structured forest areas, only moderately fragmented by traffic infrastructure and settlements."@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
         skos:notation "transitionArea" ;
@@ -115,7 +115,7 @@
         dcterms:description "OOE"@de,
             "OOE"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/hb> ;
-        skos:definition "Abschnitt eines international bedeutenden Wildtierkorridors mit eingeschrÃ¤nkter FunktionalitÃ¤t."@de,
+        skos:definition "Abschnitt eines international bedeutenden Wildtierkorridors mit eingeschränkter Funktionalität."@de,
             "Section of an international important wildlife corridor with reduced functionality."@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
         skos:notation "yellowAreaA" ;
@@ -130,7 +130,7 @@
         dcterms:description "OOE"@de,
             "OOE"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/hb> ;
-        skos:definition "Abschnitt eines regional bedeutenden Wildtierkorridors mit eingeschrÃ¤nkter FunktionalitÃ¤t."@de,
+        skos:definition "Abschnitt eines regional bedeutenden Wildtierkorridors mit eingeschränkter Funktionalität."@de,
             "Section of a regional important wildlife corridor with reduced functionality."@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
         skos:notation "yellowAreaB" ;

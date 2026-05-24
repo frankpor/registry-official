@@ -74,10 +74,10 @@
     <https://registry.inspire.gv.at/codelist/referenzart/PF> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
-        skos:definition "PflegeflÃ¤che"@de ;
+        skos:definition "Pflegefläche"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/referenzart> ;
         skos:notation "PF" ;
-        skos:prefLabel "PflegeflÃ¤che"@de ;
+        skos:prefLabel "Pflegefläche"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/referenzart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
@@ -96,7 +96,7 @@
     <https://registry.inspire.gv.at/codelist/referenzart> a skos:ConceptScheme ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:created "2026-05-05T14:30:11+00:00"^^xsd:dateTime ;
-        dcterms:description "Ãsterreich-Erweiterung fÃ¼r INVEKOS Referenzart"@de,
+        dcterms:description "Österreich-Erweiterung für INVEKOS Referenzart"@de,
             "Austrian extension for INVEKOS Referenzart"@en ;
         dcterms:publisher <https://registry.inspire.gv.at/dataprovider/0095> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;

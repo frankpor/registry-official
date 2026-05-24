@@ -22,7 +22,7 @@
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
         skos:broader <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry> ;
         skos:definition "Wald mit Nutzfunktion fuer wirtschaftliche und nachhaltige Hervorbringung des Rohstoffes Holz."@de,
-            "Forest with productive function for economic and sustainable production of the raw material 'woodâ."@en ;
+            "Forest with productive function for economic and sustainable production of the raw material 'wood”."@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue> ;
         skos:notation "productiveFunction" ;
         skos:prefLabel "Nutzfunktion"@de,
@@ -85,7 +85,7 @@
     <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue> a skos:ConceptScheme ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:created "2026-05-05T14:30:11+00:00"^^xsd:dateTime ;
-        dcterms:description "Codeliste der Ã¶sterreichischen Waldinventurtypen"@de,
+        dcterms:description "Codeliste der österreichischen Waldinventurtypen"@de,
             "Code list of Austrian forest Inventory types"@en ;
         dcterms:publisher <https://registry.inspire.gv.at/dataprovider/0006> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;

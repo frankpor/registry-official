@@ -811,10 +811,10 @@
     <https://registry.inspire.gv.at/codelist/schlagnutzungsart/182> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
-        skos:definition "SOMMERGERSTE (HERBSTANBAU) / FELDGEMÃSE"@de ;
+        skos:definition "SOMMERGERSTE (HERBSTANBAU) / FELDGEMÜSE"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "182" ;
-        skos:prefLabel "SOMMERGERSTE (HERBSTANBAU) / FELDGEMÃSE"@de ;
+        skos:prefLabel "SOMMERGERSTE (HERBSTANBAU) / FELDGEMÜSE"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
@@ -900,7 +900,7 @@
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
         skos:definition "ACKERBOHNEN (PUFFBOHNEN) / FELDGEMUESE"@de,
-            "ACKERBOHNEN / FELDGEMÃSE"@de ;
+            "ACKERBOHNEN / FELDGEMÜSE"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "205" ;
         skos:prefLabel "ACKERBOHNEN (PUFFBOHNEN) / FELDGEMUESE"@de ;
@@ -988,10 +988,10 @@
     <https://registry.inspire.gv.at/codelist/schlagnutzungsart/213> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
-        skos:definition "WINTERKÃRNERERBSEN"@de ;
+        skos:definition "WINTERKÖRNERERBSEN"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "213" ;
-        skos:prefLabel "WINTERKÃRNERERBSEN"@de ;
+        skos:prefLabel "WINTERKÖRNERERBSEN"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
@@ -999,10 +999,10 @@
     <https://registry.inspire.gv.at/codelist/schlagnutzungsart/214> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
-        skos:definition "SOMMERKÃRNERERBSEN"@de ;
+        skos:definition "SOMMERKÖRNERERBSEN"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "214" ;
-        skos:prefLabel "SOMMERKÃRNERERBSEN"@de ;
+        skos:prefLabel "SOMMERKÖRNERERBSEN"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
@@ -1219,10 +1219,10 @@
     <https://registry.inspire.gv.at/codelist/schlagnutzungsart/359> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
-        skos:definition "GLÃZ FELDGEHÃLZ / BAUM- / GEBÃSCHGRUPPE"@de ;
+        skos:definition "GLÖZ FELDGEHÖLZ / BAUM- / GEBÜSCHGRUPPE"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "359" ;
-        skos:prefLabel "GLÃZ FELDGEHÃLZ / BAUM- / GEBÃSCHGRUPPE"@de ;
+        skos:prefLabel "GLÖZ FELDGEHÖLZ / BAUM- / GEBÜSCHGRUPPE"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
@@ -1230,10 +1230,10 @@
     <https://registry.inspire.gv.at/codelist/schlagnutzungsart/360> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
-        skos:definition "GLÃZ HECKE / UFERGEHÃLZ"@de ;
+        skos:definition "GLÖZ HECKE / UFERGEHÖLZ"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "360" ;
-        skos:prefLabel "GLÃZ HECKE / UFERGEHÃLZ"@de ;
+        skos:prefLabel "GLÖZ HECKE / UFERGEHÖLZ"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
@@ -1241,10 +1241,10 @@
     <https://registry.inspire.gv.at/codelist/schlagnutzungsart/361> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
-        skos:definition "GLÃZ RAIN / BÃSCHUNG / TROCKENSTEINMAUER"@de ;
+        skos:definition "GLÖZ RAIN / BÖSCHUNG / TROCKENSTEINMAUER"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "361" ;
-        skos:prefLabel "GLÃZ RAIN / BÃSCHUNG / TROCKENSTEINMAUER"@de ;
+        skos:prefLabel "GLÖZ RAIN / BÖSCHUNG / TROCKENSTEINMAUER"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
@@ -1252,10 +1252,10 @@
     <https://registry.inspire.gv.at/codelist/schlagnutzungsart/362> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
-        skos:definition "GLÃZ GRABEN / UFERRANDSTREIFEN"@de ;
+        skos:definition "GLÖZ GRABEN / UFERRANDSTREIFEN"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "362" ;
-        skos:prefLabel "GLÃZ GRABEN / UFERRANDSTREIFEN"@de ;
+        skos:prefLabel "GLÖZ GRABEN / UFERRANDSTREIFEN"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
@@ -1263,10 +1263,10 @@
     <https://registry.inspire.gv.at/codelist/schlagnutzungsart/363> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
-        skos:definition "GLÃZ NATURDENKMAL FLÃCHE"@de ;
+        skos:definition "GLÖZ NATURDENKMAL FLÄCHE"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "363" ;
-        skos:prefLabel "GLÃZ NATURDENKMAL FLÃCHE"@de ;
+        skos:prefLabel "GLÖZ NATURDENKMAL FLÄCHE"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
@@ -1274,10 +1274,10 @@
     <https://registry.inspire.gv.at/codelist/schlagnutzungsart/364> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
-        skos:definition "GLÃZ STEINRIEGEL / STEINHAGE"@de ;
+        skos:definition "GLÖZ STEINRIEGEL / STEINHAGE"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "364" ;
-        skos:prefLabel "GLÃZ STEINRIEGEL / STEINHAGE"@de ;
+        skos:prefLabel "GLÖZ STEINRIEGEL / STEINHAGE"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
@@ -1285,10 +1285,10 @@
     <https://registry.inspire.gv.at/codelist/schlagnutzungsart/365> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
-        skos:definition "GLÃZ TEICH / TÃMPEL"@de ;
+        skos:definition "GLÖZ TEICH / TÜMPEL"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "365" ;
-        skos:prefLabel "GLÃZ TEICH / TÃMPEL"@de ;
+        skos:prefLabel "GLÖZ TEICH / TÜMPEL"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
@@ -1538,10 +1538,10 @@
     <https://registry.inspire.gv.at/codelist/schlagnutzungsart/421> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
-        skos:definition "VARIANTE 5 MIT MZ - GREENING (AB 2018 OVFPV) + ÃPUL"@de ;
+        skos:definition "VARIANTE 5 MIT MZ - GREENING (AB 2018 OVFPV) + ÖPUL"@de ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "421" ;
-        skos:prefLabel "VARIANTE 5 MIT MZ - GREENING (AB 2018 OVFPV) + ÃPUL"@de ;
+        skos:prefLabel "VARIANTE 5 MIT MZ - GREENING (AB 2018 OVFPV) + ÖPUL"@de ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
@@ -4200,7 +4200,7 @@
     <https://registry.inspire.gv.at/codelist/schlagnutzungsart> a skos:ConceptScheme ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:created "2026-05-05T14:30:11+00:00"^^xsd:dateTime ;
-        dcterms:description "Ãsterreich-Erweiterung fÃ¼r INVEKOS Schlagnutzungsart"@de,
+        dcterms:description "Österreich-Erweiterung für INVEKOS Schlagnutzungsart"@de,
             "Austrian extension for INVEKOS Schlagnutzungsart"@en ;
         dcterms:publisher <https://registry.inspire.gv.at/dataprovider/0095> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;

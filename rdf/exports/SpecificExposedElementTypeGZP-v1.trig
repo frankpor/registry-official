@@ -10,7 +10,7 @@
         dcterms:description "Def. UBA"@de,
             "Def. UBA"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
-        skos:definition "FlÃ¤chen, die fÃ¼r die DurchfÃ¼hrung sowie fÃ¼r die Aufrechterhaltung der Funktionen geplanter schutzwasserwirtschaftlicher MaÃnahmen benÃ¶tigt werden."@de,
+        skos:definition "Flächen, die für die Durchführung sowie für die Aufrechterhaltung der Funktionen geplanter schutzwasserwirtschaftlicher Maßnahmen benötigt werden."@de,
             "not available"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP> ;
         skos:notation "BlaueFunktionsbereiche" ;
@@ -25,7 +25,7 @@
         dcterms:description "Def. UBA"@de,
             "Def. UBA"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
-        skos:definition "Alle Ã¼brigen durch das Bemessungsereignis mittlerer Wahrscheinlichkeit betroffenen ÃberflutungsflÃ¤chen. In diesen FlÃ¤chen kÃ¶nnen unterschiedliche GefÃ¤hrdungen geringeren AusmaÃes oder BeeintrÃ¤chtigungen der Nutzung fÃ¼r Siedlungs- und Verkehrszwecke auftreten oder sind BeschÃ¤digungen von Bauobjekten und Verkehrsanlagen mÃ¶glich."@de,
+        skos:definition "Alle übrigen durch das Bemessungsereignis mittlerer Wahrscheinlichkeit betroffenen Überflutungsflächen. In diesen Flächen können unterschiedliche Gefährdungen geringeren Ausmaßes oder Beeinträchtigungen der Nutzung für Siedlungs- und Verkehrszwecke auftreten oder sind Beschädigungen von Bauobjekten und Verkehrsanlagen möglich."@de,
             "not available"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP> ;
         skos:notation "GelbeGefahrenzonen" ;
@@ -40,7 +40,7 @@
         dcterms:description "Def. UBA"@de,
             "Def. UBA"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
-        skos:definition "Zonen mit GefÃ¤hrdung niedriger Wahrscheinlichkeit (Restrisikogebiete') basieren auf dem Hochwasser niedriger Wahrscheinlichkeit (HQ300 oder Extremereignisse) und weisen auf die RestgefÃ¤hrdung beispielsweise bei Ãberschreiten des Schutzgrades bzw. erhÃ¶hte Schadenswirkung bei Versagen von SchutzmaÃnahmen hin."@de,
+        skos:definition "Zonen mit Gefährdung niedriger Wahrscheinlichkeit (Restrisikogebiete') basieren auf dem Hochwasser niedriger Wahrscheinlichkeit (HQ300 oder Extremereignisse) und weisen auf die Restgefährdung beispielsweise bei Überschreiten des Schutzgrades bzw. erhöhte Schadenswirkung bei Versagen von Schutzmaßnahmen hin."@de,
             "not available"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP> ;
         skos:notation "Restrisikogebiete" ;
@@ -55,7 +55,7 @@
         dcterms:description "Def. UBA"@de,
             "Def. UBA"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
-        skos:definition "ÃberflutungsflÃ¤chen, die wesentlich zum Hochwasserabfluss beitragen und deren Abflusswirkung dazu beitrÃ¤gt, im durch den funktionierenden Hochwasserabfluss entlasteten Gebiet das GefÃ¤hrdungspotenzial zu verringern oder bei denen im Falle von abflussbeeintrÃ¤chtigenden MaÃnahmen negative Auswirkungen auf das Abflussverhalten des GewÃ¤ssers zu erwarten sind, welche das Schadenspotenzial erhÃ¶hen kÃ¶nnten."@de,
+        skos:definition "Überflutungsflächen, die wesentlich zum Hochwasserabfluss beitragen und deren Abflusswirkung dazu beiträgt, im durch den funktionierenden Hochwasserabfluss entlasteten Gebiet das Gefährdungspotenzial zu verringern oder bei denen im Falle von abflussbeeinträchtigenden Maßnahmen negative Auswirkungen auf das Abflussverhalten des Gewässers zu erwarten sind, welche das Schadenspotenzial erhöhen könnten."@de,
             "not available"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP> ;
         skos:notation "RotGelbSchraffierteFunktionsbereiche" ;
@@ -70,7 +70,7 @@
         dcterms:description "Def. UBA"@de,
             "Def. UBA"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
-        skos:definition "FlÃ¤chen, die durch das Bemessungsereignis mittlerer Wahrscheinlichkeit derart gefÃ¤hrdet sind, dass ihre stÃ¤ndige BenÃ¼tzung fÃ¼r Siedlungs- und Verkehrszwecke wegen der voraussichtlichen Schadenswirkungen nicht oder nur mit unverhÃ¤ltnismÃ¤Ãig hohem Aufwand mÃ¶glich ist (Gefahr fÃ¼r Leib und Leben)."@de,
+        skos:definition "Flächen, die durch das Bemessungsereignis mittlerer Wahrscheinlichkeit derart gefährdet sind, dass ihre ständige Benützung für Siedlungs- und Verkehrszwecke wegen der voraussichtlichen Schadenswirkungen nicht oder nur mit unverhältnismäßig hohem Aufwand möglich ist (Gefahr für Leib und Leben)."@de,
             "not available"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP> ;
         skos:notation "RoteGefahrenzonen" ;
@@ -89,8 +89,8 @@
             "not available"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP> ;
         skos:notation "UeberflutungsflaechenHQ100" ;
-        skos:prefLabel "ÃberflutungsflÃ¤chen HQ100"@de,
-            "ÃberflutungsflÃ¤chen HQ100"@en ;
+        skos:prefLabel "Überflutungsflächen HQ100"@de,
+            "Überflutungsflächen HQ100"@en ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
@@ -104,8 +104,8 @@
             "not available"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP> ;
         skos:notation "UeberflutungsflaechenHQ30" ;
-        skos:prefLabel "ÃberflutungsflÃ¤chen HQ30"@de,
-            "ÃberflutungsflÃ¤chen HQ30"@en ;
+        skos:prefLabel "Überflutungsflächen HQ30"@de,
+            "Überflutungsflächen HQ30"@en ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
@@ -119,8 +119,8 @@
             "not available"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP> ;
         skos:notation "UeberflutungsflaechenHQ300" ;
-        skos:prefLabel "ÃberflutungsflÃ¤chen HQ300"@de,
-            "ÃberflutungsflÃ¤chen HQ300"@en ;
+        skos:prefLabel "Überflutungsflächen HQ300"@de,
+            "Überflutungsflächen HQ300"@en ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
@@ -130,7 +130,7 @@
         dcterms:created "2026-05-05T14:30:11+00:00"^^xsd:dateTime ;
         dcterms:publisher <https://registry.inspire.gv.at/dataprovider/0009> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
-        dcterms:title "Spezifischer Typ gefÃ¤hrdeter Gebiete nach GZP"@de,
+        dcterms:title "Spezifischer Typ gefährdeter Gebiete nach GZP"@de,
             "specific exposed area regarding GZP"@en ;
         dcterms:type <http://inspire.ec.europa.eu/codelist/SpecificExposedElementTypeValue> ;
         owl:versionInfo "1.0.0" ;

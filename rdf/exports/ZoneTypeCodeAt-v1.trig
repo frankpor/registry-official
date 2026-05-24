@@ -9,7 +9,7 @@
     <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/ALSAG_Gebiete> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
-        skos:definition "Gebiete gemaess Altlastensanierungsgesetz (ALSAG). Vom Landeshauptmann gemeldete Altablagerungen (alte Deponien) und Altstandorte (ehemalige Fabriken), die vor 1989 kontaminiert sein koennen, werden nach DurchfÃ¼hrung einer Gefaehrdungsabschaetzung und Feststellung einer erheblichen Gefaehrdung fÃ¼r die Umwelt und Gesundheit (nach Bewertung durch das Umweltbundesamt) als sicherungs- und sanierungsbeduerftige Altlasten vom Bundesminister in der AltlastenVO ausgewiesen. Die Bewertung der Dringlichkeit von erforderlichen Sanierungsmassnahmen werden mittels drei PrioritÃ¤tenklassen unterschieden. Eine Einstufung in die PrioritÃ¤tenklasse 1 bedeutet die hÃ¶echste Dringlichkeit von SanierungsmaÃnahmen. Nach Bestaetigung des Sanierungserfolges werden die Daten zur Altlast vom Umweltbundesamt aktualisiert und in der AltlastenVO vom Bundesminister als sanierte oder gesicherte Altlast gekennzeichnet."@de,
+        skos:definition "Gebiete gemaess Altlastensanierungsgesetz (ALSAG). Vom Landeshauptmann gemeldete Altablagerungen (alte Deponien) und Altstandorte (ehemalige Fabriken), die vor 1989 kontaminiert sein koennen, werden nach Durchführung einer Gefaehrdungsabschaetzung und Feststellung einer erheblichen Gefaehrdung für die Umwelt und Gesundheit (nach Bewertung durch das Umweltbundesamt) als sicherungs- und sanierungsbeduerftige Altlasten vom Bundesminister in der AltlastenVO ausgewiesen. Die Bewertung der Dringlichkeit von erforderlichen Sanierungsmassnahmen werden mittels drei Prioritätenklassen unterschieden. Eine Einstufung in die Prioritätenklasse 1 bedeutet die höechste Dringlichkeit von Sanierungsmaßnahmen. Nach Bestaetigung des Sanierungserfolges werden die Daten zur Altlast vom Umweltbundesamt aktualisiert und in der AltlastenVO vom Bundesminister als sanierte oder gesicherte Altlast gekennzeichnet."@de,
             "Areas pursuant to the Contaminated Sites Remediation Act."@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt> ;
         skos:notation "ALSAG_Gebiete" ;
@@ -22,7 +22,7 @@
     <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Almhauptregionen> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
-        skos:definition "Almregionen und Almhauptregionen Ãsterreichs auf Basis politischer Gemeinden"@de,
+        skos:definition "Almregionen und Almhauptregionen Österreichs auf Basis politischer Gemeinden"@de,
             "Alpine pasture regions and main Alpine pasture regions of Austria on the basis of political municipalities"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt> ;
         skos:notation "Almhauptregionen" ;
@@ -35,7 +35,7 @@
     <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Bewirtschaftungsgebiete> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
-        skos:definition "Landwirtschaftliche Lagen Ãsterreichs auf Basis NUTS III Gebiete"@de,
+        skos:definition "Landwirtschaftliche Lagen Österreichs auf Basis NUTS III Gebiete"@de,
             "Agricultural areas of Austria based on NUTS III regions"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt> ;
         skos:notation "Bewirtschaftungsgebiete" ;
@@ -49,7 +49,7 @@
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
         rdfs:seeAlso "national-technical" ;
-        skos:definition "GewÃ¤sserstrecke mit anthropogen bedingten WasserfÃ¼hrungsschwankungen mit Schwall-Sunk-Erscheinungen."@de,
+        skos:definition "Gewässerstrecke mit anthropogen bedingten Wasserführungsschwankungen mit Schwall-Sunk-Erscheinungen."@de,
             "Water stretch with anthropogenically caused runoff fluctuations and the occurrence of hydropeaking."@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt> ;
         skos:notation "Hydropeaking" ;
@@ -62,7 +62,7 @@
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
         rdfs:seeAlso "national-technical" ;
-        skos:definition "GewÃ¤sserstrecke mit anthropogen bedingter Reduktionen der mittleren FlieÃgeschwindigkeit im Querprofil auf unter 0.3 Meter pro Sekunde bei Mittelwasser (MQ)."@de,
+        skos:definition "Gewässerstrecke mit anthropogen bedingter Reduktionen der mittleren Fließgeschwindigkeit im Querprofil auf unter 0.3 Meter pro Sekunde bei Mittelwasser (MQ)."@de,
             "Water stretch with anthropogenically caused reductions of average flow velocity in cross sections to less than 0.3 meters per second for medium water level."@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt> ;
         skos:notation "Impoundment" ;
@@ -87,7 +87,7 @@
     <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/LandwirtschaftlicheHauptproduktionsgebiete> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
-        skos:definition "Landwirtschaftliche Klein- und Hauptproduktionsgebiete Ãsterreichs auf Basis politischer Gemeinden"@de,
+        skos:definition "Landwirtschaftliche Klein- und Hauptproduktionsgebiete Österreichs auf Basis politischer Gemeinden"@de,
             "Small and main agricultural production areas in Austria based on political municipalities"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt> ;
         skos:notation "LandwirtschaftlicheHauptproduktionsgebiete" ;
@@ -102,7 +102,7 @@
         dcterms:description "Def. UBA"@de,
             "Def. UBA"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
-        skos:definition "Sanierungsgebiet ist ein Gebiet, in dem sich die Emissionsquellen befinden, die einen erheblichen Beitrag zur Ãberschreitung eines Immissionsgrenzwerts geleistet haben und fÃ¼r die in einem Luftreinhalte-Programm MaÃnahmen vorgesehen werden kÃ¶nnen."@de,
+        skos:definition "Sanierungsgebiet ist ein Gebiet, in dem sich die Emissionsquellen befinden, die einen erheblichen Beitrag zur Überschreitung eines Immissionsgrenzwerts geleistet haben und für die in einem Luftreinhalte-Programm Maßnahmen vorgesehen werden können."@de,
             "air quality improvement zone is an area in which the emission sources are located that have made a significant contribution to exceeding an air quality limit value and for which measures can be provided in an air pollution control program."@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt> ;
         skos:notation "Sanierungsgebiet_Luftreinhalteprogramm" ;
@@ -116,7 +116,7 @@
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
         rdfs:seeAlso "national-technical" ;
-        skos:definition "Abschnitt eines GewÃ¤ssers, der durch anthropogen bedingte Ableitung bzw. durch anthropogen bedingten RÃ¼ckhalt von einer Abminderung des natÃ¼rlichen Abflusses betroffen ist."@de,
+        skos:definition "Abschnitt eines Gewässers, der durch anthropogen bedingte Ableitung bzw. durch anthropogen bedingten Rückhalt von einer Abminderung des natürlichen Abflusses betroffen ist."@de,
             "Section of a flowing water which is affected by anthropogenically caused drainage or restraint due to a reduction of its natural runoff."@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt> ;
         skos:notation "WaterAbstraction" ;
@@ -141,7 +141,7 @@
     <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/saproWindEnergy> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
-        skos:definition "Dieses Entwicklungsprogramm hat die Festlegung von Ã¼berÃ¶rtlichen Vorgaben zum raumvertrÃ¤glichen Ausbau der Windenergie in der Steiermark zum Ziel."@de,
+        skos:definition "Dieses Entwicklungsprogramm hat die Festlegung von überörtlichen Vorgaben zum raumverträglichen Ausbau der Windenergie in der Steiermark zum Ziel."@de,
             "The aim of this development program is to define supra-local guidelines for the spatially compatible expansion of wind energy in Styria."@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt> ;
         skos:notation "saproWindEnergy" ;
@@ -171,7 +171,7 @@
             "Austrian Extension on high-level classification defining the type of Management, Restriction or Regulation Zone."@en ;
         dcterms:publisher <https://registry.inspire.gv.at/dataprovider/0008> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
-        dcterms:title "Code des Gebietstyps Ãsterreich"@de,
+        dcterms:title "Code des Gebietstyps Österreich"@de,
             "Zone Type Code Austria"@en ;
         dcterms:type <http://inspire.ec.europa.eu/codelist/ZoneTypeCode> ;
         owl:versionInfo "1.0.0" ;

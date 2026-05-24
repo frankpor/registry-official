@@ -9,7 +9,7 @@
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/br> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/br> ;
         skos:broader <https://registry.inspire.gv.at/codelist/Naturraumregionen/ALP> ;
-        skos:definition "KÃ¤rntner Becken- und Tallandschaften"@de,
+        skos:definition "Kärntner Becken- und Tallandschaften"@de,
             "only available in german"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Naturraumregionen> ;
         skos:notation "KlBeck" ;
@@ -22,11 +22,11 @@
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/br> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/br> ;
         skos:broader <https://registry.inspire.gv.at/codelist/Naturraumregionen/KONT> ;
-        skos:definition "Vorland nÃ¶rdlich der Alpen unter Ausschluss der Flyschzone"@de,
+        skos:definition "Vorland nördlich der Alpen unter Ausschluss der Flyschzone"@de,
             "only available in german"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Naturraumregionen> ;
         skos:notation "NAV" ;
-        skos:prefLabel "NÃ¶rdliches Alpenvorland"@de,
+        skos:prefLabel "Nördliches Alpenvorland"@de,
             "northern foothils of the Alps"@en ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
@@ -35,7 +35,7 @@
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/br> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/br> ;
         skos:broader <https://registry.inspire.gv.at/codelist/Naturraumregionen/NAlp> ;
-        skos:definition "mittlerer und westlicher Teil der Nordalpen aufgrund arealgeographischer Ãberlegungen"@de,
+        skos:definition "mittlerer und westlicher Teil der Nordalpen aufgrund arealgeographischer Überlegungen"@de,
             "only available in german"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Naturraumregionen> ;
         skos:notation "NAlpMiWest" ;
@@ -48,11 +48,11 @@
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/br> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/br> ;
         skos:broader <https://registry.inspire.gv.at/codelist/Naturraumregionen/NAlp> ;
-        skos:definition "Ã¶stlicher Teil der Nordalpen aufgrund arealgeographischer Ãberlegungen"@de,
+        skos:definition "östlicher Teil der Nordalpen aufgrund arealgeographischer Überlegungen"@de,
             "only available in german"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Naturraumregionen> ;
         skos:notation "NAlpOst" ;
-        skos:prefLabel "Ãstliche Nordalpen"@de,
+        skos:prefLabel "Östliche Nordalpen"@de,
             "eastern Northalps"@en ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
@@ -61,11 +61,11 @@
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/br> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/br> ;
         skos:broader <https://registry.inspire.gv.at/codelist/Naturraumregionen/KONT> ;
-        skos:definition "BÃ¶hmische Masse"@de,
+        skos:definition "Böhmische Masse"@de,
             "only available in german"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Naturraumregionen> ;
         skos:notation "NoeGrGnHL" ;
-        skos:prefLabel "NÃ¶rdliches Granit- und Gneishochland"@de,
+        skos:prefLabel "Nördliches Granit- und Gneishochland"@de,
             "Bohemian Mountains"@en ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
@@ -74,11 +74,11 @@
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/br> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/br> ;
         skos:broader <https://registry.inspire.gv.at/codelist/Naturraumregionen/KONT> ;
-        skos:definition "pannonische Flach- und HÃ¼gellÃ¤nder OstÃ¶sterreichs"@de,
+        skos:definition "pannonische Flach- und Hügelländer Ostösterreichs"@de,
             "only available in german"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Naturraumregionen> ;
         skos:notation "Pann" ;
-        skos:prefLabel "Pannonische Flach- und HÃ¼gellÃ¤nder"@de,
+        skos:prefLabel "Pannonische Flach- und Hügelländer"@de,
             "pannonian lowland and hills"@en ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
@@ -87,11 +87,11 @@
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/br> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/br> ;
         skos:broader <https://registry.inspire.gv.at/codelist/Naturraumregionen/ALP> ;
-        skos:definition "sÃ¼dliches Alpengebiet"@de,
+        skos:definition "südliches Alpengebiet"@de,
             "only available in german"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Naturraumregionen> ;
         skos:notation "SAlp" ;
-        skos:prefLabel "SÃ¼dalpen"@de,
+        skos:prefLabel "Südalpen"@de,
             "Southalps"@en ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
@@ -100,11 +100,11 @@
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/br> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/br> ;
         skos:broader <https://registry.inspire.gv.at/codelist/Naturraumregionen/KONT> ;
-        skos:definition "Grazer Bucht, HÃ¼gellÃ¤nder im mittleren und sÃ¼dlichen Burgenland"@de,
+        skos:definition "Grazer Bucht, Hügelländer im mittleren und südlichen Burgenland"@de,
             "only available in german"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Naturraumregionen> ;
         skos:notation "SoeAV" ;
-        skos:prefLabel "SÃ¼dÃ¶stliches Alpenvorland"@de,
+        skos:prefLabel "Südöstliches Alpenvorland"@de,
             "southern foothils of the Alps"@en ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
@@ -113,11 +113,11 @@
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/br> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/br> ;
         skos:broader <https://registry.inspire.gv.at/codelist/Naturraumregionen/ZAlp> ;
-        skos:definition "Untegrliederung der Zentralalpen aufgrund physiogeographischer Charakteristika (Ã¼berwiegend Mittelgebirgscharakter und umfaÃt die Buckelige Welt, das steirische Bergland, die Fischbacher Alpen, die Gleinalpe, die Koralpe, die Seetaler Apen und die Nochberge)"@de,
+        skos:definition "Untegrliederung der Zentralalpen aufgrund physiogeographischer Charakteristika (überwiegend Mittelgebirgscharakter und umfaßt die Buckelige Welt, das steirische Bergland, die Fischbacher Alpen, die Gleinalpe, die Koralpe, die Seetaler Apen und die Nochberge)"@de,
             "only available in german"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Naturraumregionen> ;
         skos:notation "ZAlpSO" ;
-        skos:prefLabel "Zentralalpen - sÃ¼dÃ¶stlicher Teil"@de,
+        skos:prefLabel "Zentralalpen - südöstlicher Teil"@de,
             "central Alps - southeastern part"@en ;
         skos:scopeNote "INSPIRE governance level: national-technical" ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
@@ -126,7 +126,7 @@
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/br> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/br> ;
         skos:broader <https://registry.inspire.gv.at/codelist/Naturraumregionen/ZAlp> ;
-        skos:definition "Untergliederund der Zentralalpen aufgrund pysiogeograÃ¼hischer Charakteristika (Ã¼berwiegend Hochgebirgscharakter und reicht vom Montafon im Westen Ã¼ber die Silvretta, den Ãtzlater und Stubaier Alpen, den Hohen Tauern bis zu den Niederen Tauern im Westen)"@de,
+        skos:definition "Untergliederund der Zentralalpen aufgrund pysiogeograühischer Charakteristika (überwiegend Hochgebirgscharakter und reicht vom Montafon im Westen über die Silvretta, den Ötzlater und Stubaier Alpen, den Hohen Tauern bis zu den Niederen Tauern im Westen)"@de,
             "only available in german"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Naturraumregionen> ;
         skos:notation "ZAlpZ" ;
@@ -139,7 +139,7 @@
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/br> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/br> ;
         skos:broader <https://registry.inspire.gv.at/codelist/Naturraumregionen/ALP> ;
-        skos:definition "nÃ¶rdliches Alpengebiet mit Einschluss der Flyschzone"@de,
+        skos:definition "nördliches Alpengebiet mit Einschluss der Flyschzone"@de,
             "only available in german"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/Naturraumregionen> ;
         skos:narrower <https://registry.inspire.gv.at/codelist/Naturraumregionen/NAlpMiWest>,
@@ -202,8 +202,8 @@
     <https://registry.inspire.gv.at/codelist/Naturraumregionen> a skos:ConceptScheme ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/br> ;
         dcterms:created "2026-05-05T14:30:11+00:00"^^xsd:dateTime ;
-        dcterms:description "NaturrÃ¤umliche Gliederung Ãsterreichs (Naturraumregionen bzw. Ãkozonen) nach 7 Hauptzonen und 10 Unterregionen, Credits: SAUBERER, N., GRABHERR, G. 1995: Fachliche Grundlagen zur Umsetzung der FFH-Richtlinie in Ãsterreich. Schwerpunkt LebensrÃ¤ume. Report des Umweltbundesamtes 115."@de,
-            "Physiogeographic Ecoregions in Austria divided into 7 main zones and 10 subregions; Credits: SAUBERER, N., GRABHERR, G. 1995: Fachliche Grundlagen zur Umsetzung der FFH-Richtlinie in Ãsterreich. Schwerpunkt LebensrÃ¤ume. Umweltbundesamtes Report 115."@en ;
+        dcterms:description "Naturräumliche Gliederung Österreichs (Naturraumregionen bzw. Ökozonen) nach 7 Hauptzonen und 10 Unterregionen, Credits: SAUBERER, N., GRABHERR, G. 1995: Fachliche Grundlagen zur Umsetzung der FFH-Richtlinie in Österreich. Schwerpunkt Lebensräume. Report des Umweltbundesamtes 115."@de,
+            "Physiogeographic Ecoregions in Austria divided into 7 main zones and 10 subregions; Credits: SAUBERER, N., GRABHERR, G. 1995: Fachliche Grundlagen zur Umsetzung der FFH-Richtlinie in Österreich. Schwerpunkt Lebensräume. Umweltbundesamtes Report 115."@en ;
         dcterms:publisher <https://registry.inspire.gv.at/dataprovider/0008> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/br> ;
         dcterms:title "Naturraumregionen"@de,

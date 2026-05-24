@@ -8,9 +8,9 @@
     <https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCommercialUse> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:description "Def. NOE"@de,
-            "Â§ 16 (1) Z 3 and 4"@de,
+            "§ 16 (1) Z 3 and 4"@de,
             "Def. NOE"@en,
-            "Â§ 16 (1) Z 3 and 4"@en ;
+            "§ 16 (1) Z 3 and 4"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
         skos:definition "Fasst die Baulandwidmungsarten Industriegebiete (BI) und Betriebsgebiete (BB) zusammen."@de,
             "Covers building land use types industrial areas (BI) and commercial (BB) areas."@en ;
@@ -40,12 +40,12 @@
     <https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandResidentialOrMixedUse> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:description "Def. NOE"@de,
-            "Â§ 16 (1) Z 1, 2, 5 and 7"@de,
+            "§ 16 (1) Z 1, 2, 5 and 7"@de,
             "Def. NOE"@en,
-            "Â§ 16 (1) Z 1, 2, 5 and 7"@en ;
+            "§ 16 (1) Z 1, 2, 5 and 7"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
-        skos:definition "Fasst die Baulandwidmungsarten Wohngebiete (BW), Agrargebiete (BA), Kerngebiete (BK) und Gebiete fuer erhaltenswerte Ortsstrukturen (BO) zusammen (inkl. AufschlieÃungszonen bzw. wenn als Folgenutzungsart angegeben)."@de,
-            "Fasst die Baulandwidmungsarten Wohngebiete (BW), Agrargebiete (BA), Kerngebiete (BK) und Gebiete fuer erhaltenswerte Ortsstrukturen (BO) zusammen (inkl. AufschlieâÃ¼ungszonen bzw. wenn als Folgenutzungsart angegeben)."@de,
+        skos:definition "Fasst die Baulandwidmungsarten Wohngebiete (BW), Agrargebiete (BA), Kerngebiete (BK) und Gebiete fuer erhaltenswerte Ortsstrukturen (BO) zusammen (inkl. Aufschließungszonen bzw. wenn als Folgenutzungsart angegeben)."@de,
+            "Fasst die Baulandwidmungsarten Wohngebiete (BW), Agrargebiete (BA), Kerngebiete (BK) und Gebiete fuer erhaltenswerte Ortsstrukturen (BO) zusammen (inkl. Aufschlie√üungszonen bzw. wenn als Folgenutzungsart angegeben)."@de,
             "Covers building land use types residential areas (BW), agricultural areas (BA), core areas (BK) and areas with local structures worth preserving (BO) (incl. development zones or if subsequent type of use is specified)."@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         skos:notation "buildingLandResidentialOrMixedUse" ;
@@ -58,9 +58,9 @@
     <https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandSpecialZone> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:description "Def. NOE"@de,
-            "Â§ 16 (1) Z 6 and 16 (2)"@de,
+            "§ 16 (1) Z 6 and 16 (2)"@de,
             "Def. NOE"@en,
-            "Â§ 16 (1) Z 6 and 16 (2)"@en ;
+            "§ 16 (1) Z 6 and 16 (2)"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
         skos:definition "Bauland Sondergebiete, fuer Nutzungen, die einen besonderen Schutz wie Krankenanstalten, Schulen, Pflegeheime erfordern oder denen ein bestimmter Standort zugeordnet werden soll wie Asphaltmischanalgen oder die sich nicht in die anderen Baulandwidmungen einordnen lassen wie Kasernen oder Sportanlagen."@de,
             "Building land - special zones for uses that require particular protection such as hospitals, schools, nursing homes, or that are to be assigned a specific location, such as asphalt mixing plants, or that cannot be categorised under other building use types, such as barracks or sports facilities."@en ;
@@ -87,9 +87,9 @@
     <https://registry.inspire.gv.at/codelist/noeLandUseValue/centreZone> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:description "Def. NOE"@de,
-            "Â§ 14 (2) Z 15 Â§ 18 (1)"@de,
+            "§ 14 (2) Z 15 § 18 (1)"@de,
             "Def. NOE"@en,
-            "Â§ 14 (2) Z 15 Â§ 18 (1)"@en ;
+            "§ 14 (2) Z 15 § 18 (1)"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
         skos:definition "Zentrumszone."@de,
             "The land use type 'Building land - core area commercial facilities' is only in this zone allowed."@en ;
@@ -104,9 +104,9 @@
     <https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandAgricultureAndForestryFarm> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:description "Def. NOE"@de,
-            "Â§ 20 (2) Z 1b"@de,
+            "§ 20 (2) Z 1b"@de,
             "Def. NOE"@en,
-            "Â§ 20 (2) Z 1b"@en ;
+            "§ 20 (2) Z 1b"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
         skos:definition "Gruenland land- und forstwirtschaftliche Hofstellen."@de,
             "Green land - agricultural and forestry farms."@en ;
@@ -121,9 +121,9 @@
     <https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandBuildingWorthyOfPreservation> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:description "Def. NOE"@de,
-            "Â§ 20 (2) Z 4"@de,
+            "§ 20 (2) Z 4"@de,
             "Def. NOE"@en,
-            "Â§ 20 (2) Z 4"@en ;
+            "§ 20 (2) Z 4"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
         skos:definition "Erhaltenswerte Gebaeude im Gruenland."@de,
             "Green land - buildings worthy of preservation."@en ;
@@ -138,9 +138,9 @@
     <https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCampsite> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:description "Def. NOE"@de,
-            "Â§ 20 (2) Z 10"@de,
+            "§ 20 (2) Z 10"@de,
             "Def. NOE"@en,
-            "Â§ 20 (2) Z 10"@en ;
+            "§ 20 (2) Z 10"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
         skos:definition "Gruenland Campingplaetze."@de,
             "Green land - campsites."@en ;
@@ -155,9 +155,9 @@
     <https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCemetery> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:description "Def. NOE"@de,
-            "Â§ 20 (2) Z 11"@de,
+            "§ 20 (2) Z 11"@de,
             "Def. NOE"@en,
-            "Â§ 20 (2) Z 11"@en ;
+            "§ 20 (2) Z 11"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
         skos:definition "Gruenland Friedhoefe."@de,
             "Green land cemeteries."@en ;
@@ -172,9 +172,9 @@
     <https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandLandfill> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:description "Def. NOE"@de,
-            "Â§ 20 (2) Z 14"@de,
+            "§ 20 (2) Z 14"@de,
             "Def. NOE"@en,
-            "Â§ 20 (2) Z 14"@en ;
+            "§ 20 (2) Z 14"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
         skos:definition "Gruenland Aushubdeponien."@de,
             "Green land - landfills."@en ;
@@ -189,9 +189,9 @@
     <https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandMarketGardenAndPlantNursery> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:description "Def. NOE"@de,
-            "Â§ 20 (2) Z 6"@de,
+            "§ 20 (2) Z 6"@de,
             "Def. NOE"@en,
-            "Â§ 20 (2) Z 6"@en ;
+            "§ 20 (2) Z 6"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
         skos:definition "Gruenland Gaertnereien."@de,
             "Green land - market gardens and plant nurseries."@en ;
@@ -206,9 +206,9 @@
     <https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandOpenSpaceArea> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:description "Def. NOE"@de,
-            "Â§ 20 (2) Z 18"@de,
+            "§ 20 (2) Z 18"@de,
             "Def. NOE"@en,
-            "Â§ 20 (2) Z 18"@en ;
+            "§ 20 (2) Z 18"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
         skos:definition "Freihalteflaechen (ist von jeglicher Bebauung frei zu halten)."@de,
             "Green land - open space areas (to be left completely undeveloped)."@en ;
@@ -222,8 +222,8 @@
 
     <https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandParkArea> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
-        dcterms:description "Â§ 20 (2) Z 12"@de,
-            "Â§ 20 (2) Z 12"@en ;
+        dcterms:description "§ 20 (2) Z 12"@de,
+            "§ 20 (2) Z 12"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
         skos:definition "Gruenland Parkanlagen: Flaechen, die zur Erholung und/oder Repraesentation im Freien dienen und nach einem Gesamtkonzept gestaltet und bepflanzt sind oder werden sollen."@de,
             "Green land - park areas: areas meant for recreation and/or representation in the outdoors and that are or are intended to be designed and planted according to an overall concept"@en ;
@@ -238,9 +238,9 @@
     <https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPhotvoltaicPlant> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:description "Def. NOE"@de,
-            "Â§ 20 (2) Z 21"@de,
+            "§ 20 (2) Z 21"@de,
             "Def. NOE"@en,
-            "Â§ 20 (2) Z 21"@en ;
+            "§ 20 (2) Z 21"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
         skos:definition "Gruenland Photovoltaikanlagen."@de,
             "Green land - photovoltaic plants."@en ;
@@ -255,9 +255,9 @@
     <https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPlayground> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:description "Def. NOE"@de,
-            "Â§ 20 (2) Z 9"@de,
+            "§ 20 (2) Z 9"@de,
             "Def. NOE"@en,
-            "Â§ 20 (2) Z 9"@en ;
+            "§ 20 (2) Z 9"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
         skos:definition "Gruenland Spielplaetze."@de,
             "Green land - playgrounds."@en ;
@@ -272,9 +272,9 @@
     <https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandResourceExtractionSite> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:description "Def. NOE"@de,
-            "Â§ 20 (2) Z 5"@de,
+            "§ 20 (2) Z 5"@de,
             "Def. NOE"@en,
-            "Â§ 20 (2) Z 5"@en ;
+            "§ 20 (2) Z 5"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
         skos:definition "Gruenland Materialgewinnungsstaetten (Gewinnung von div. Rohstoffen)."@de,
             "Green land - resource extraction sites (recovery of various raw materials)."@en ;
@@ -288,10 +288,10 @@
 
     <https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandShelter> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
-        dcterms:description "Â§ 20 (2) Z 3"@de,
-            "Â§ 20 (2) Z 3"@en ;
+        dcterms:description "§ 20 (2) Z 3"@de,
+            "§ 20 (2) Z 3"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
-        skos:definition "Gruenland Schutzhauuser: Gast- und Beherbergungsbetriebe sowie Unterstandshuetten, die fÃ¼r die Beduerfnisse des fuÃwegigen Tourismus erforderlich sind."@de,
+        skos:definition "Gruenland Schutzhauuser: Gast- und Beherbergungsbetriebe sowie Unterstandshuetten, die für die Beduerfnisse des fußwegigen Tourismus erforderlich sind."@de,
             "Green land - shelters: guesthouses, lodgings and shelter structures that are required to meet the needs of pedestrian tourism"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         skos:notation "greenLandShelter" ;
@@ -304,9 +304,9 @@
     <https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSmallGardenPlot> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:description "Def. NOE"@de,
-            "Â§ 20 (2) Z 7"@de,
+            "§ 20 (2) Z 7"@de,
             "Def. NOE"@en,
-            "Â§ 20 (2) Z 7"@en ;
+            "§ 20 (2) Z 7"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
         skos:definition "Gruenland Kleingaerten."@de,
             "Green land - small garden plots."@en ;
@@ -321,9 +321,9 @@
     <https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSportsFacility> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:description "Def. NOE"@de,
-            "Â§ 20 (2) Z 8"@de,
+            "§ 20 (2) Z 8"@de,
             "v"@en,
-            "Â§ 20 (2) Z 8"@en ;
+            "§ 20 (2) Z 8"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
         skos:definition "Gruenland Sportstaetten."@de,
             "Green land - sports facilities."@en ;
@@ -337,10 +337,10 @@
 
     <https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandStorageSpace> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
-        dcterms:description "Â§ 20 (2) Z 15"@de,
-            "Â§ 20 (2) Z 15"@en ;
+        dcterms:description "§ 20 (2) Z 15"@de,
+            "§ 20 (2) Z 15"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
-        skos:definition "Gruenland Lagerplaetze: Flaechen, die der vorÃ¼bergehenden Lagerung von Waren aller Art - auÃerhalb von Gebaeuden - dienen."@de,
+        skos:definition "Gruenland Lagerplaetze: Flaechen, die der vorübergehenden Lagerung von Waren aller Art - außerhalb von Gebaeuden - dienen."@de,
             "Green land - storage spaces: areas intended for temporary storage of all types of goods outside of buildings."@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         skos:notation "greenLandStorageSpace" ;
@@ -352,8 +352,8 @@
 
     <https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteLand> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
-        dcterms:description "Â§ 20 (2) Z 16"@de,
-            "Â§ 20 (2) Z 16"@en ;
+        dcterms:description "§ 20 (2) Z 16"@de,
+            "§ 20 (2) Z 16"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
         skos:definition "Gruenland Oedland/Oekoflaechen: Flaechen, die keiner oder nur einer unbedeutenden wirtschaftlichen Nutzung dienen."@de,
             "Green land - uncultivated/ecological areas: areas that serve no or only insignificant economic purpose"@en ;
@@ -368,9 +368,9 @@
     <https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteTreatmentFacility> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:description "Def. NOE"@de,
-            "Â§ 20 (2) Z 13"@de,
+            "§ 20 (2) Z 13"@de,
             "Def. NOE"@en,
-            "Â§ 20 (2) Z 13"@en ;
+            "§ 20 (2) Z 13"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
         skos:definition "Gruenland Abfallbehandlungsanlagen."@de,
             "Green land - waste treatment facilities."@en ;
@@ -385,9 +385,9 @@
     <https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWindPowerPlant> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:description "Def. NOE"@de,
-            "Â§ 20 (2) Z 19"@de,
+            "§ 20 (2) Z 19"@de,
             "Def. NOE"@en,
-            "Â§ 20 (2) Z 19"@en ;
+            "§ 20 (2) Z 19"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
         skos:definition "Gruenland Windkraftanlagen."@de,
             "Green land - wind power plants."@en ;
@@ -402,9 +402,9 @@
     <https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWineCellarLane> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:description "Def. NOE"@de,
-            "Â§ 20 (2) Z 20"@de,
+            "§ 20 (2) Z 20"@de,
             "Def. NOE"@en,
-            "Â§ 20 (2) Z 20"@en ;
+            "§ 20 (2) Z 20"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
         skos:definition "Gruenland Kellergassen."@de,
             "Green land - wine cellar lanes."@en ;
@@ -419,7 +419,7 @@
     <https://registry.inspire.gv.at/codelist/noeLandUseValue> a skos:ConceptScheme ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:created "2026-05-05T14:30:11+00:00"^^xsd:dateTime ;
-        dcterms:description "Ãsterreich-Erweiterung fÃ¼r NiederÃsterreich spezifische Landnutzungsklassifizierung"@de,
+        dcterms:description "Österreich-Erweiterung für NiederÖsterreich spezifische Landnutzungsklassifizierung"@de,
             "Austrian extension for Lower Austria specific land use classification"@en ;
         dcterms:publisher <https://registry.inspire.gv.at/dataprovider/0046> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;

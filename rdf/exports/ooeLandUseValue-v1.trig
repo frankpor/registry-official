@@ -400,7 +400,7 @@
         dcterms:description "Def. OOE, Kennzahl 11004"@de,
             "Def. OOE, Kennzahl 11004"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
-        skos:definition "Flaechen an Wasserstrassen, die fuer den Ãbergang des Personen- oder Gueterverkehrs vom Wasserweg auf den Landweg bestimmt sind"@de,
+        skos:definition "Flaechen an Wasserstrassen, die fuer den Übergang des Personen- oder Gueterverkehrs vom Wasserweg auf den Landweg bestimmt sind"@de,
             "Areas at waterways for passanger and freight transport"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
         skos:notation "shippingPier" ;
@@ -415,7 +415,7 @@
         dcterms:description "Def. OOE, Kennzahl 11301, 11302, 11303, 11304, 11305,"@de,
             "Def. OOE, Kennzahl 11301, 11302, 11303, 11304, 11305,"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
-        skos:definition "Flaechen fuer Handelsbetriebe mit einer Gesamtverkaufsflaeche von > 300mÂ²"@de,
+        skos:definition "Flaechen fuer Handelsbetriebe mit einer Gesamtverkaufsflaeche von > 300m²"@de,
             "Areas for establishments selling durable and non-durable goods or merchandise for personal or household consumption or to other retailers."@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
         skos:notation "shoppingArea" ;
@@ -446,7 +446,7 @@
             "Def. OOE, Kennzahl 13200, 13301, 13302, 13303, 13304, 13305, 13300"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
         skos:definition "Flaechen fuer land- und forstwirtschaftliche Betriebe mit nicht herkoemmlichen Produktionsformen (Betriebe der bodenunabhaengigen Haltung landwirtschaftlicher Nutztiere, Tierparks, Zucht und Haltung von Tieren, die keine landwirtschaftlichen Nutztiere sind und dgl.)"@de,
-            "Areas for soilless livestock farming, animal park, biogas plant, livestock farming Â§ 30 Abs. 4 and other special forms of agricultural and forestry farms"@en ;
+            "Areas for soilless livestock farming, animal park, biogas plant, livestock farming § 30 Abs. 4 and other special forms of agricultural and forestry farms"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
         skos:notation "specialAgriculturalEnterprise" ;
         skos:prefLabel "Gruenland fuer Sonderformen von land- und forstwirtschaftlichen Betrieben"@de,
@@ -505,7 +505,7 @@
         dcterms:description "Def. OOE, Kennzahl 16002"@de,
             "Def. OOE, Kennzahl 16002"@en ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
-        skos:definition "Technische Widmung unter Ersichtlichmachungen gem. Â§ 30 ROG"@de,
+        skos:definition "Technische Widmung unter Ersichtlichmachungen gem. § 30 ROG"@de,
             "Technical zone"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
         skos:notation "technicalZone" ;
@@ -563,7 +563,7 @@
     <https://registry.inspire.gv.at/codelist/ooeLandUseValue> a skos:ConceptScheme ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
         dcterms:created "2026-05-05T14:30:11+00:00"^^xsd:dateTime ;
-        dcterms:description "Ãsterreich-Erweiterung fÃ¼r OberÃ¶sterreich spezifische Landnutzungsklassifizierung"@de,
+        dcterms:description "Österreich-Erweiterung für Oberösterreich spezifische Landnutzungsklassifizierung"@de,
             "Austrian extension for Upper Austria specific land use classification"@en ;
         dcterms:publisher <https://registry.inspire.gv.at/dataprovider/0046> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
