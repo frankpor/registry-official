@@ -11,4 +11,4 @@ venv/
 env/
 
 # RDF test data
-rdf/test/
+rdf/tools/

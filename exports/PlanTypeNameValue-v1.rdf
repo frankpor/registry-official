@@ -20,6 +20,34 @@
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/PlanTypeNameValue/gravelControlPlan">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/plu"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Diese Flaechen (Zonen) sind auf Grund von naturschutz-, forstfachlichen, wasserrechtlichen und siedlungstechnischen Gründen für Bergbau und einen Abbau nicht geeignet bzw. auf Grund von rechtlichen Bestimmung für Bergbau und einen Abbau auszuschließen.</skos:definition>
+    <skos:definition xml:lang="en">Areas that are specifically excluded from any types of mining due to technical (i.e. conservation areas, forestry use, water regulations, settlement structures) or legal reasons.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue"/>
+    <skos:notation>gravelControlPlan</skos:notation>
+    <skos:prefLabel xml:lang="de">Kiesleitplan</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">gravel control plan</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/plu"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Sektorale Raumordnungsprogramme konkretisieren die Ziele des Landes NÖ für einzelne Landesteile und legen Maßnahmen verbindlich fest. Sie sind die Grundlage für die weitere räumliche Entwicklung Niederösterreichs.</skos:definition>
+    <skos:definition xml:lang="en">Sectoral spatial planning programs specify the goals of the Province of Lower Austria for individual parts of the country and set binding measures. They form the basis for the further spatial development of Lower Austria.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue"/>
+    <skos:notation>sectoralSpatialPlanningProgram</skos:notation>
+    <skos:prefLabel xml:lang="de">Sektorales Raumordnungsprogramm</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Sectoral spatial planning program</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/PlanTypeNameValue">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/base2"/>
@@ -50,34 +78,6 @@
     <skos:notation>greenArea</skos:notation>
     <skos:prefLabel xml:lang="de">Gruenzone</skos:prefLabel>
     <skos:prefLabel xml:lang="en">green area</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/plu"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Sektorale Raumordnungsprogramme konkretisieren die Ziele des Landes NÖ für einzelne Landesteile und legen Maßnahmen verbindlich fest. Sie sind die Grundlage für die weitere räumliche Entwicklung Niederösterreichs.</skos:definition>
-    <skos:definition xml:lang="en">Sectoral spatial planning programs specify the goals of the Province of Lower Austria for individual parts of the country and set binding measures. They form the basis for the further spatial development of Lower Austria.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue"/>
-    <skos:notation>sectoralSpatialPlanningProgram</skos:notation>
-    <skos:prefLabel xml:lang="de">Sektorales Raumordnungsprogramm</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Sectoral spatial planning program</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/PlanTypeNameValue/gravelControlPlan">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/plu"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Diese Flaechen (Zonen) sind auf Grund von naturschutz-, forstfachlichen, wasserrechtlichen und siedlungstechnischen Gründen für Bergbau und einen Abbau nicht geeignet bzw. auf Grund von rechtlichen Bestimmung für Bergbau und einen Abbau auszuschließen.</skos:definition>
-    <skos:definition xml:lang="en">Areas that are specifically excluded from any types of mining due to technical (i.e. conservation areas, forestry use, water regulations, settlement structures) or legal reasons.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue"/>
-    <skos:notation>gravelControlPlan</skos:notation>
-    <skos:prefLabel xml:lang="de">Kiesleitplan</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">gravel control plan</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>

@@ -6,19 +6,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/nonForestAreas">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry"/>
-    <skos:definition xml:lang="de">Wald in unterrepraesentativer Auspraegung (z.B. Gebiete mit intensiver landwirtschaftlicher Nutzung, Gletscher oder Seen).</skos:definition>
-    <skos:definition xml:lang="en">Area is almost entirely non-forest (e.g. areas of intensive agricultural use, glaciers or lakes).</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue"/>
-    <skos:notation>nonForestAreas</skos:notation>
-    <skos:prefLabel xml:lang="en">non forest areas</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Nicht Wald</skos:prefLabel>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/welfareFunction">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
@@ -30,22 +17,6 @@
     <skos:notation>welfareFunction</skos:notation>
     <skos:prefLabel xml:lang="de">Wohlfahrtsfunktion</skos:prefLabel>
     <skos:prefLabel xml:lang="en">welfare function</skos:prefLabel>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-05T14:30:11+00:00</dcterms:created>
-    <dcterms:description xml:lang="de">Codeliste der österreichischen Waldinventurtypen</dcterms:description>
-    <dcterms:description xml:lang="en">Code list of Austrian forest Inventory types</dcterms:description>
-    <dcterms:publisher rdf:resource="https://registry.inspire.gv.at/dataprovider/0006"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <dcterms:title xml:lang="de">Waldinventar Typen</dcterms:title>
-    <dcterms:title xml:lang="en">Forest Inventory Type</dcterms:title>
-    <dcterms:type rdf:resource="http://inspire.ec.europa.eu/codelist/LandUseClassificationValue"/>
-    <owl:versionInfo>1.0.0</owl:versionInfo>
-    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry"/>
-    <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/protectiveFunction">
@@ -74,6 +45,48 @@
     <skos:prefLabel xml:lang="de">Erholungsfunktion</skos:prefLabel>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-05T14:30:11+00:00</dcterms:created>
+    <dcterms:description xml:lang="de">Codeliste der österreichischen Waldinventurtypen</dcterms:description>
+    <dcterms:description xml:lang="en">Code list of Austrian forest Inventory types</dcterms:description>
+    <dcterms:publisher rdf:resource="https://registry.inspire.gv.at/dataprovider/0006"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <dcterms:title xml:lang="de">Waldinventar Typen</dcterms:title>
+    <dcterms:title xml:lang="en">Forest Inventory Type</dcterms:title>
+    <dcterms:type rdf:resource="http://inspire.ec.europa.eu/codelist/LandUseClassificationValue"/>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry"/>
+    <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/nonForestAreas">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry"/>
+    <skos:definition xml:lang="de">Wald in unterrepraesentativer Auspraegung (z.B. Gebiete mit intensiver landwirtschaftlicher Nutzung, Gletscher oder Seen).</skos:definition>
+    <skos:definition xml:lang="en">Area is almost entirely non-forest (e.g. areas of intensive agricultural use, glaciers or lakes).</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue"/>
+    <skos:notation>nonForestAreas</skos:notation>
+    <skos:prefLabel xml:lang="en">non forest areas</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Nicht Wald</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/productiveFunction">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry"/>
+    <skos:definition xml:lang="de">Wald mit Nutzfunktion fuer wirtschaftliche und nachhaltige Hervorbringung des Rohstoffes Holz.</skos:definition>
+    <skos:definition xml:lang="en">Forest with productive function for economic and sustainable production of the raw material 'wood”.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue"/>
+    <skos:notation>productiveFunction</skos:notation>
+    <skos:prefLabel xml:lang="en">productive function</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Nutzfunktion</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
@@ -90,19 +103,6 @@
     <skos:prefLabel xml:lang="de">Forstwirschaft</skos:prefLabel>
     <skos:prefLabel xml:lang="en">forestry</skos:prefLabel>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/productiveFunction">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry"/>
-    <skos:definition xml:lang="de">Wald mit Nutzfunktion fuer wirtschaftliche und nachhaltige Hervorbringung des Rohstoffes Holz.</skos:definition>
-    <skos:definition xml:lang="en">Forest with productive function for economic and sustainable production of the raw material 'wood”.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue"/>
-    <skos:notation>productiveFunction</skos:notation>
-    <skos:prefLabel xml:lang="en">productive function</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Nutzfunktion</skos:prefLabel>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
 </rdf:RDF>
