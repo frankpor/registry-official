@@ -6,6 +6,20 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/MoorObjekt">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/hb"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"/>
+    <skos:definition xml:lang="de">Moorflächen aus dem Moorschutzkatalog (Steiner et al. 1992), Hrsg.: Bundesministerium für Gesundheit und Umweltschutz, Credits: Gert Michael STEINER unter Mitarbeit von P. Englmaier, M. Fink, F, Grünweis, I. Höfner I. Korner, A. Ströhle und W. Wolf (im Auftrag des Bundesministeriums für Gesundheit und Umweltschutz), Wien, 1992</skos:definition>
+    <skos:definition xml:lang="en">Bog and mire inventory</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"/>
+    <skos:notation>MoorObjekt</skos:notation>
+    <skos:prefLabel xml:lang="de">Moorobjekt</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bog and Mire object</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
@@ -20,6 +34,24 @@
     <owl:versionInfo>1.0.0</owl:versionInfo>
     <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"/>
     <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/hb"/>
+    <skos:definition xml:lang="de">Naturschutzfachliche Inventare, die zumeist sehr spezifische Ökosysteme (Moore, Feuchtgebiete, Trockenrasen etc.) abdecken</skos:definition>
+    <skos:definition xml:lang="en">nature conservation inventories that cover mostly very specific ecosystem types (e.g. bogs and mires, wetlands, dry grasslands, etc.)</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/TrockenrasenObjekt"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/MoorObjekt"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/FeuchtgebietsObjekt"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/AuenObjekt"/>
+    <skos:notation>Naturschutzinventare</skos:notation>
+    <skos:prefLabel xml:lang="de">Naturschutzinventare</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Nature conservation inventories</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/TrockenrasenObjekt">
@@ -48,38 +80,6 @@
     <skos:prefLabel xml:lang="en">Floodplain object</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Auenobjekt</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/MoorObjekt">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/hb"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"/>
-    <skos:definition xml:lang="de">Moorflächen aus dem Moorschutzkatalog (Steiner et al. 1992), Hrsg.: Bundesministerium für Gesundheit und Umweltschutz, Credits: Gert Michael STEINER unter Mitarbeit von P. Englmaier, M. Fink, F, Grünweis, I. Höfner I. Korner, A. Ströhle und W. Wolf (im Auftrag des Bundesministeriums für Gesundheit und Umweltschutz), Wien, 1992</skos:definition>
-    <skos:definition xml:lang="en">Bog and mire inventory</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"/>
-    <skos:notation>MoorObjekt</skos:notation>
-    <skos:prefLabel xml:lang="de">Moorobjekt</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Bog and Mire object</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/hb"/>
-    <skos:definition xml:lang="de">Naturschutzfachliche Inventare, die zumeist sehr spezifische Ökosysteme (Moore, Feuchtgebiete, Trockenrasen etc.) abdecken</skos:definition>
-    <skos:definition xml:lang="en">nature conservation inventories that cover mostly very specific ecosystem types (e.g. bogs and mires, wetlands, dry grasslands, etc.)</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/TrockenrasenObjekt"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/MoorObjekt"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/FeuchtgebietsObjekt"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/AuenObjekt"/>
-    <skos:notation>Naturschutzinventare</skos:notation>
-    <skos:prefLabel xml:lang="de">Naturschutzinventare</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Nature conservation inventories</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/FeuchtgebietsObjekt">

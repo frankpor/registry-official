@@ -6,14 +6,98 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A7">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/D3xx">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Bauland - Reines Kurgebiet</skos:definition>
+    <skos:definition xml:lang="de">Ersichtlichmachungen - Landesstrasse</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>A7</skos:notation>
-    <skos:prefLabel xml:lang="de">Bauland - Reines Kurgebiet</skos:prefLabel>
+    <skos:notation>D3xx</skos:notation>
+    <skos:prefLabel xml:lang="de">Ersichtlichmachungen - Landesstrasse</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/B12xx">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Gruenland - Sprengstofflager, Schiessstaette</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <skos:notation>B12xx</skos:notation>
+    <skos:prefLabel xml:lang="de">Gruenland - Sprengstofflager, Schiessstaette</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/D4xx">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Ersichtlichmachungen - Haupt-, Nebenbahn, Anschlussbahn, Materialbahn</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <skos:notation>D4xx</skos:notation>
+    <skos:prefLabel xml:lang="de">Ersichtlichmachungen - Haupt-, Nebenbahn, Anschlussbahn, Materialbahn</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/D15">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Ersichtlichmachungen - Gewaesser, See</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <skos:notation>D15</skos:notation>
+    <skos:prefLabel xml:lang="de">Ersichtlichmachungen - Gewaesser, See</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/D1xx">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Ersichtlichmachungen - Autobahn(mit Schutzzone)</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <skos:notation>D1xx</skos:notation>
+    <skos:prefLabel xml:lang="de">Ersichtlichmachungen - Autobahn(mit Schutzzone)</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/B15xxx">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Gruenland - Sonstige Gruenlandtypen</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <skos:notation>B15xxx</skos:notation>
+    <skos:prefLabel xml:lang="de">Gruenland - Sonstige Gruenlandtypen</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Bauland - Gemischtes Baugebiet</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <skos:notation>A4</skos:notation>
+    <skos:prefLabel xml:lang="de">Bauland - Gemischtes Baugebiet</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Bauland - Kurgebiet</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <skos:notation>A3</skos:notation>
+    <skos:prefLabel xml:lang="de">Bauland - Kurgebiet</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
@@ -70,50 +154,26 @@
     <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/Bxxx">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A1">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Gruenland - Fuer die Land- und Forstwirtschaft bestimmte Flaeche, oedland</skos:definition>
+    <skos:definition xml:lang="de">Bauland - Dorfgebiet</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>Bxxx</skos:notation>
-    <skos:prefLabel xml:lang="de">Gruenland - Fuer die Land- und Forstwirtschaft bestimmte Flaeche, oedland</skos:prefLabel>
+    <skos:notation>A1</skos:notation>
+    <skos:prefLabel xml:lang="de">Bauland - Dorfgebiet</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A4">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A2">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Bauland - Gemischtes Baugebiet</skos:definition>
+    <skos:definition xml:lang="de">Bauland - Wohngebiet</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>A4</skos:notation>
-    <skos:prefLabel xml:lang="de">Bauland - Gemischtes Baugebiet</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/Cxxx">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Verkehrsflaeche - Verkehrsflaeche in der Gemeinde</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>Cxxx</skos:notation>
-    <skos:prefLabel xml:lang="de">Verkehrsflaeche - Verkehrsflaeche in der Gemeinde</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A200xxxx">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Bauland - Sonderwidmung mit Vorbehalt</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>A200xxxx</skos:notation>
-    <skos:prefLabel xml:lang="de">Bauland - Sonderwidmung mit Vorbehalt</skos:prefLabel>
+    <skos:notation>A2</skos:notation>
+    <skos:prefLabel xml:lang="de">Bauland - Wohngebiet</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
@@ -130,110 +190,38 @@
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A13xxx">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A8">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Bauland - Sondergebiet</skos:definition>
+    <skos:definition xml:lang="de">Bauland - Gewerbegebiet</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>A13xxx</skos:notation>
-    <skos:prefLabel xml:lang="de">Bauland - Sondergebiet</skos:prefLabel>
+    <skos:notation>A8</skos:notation>
+    <skos:prefLabel xml:lang="de">Bauland - Gewerbegebiet</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/D4xx">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/D2xx">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Ersichtlichmachungen - Haupt-, Nebenbahn, Anschlussbahn, Materialbahn</skos:definition>
+    <skos:definition xml:lang="de">Ersichtlichmachungen - Bundesstrasse</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>D4xx</skos:notation>
-    <skos:prefLabel xml:lang="de">Ersichtlichmachungen - Haupt-, Nebenbahn, Anschlussbahn, Materialbahn</skos:prefLabel>
+    <skos:notation>D2xx</skos:notation>
+    <skos:prefLabel xml:lang="de">Ersichtlichmachungen - Bundesstrasse</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/B15xxx">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/D3102">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Gruenland - Sonstige Gruenlandtypen</skos:definition>
+    <skos:definition xml:lang="de">Ersichtlichmachungen - Altlast</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>B15xxx</skos:notation>
-    <skos:prefLabel xml:lang="de">Gruenland - Sonstige Gruenlandtypen</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/B6xx">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Gruenland - Sportanlage, Vergnuegungs- und Veranstaltungsstaette</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>B6xx</skos:notation>
-    <skos:prefLabel xml:lang="de">Gruenland - Sportanlage, Vergnuegungs- und Veranstaltungsstaette</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A6">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Bauland - Reines Wohngebiet</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>A6</skos:notation>
-    <skos:prefLabel xml:lang="de">Bauland - Reines Wohngebiet</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/D3xx">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Ersichtlichmachungen - Landesstrasse</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>D3xx</skos:notation>
-    <skos:prefLabel xml:lang="de">Ersichtlichmachungen - Landesstrasse</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/B7xx">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Gruenland - Campingplatz</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>B7xx</skos:notation>
-    <skos:prefLabel xml:lang="de">Gruenland - Campingplatz</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/B10xx">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Gruenland - Materialgewinnungsstaette und Materiallagerstaette</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>B10xx</skos:notation>
-    <skos:prefLabel xml:lang="de">Gruenland - Materialgewinnungsstaette und Materiallagerstaette</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/B8xx">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Gruenland - Erwerbsgaertnerei u. ae.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>B8xx</skos:notation>
-    <skos:prefLabel xml:lang="de">Gruenland - Erwerbsgaertnerei u. ae.</skos:prefLabel>
+    <skos:notation>D3102</skos:notation>
+    <skos:prefLabel xml:lang="de">Ersichtlichmachungen - Altlast</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
@@ -250,6 +238,90 @@
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/B7xx">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Gruenland - Campingplatz</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <skos:notation>B7xx</skos:notation>
+    <skos:prefLabel xml:lang="de">Gruenland - Campingplatz</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/D7xx">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Ersichtlichmachungen - Flugplatz</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <skos:notation>D7xx</skos:notation>
+    <skos:prefLabel xml:lang="de">Ersichtlichmachungen - Flugplatz</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A1116xxx">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Bauland - Sondergebiet mit Sonderwidmung</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <skos:notation>A1116xxx</skos:notation>
+    <skos:prefLabel xml:lang="de">Bauland - Sondergebiet mit Sonderwidmung</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A16xxx">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Bauland - Sonderwidmung</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <skos:notation>A16xxx</skos:notation>
+    <skos:prefLabel xml:lang="de">Bauland - Sonderwidmung</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A15xxx">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Bauland - Vorbehaltsflaeche</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <skos:notation>A15xxx</skos:notation>
+    <skos:prefLabel xml:lang="de">Bauland - Vorbehaltsflaeche</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A1115xxx">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Bauland - Sondergebiet mit Vorbehalt</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <skos:notation>A1115xxx</skos:notation>
+    <skos:prefLabel xml:lang="de">Bauland - Sondergebiet mit Vorbehalt</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/B8xx">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Gruenland - Erwerbsgaertnerei u. ae.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <skos:notation>B8xx</skos:notation>
+    <skos:prefLabel xml:lang="de">Gruenland - Erwerbsgaertnerei u. ae.</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A1114xxx">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
@@ -262,14 +334,14 @@
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A14xxx">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/B13xx">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Bauland - Mehrgeschossige Widmung</skos:definition>
+    <skos:definition xml:lang="de">Gruenland - Schutzstreifen als Immissionsschutz</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>A14xxx</skos:notation>
-    <skos:prefLabel xml:lang="de">Bauland - Mehrgeschossige Widmung</skos:prefLabel>
+    <skos:notation>B13xx</skos:notation>
+    <skos:prefLabel xml:lang="de">Gruenland - Schutzstreifen als Immissionsschutz</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
@@ -298,86 +370,50 @@
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A1115xxx">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/B6xx">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Bauland - Sondergebiet mit Vorbehalt</skos:definition>
+    <skos:definition xml:lang="de">Gruenland - Sportanlage, Vergnuegungs- und Veranstaltungsstaette</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>A1115xxx</skos:notation>
-    <skos:prefLabel xml:lang="de">Bauland - Sondergebiet mit Vorbehalt</skos:prefLabel>
+    <skos:notation>B6xx</skos:notation>
+    <skos:prefLabel xml:lang="de">Gruenland - Sportanlage, Vergnuegungs- und Veranstaltungsstaette</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/B16xx">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A6">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Gruenland - Abfallbehandlungsanlage, Abfallagerstaette</skos:definition>
+    <skos:definition xml:lang="de">Bauland - Reines Wohngebiet</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>B16xx</skos:notation>
-    <skos:prefLabel xml:lang="de">Gruenland - Abfallbehandlungsanlage, Abfallagerstaette</skos:prefLabel>
+    <skos:notation>A6</skos:notation>
+    <skos:prefLabel xml:lang="de">Bauland - Reines Wohngebiet</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A2">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A14xxx">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Bauland - Wohngebiet</skos:definition>
+    <skos:definition xml:lang="de">Bauland - Mehrgeschossige Widmung</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>A2</skos:notation>
-    <skos:prefLabel xml:lang="de">Bauland - Wohngebiet</skos:prefLabel>
+    <skos:notation>A14xxx</skos:notation>
+    <skos:prefLabel xml:lang="de">Bauland - Mehrgeschossige Widmung</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A3">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A200xxxx">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Bauland - Kurgebiet</skos:definition>
+    <skos:definition xml:lang="de">Bauland - Sonderwidmung mit Vorbehalt</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>A3</skos:notation>
-    <skos:prefLabel xml:lang="de">Bauland - Kurgebiet</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/D15">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Ersichtlichmachungen - Gewaesser, See</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>D15</skos:notation>
-    <skos:prefLabel xml:lang="de">Ersichtlichmachungen - Gewaesser, See</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/D2xx">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Ersichtlichmachungen - Bundesstrasse</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>D2xx</skos:notation>
-    <skos:prefLabel xml:lang="de">Ersichtlichmachungen - Bundesstrasse</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A1">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Bauland - Dorfgebiet</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>A1</skos:notation>
-    <skos:prefLabel xml:lang="de">Bauland - Dorfgebiet</skos:prefLabel>
+    <skos:notation>A200xxxx</skos:notation>
+    <skos:prefLabel xml:lang="de">Bauland - Sonderwidmung mit Vorbehalt</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
@@ -394,110 +430,74 @@
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/D3102">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/B10xx">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Ersichtlichmachungen - Altlast</skos:definition>
+    <skos:definition xml:lang="de">Gruenland - Materialgewinnungsstaette und Materiallagerstaette</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>D3102</skos:notation>
-    <skos:prefLabel xml:lang="de">Ersichtlichmachungen - Altlast</skos:prefLabel>
+    <skos:notation>B10xx</skos:notation>
+    <skos:prefLabel xml:lang="de">Gruenland - Materialgewinnungsstaette und Materiallagerstaette</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A16xxx">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/Bxxx">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Bauland - Sonderwidmung</skos:definition>
+    <skos:definition xml:lang="de">Gruenland - Fuer die Land- und Forstwirtschaft bestimmte Flaeche, oedland</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>A16xxx</skos:notation>
-    <skos:prefLabel xml:lang="de">Bauland - Sonderwidmung</skos:prefLabel>
+    <skos:notation>Bxxx</skos:notation>
+    <skos:prefLabel xml:lang="de">Gruenland - Fuer die Land- und Forstwirtschaft bestimmte Flaeche, oedland</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/B12xx">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/Cxxx">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Gruenland - Sprengstofflager, Schiessstaette</skos:definition>
+    <skos:definition xml:lang="de">Verkehrsflaeche - Verkehrsflaeche in der Gemeinde</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>B12xx</skos:notation>
-    <skos:prefLabel xml:lang="de">Gruenland - Sprengstofflager, Schiessstaette</skos:prefLabel>
+    <skos:notation>Cxxx</skos:notation>
+    <skos:prefLabel xml:lang="de">Verkehrsflaeche - Verkehrsflaeche in der Gemeinde</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A1116xxx">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/B16xx">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Bauland - Sondergebiet mit Sonderwidmung</skos:definition>
+    <skos:definition xml:lang="de">Gruenland - Abfallbehandlungsanlage, Abfallagerstaette</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>A1116xxx</skos:notation>
-    <skos:prefLabel xml:lang="de">Bauland - Sondergebiet mit Sonderwidmung</skos:prefLabel>
+    <skos:notation>B16xx</skos:notation>
+    <skos:prefLabel xml:lang="de">Gruenland - Abfallbehandlungsanlage, Abfallagerstaette</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/D7xx">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A7">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Ersichtlichmachungen - Flugplatz</skos:definition>
+    <skos:definition xml:lang="de">Bauland - Reines Kurgebiet</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>D7xx</skos:notation>
-    <skos:prefLabel xml:lang="de">Ersichtlichmachungen - Flugplatz</skos:prefLabel>
+    <skos:notation>A7</skos:notation>
+    <skos:prefLabel xml:lang="de">Bauland - Reines Kurgebiet</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A15xxx">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A13xxx">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Bauland - Vorbehaltsflaeche</skos:definition>
+    <skos:definition xml:lang="de">Bauland - Sondergebiet</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>A15xxx</skos:notation>
-    <skos:prefLabel xml:lang="de">Bauland - Vorbehaltsflaeche</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/A8">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Bauland - Gewerbegebiet</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>A8</skos:notation>
-    <skos:prefLabel xml:lang="de">Bauland - Gewerbegebiet</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/D1xx">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Ersichtlichmachungen - Autobahn(mit Schutzzone)</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>D1xx</skos:notation>
-    <skos:prefLabel xml:lang="de">Ersichtlichmachungen - Autobahn(mit Schutzzone)</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ktnLandUseValue/B13xx">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Gruenland - Schutzstreifen als Immissionsschutz</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:notation>B13xx</skos:notation>
-    <skos:prefLabel xml:lang="de">Gruenland - Schutzstreifen als Immissionsschutz</skos:prefLabel>
+    <skos:notation>A13xxx</skos:notation>
+    <skos:prefLabel xml:lang="de">Bauland - Sondergebiet</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>

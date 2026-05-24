@@ -1,6 +1,6 @@
 [
   {
-    "@id": "https://registry.inspire.gv.at/codelist/DirectiveRelevance/psiKonform",
+    "@id": "https://registry.inspire.gv.at/codelist/DirectiveRelevance/inspireIdentified",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -16,17 +16,17 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@value": "http://data.europa.eu/eli/dir/2019/1024/oj"
+        "@value": "http://data.europa.eu/eli/dir/2007/2/oj"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Datensatz, Dienst oder Dokument ist konform zur Public-Sector-Information Richtlinie."
+        "@value": "Datensatz, Dienst ist INSPIRE-relevant."
       },
       {
         "@language": "en",
-        "@value": "Data and data service or document is compliant with EU Public Sector Information Directive."
+        "@value": "Data and data service has a INSPIRE relevance."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -36,17 +36,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "psiKonform"
+        "@value": "inspireIdentified"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "PSI konform"
+        "@value": "INSPIRE identifiziert"
       },
       {
         "@language": "en",
-        "@value": "PSI conform"
+        "@value": "INSPIRE identified"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -143,7 +143,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/DirectiveRelevance/inspireIdentified",
+    "@id": "https://registry.inspire.gv.at/codelist/DirectiveRelevance/psiKonform",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -159,17 +159,17 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@value": "http://data.europa.eu/eli/dir/2007/2/oj"
+        "@value": "http://data.europa.eu/eli/dir/2019/1024/oj"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Datensatz, Dienst ist INSPIRE-relevant."
+        "@value": "Datensatz, Dienst oder Dokument ist konform zur Public-Sector-Information Richtlinie."
       },
       {
         "@language": "en",
-        "@value": "Data and data service has a INSPIRE relevance."
+        "@value": "Data and data service or document is compliant with EU Public Sector Information Directive."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -179,17 +179,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "inspireIdentified"
+        "@value": "psiKonform"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "INSPIRE identifiziert"
+        "@value": "PSI konform"
       },
       {
         "@language": "en",
-        "@value": "INSPIRE identified"
+        "@value": "PSI conform"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [

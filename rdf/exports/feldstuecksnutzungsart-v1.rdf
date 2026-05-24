@@ -6,63 +6,26 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WT">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/TF">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WI"/>
-    <skos:definition xml:lang="de">WEINGARTENFLÄCHEN IM ERTRAG INKL. JUNGANLAGEN UND SCHNITTWEINGÄRTEN - TERRASSENANLAGEN</skos:definition>
+    <skos:definition xml:lang="de">TEICHFLÄCHEN</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
-    <skos:notation>WT</skos:notation>
-    <skos:prefLabel xml:lang="de">WEINGARTENFLÄCHEN TERRASSAN</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WI">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">WEINGARTENFLÄCHEN IM ERTRAG INKL. JUNGANLAGEN UND SCHNITTWEINGÄRTEN</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WT"/>
-    <skos:notation>WI</skos:notation>
-    <skos:prefLabel xml:lang="de">WEINGARTENFLÄCHEN</skos:prefLabel>
+    <skos:notation>TF</skos:notation>
+    <skos:prefLabel xml:lang="de">TEICHFLÄCHEN</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/L">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/FO">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">ALMEN</skos:definition>
+    <skos:definition xml:lang="de">FORST</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
-    <skos:notation>L</skos:notation>
-    <skos:prefLabel xml:lang="de">ALMEN</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/AN">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">ACKER NICHT KPF BEIHILFEFÄHIG</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
-    <skos:notation>AN</skos:notation>
-    <skos:prefLabel xml:lang="de">ACKER NICHT KPF BEIHILFEFÄHIG</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/GA">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">GESCHÜTZTER ANBAU</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
-    <skos:notation>GA</skos:notation>
-    <skos:prefLabel xml:lang="de">GESCHÜTZTER ANBAU</skos:prefLabel>
+    <skos:notation>FO</skos:notation>
+    <skos:prefLabel xml:lang="de">FORST</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
@@ -96,26 +59,26 @@
     <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/ST">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/G">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/S"/>
-    <skos:definition xml:lang="de">SPEZIALKULTURFELDSTÜCKE IN TERASSENFORM</skos:definition>
+    <skos:definition xml:lang="de">GRÜNLAND</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
-    <skos:notation>ST</skos:notation>
-    <skos:prefLabel xml:lang="de">SPEZIALKULTURFELDSTÜCKE IN TERASSENFORM</skos:prefLabel>
+    <skos:notation>G</skos:notation>
+    <skos:prefLabel xml:lang="de">GRÜNLAND</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/PF">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/DM">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">PFLEGEFLÄCHE</skos:definition>
+    <skos:definition xml:lang="de">WEIDEFELDSTÜCK - MITBESTOSSEN</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
-    <skos:notation>PF</skos:notation>
-    <skos:prefLabel xml:lang="de">PFLEGEFLÄCHE</skos:prefLabel>
+    <skos:notation>DM</skos:notation>
+    <skos:prefLabel xml:lang="de">WEIDEFELDSTÜCK - MITBESTOSSEN</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
@@ -144,38 +107,63 @@
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/DM">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/L">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">WEIDEFELDSTÜCK - MITBESTOSSEN</skos:definition>
+    <skos:definition xml:lang="de">ALMEN</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
-    <skos:notation>DM</skos:notation>
-    <skos:prefLabel xml:lang="de">WEIDEFELDSTÜCK - MITBESTOSSEN</skos:prefLabel>
+    <skos:notation>L</skos:notation>
+    <skos:prefLabel xml:lang="de">ALMEN</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/G">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/GA">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">GRÜNLAND</skos:definition>
+    <skos:definition xml:lang="de">GESCHÜTZTER ANBAU</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
-    <skos:notation>G</skos:notation>
-    <skos:prefLabel xml:lang="de">GRÜNLAND</skos:prefLabel>
+    <skos:notation>GA</skos:notation>
+    <skos:prefLabel xml:lang="de">GESCHÜTZTER ANBAU</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/FO">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WT">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">FORST</skos:definition>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WI"/>
+    <skos:definition xml:lang="de">WEINGARTENFLÄCHEN IM ERTRAG INKL. JUNGANLAGEN UND SCHNITTWEINGÄRTEN - TERRASSENANLAGEN</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
-    <skos:notation>FO</skos:notation>
-    <skos:prefLabel xml:lang="de">FORST</skos:prefLabel>
+    <skos:notation>WT</skos:notation>
+    <skos:prefLabel xml:lang="de">WEINGARTENFLÄCHEN TERRASSAN</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/S">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">SPEZIALKULTUREN</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/ST"/>
+    <skos:notation>S</skos:notation>
+    <skos:prefLabel xml:lang="de">SPEZIALKULTUREN</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/PF">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">PFLEGEFLÄCHE</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
+    <skos:notation>PF</skos:notation>
+    <skos:prefLabel xml:lang="de">PFLEGEFLÄCHE</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
@@ -192,16 +180,16 @@
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/TF">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/ST">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">TEICHFLÄCHEN</skos:definition>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/S"/>
+    <skos:definition xml:lang="de">SPEZIALKULTURFELDSTÜCKE IN TERASSENFORM</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
-    <skos:notation>TF</skos:notation>
-    <skos:prefLabel xml:lang="de">TEICHFLÄCHEN</skos:prefLabel>
+    <skos:notation>ST</skos:notation>
+    <skos:prefLabel xml:lang="de">SPEZIALKULTURFELDSTÜCKE IN TERASSENFORM</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/A">
@@ -216,15 +204,27 @@
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/S">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/AN">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">SPEZIALKULTUREN</skos:definition>
+    <skos:definition xml:lang="de">ACKER NICHT KPF BEIHILFEFÄHIG</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/ST"/>
-    <skos:notation>S</skos:notation>
-    <skos:prefLabel xml:lang="de">SPEZIALKULTUREN</skos:prefLabel>
+    <skos:notation>AN</skos:notation>
+    <skos:prefLabel xml:lang="de">ACKER NICHT KPF BEIHILFEFÄHIG</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WI">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">WEINGARTENFLÄCHEN IM ERTRAG INKL. JUNGANLAGEN UND SCHNITTWEINGÄRTEN</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WT"/>
+    <skos:notation>WI</skos:notation>
+    <skos:prefLabel xml:lang="de">WEINGARTENFLÄCHEN</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>

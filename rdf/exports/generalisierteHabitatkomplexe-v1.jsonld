@@ -1,5 +1,139 @@
 [
   {
+    "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/hb"
+      }
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-05-05T14:30:11+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "generalized habitat complexes that establish a functional relation between different habitat types and that are assessd in single projects"
+      },
+      {
+        "@language": "de",
+        "@value": "generalisierte Habitatkomplexe, die eine funktionalen Zusammenhang zwischen mehreren Biotoptypen darstellen und im Rahmen von Einzelprojekten erhoben werden"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0008"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/hb"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "en",
+        "@value": "generalized habitatcomplexes"
+      },
+      {
+        "@language": "de",
+        "@value": "generalisierte Habitatkomplexe"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/LocalNameCodeValue"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "1.0.0"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE extensibility: open, internal by value"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/TrockenrasenObjekt",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/hb"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/hb"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Mapping of dry meadows in Austria"
+      },
+      {
+        "@language": "de",
+        "@value": "Flächenhaft abgegrenzte Trockenrasen Österreichs mit Stand 1986; vielfach schon sehr veralterte Information, Gesamtanzahl der flächenhaft abgegrenzten Trockenrasen: 682. Erstabgrenzung anhand der topographischen Karte ÖK 50; Abgrenzung vor allem in Ostösterreich (Sauberer), Ergänzung im Jahr 2008 durch VINCA und Aufbereitung durch Digitalisierung."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "TrockenrasenObjekt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Trockenrasenobjekt"
+      },
+      {
+        "@language": "en",
+        "@value": "Dry meadow object"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
     "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/FeuchtgebietsObjekt",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -122,6 +256,67 @@
     ]
   },
   {
+    "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/MoorObjekt",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/hb"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/hb"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Moorflächen aus dem Moorschutzkatalog (Steiner et al. 1992), Hrsg.: Bundesministerium für Gesundheit und Umweltschutz, Credits: Gert Michael STEINER unter Mitarbeit von P. Englmaier, M. Fink, F, Grünweis, I. Höfner I. Korner, A. Ströhle und W. Wolf (im Auftrag des Bundesministeriums für Gesundheit und Umweltschutz), Wien, 1992"
+      },
+      {
+        "@language": "en",
+        "@value": "Bog and mire inventory"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "MoorObjekt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Moorobjekt"
+      },
+      {
+        "@language": "en",
+        "@value": "Bog and Mire object"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
     "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -188,201 +383,6 @@
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
         "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/hb"
-      }
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-05-05T14:30:11+00:00"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "generalized habitat complexes that establish a functional relation between different habitat types and that are assessd in single projects"
-      },
-      {
-        "@language": "de",
-        "@value": "generalisierte Habitatkomplexe, die eine funktionalen Zusammenhang zwischen mehreren Biotoptypen darstellen und im Rahmen von Einzelprojekten erhoben werden"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "https://registry.inspire.gv.at/dataprovider/0008"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/hb"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "en",
-        "@value": "generalized habitatcomplexes"
-      },
-      {
-        "@language": "de",
-        "@value": "generalisierte Habitatkomplexe"
-      }
-    ],
-    "http://purl.org/dc/terms/type": [
-      {
-        "@id": "http://inspire.ec.europa.eu/codelist/LocalNameCodeValue"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#versionInfo": [
-      {
-        "@value": "1.0.0"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "INSPIRE extensibility: open, internal by value"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/MoorObjekt",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/hb"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/hb"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Moorflächen aus dem Moorschutzkatalog (Steiner et al. 1992), Hrsg.: Bundesministerium für Gesundheit und Umweltschutz, Credits: Gert Michael STEINER unter Mitarbeit von P. Englmaier, M. Fink, F, Grünweis, I. Höfner I. Korner, A. Ströhle und W. Wolf (im Auftrag des Bundesministeriums für Gesundheit und Umweltschutz), Wien, 1992"
-      },
-      {
-        "@language": "en",
-        "@value": "Bog and mire inventory"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "MoorObjekt"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Moorobjekt"
-      },
-      {
-        "@language": "en",
-        "@value": "Bog and Mire object"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/TrockenrasenObjekt",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/hb"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/hb"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Mapping of dry meadows in Austria"
-      },
-      {
-        "@language": "de",
-        "@value": "Flächenhaft abgegrenzte Trockenrasen Österreichs mit Stand 1986; vielfach schon sehr veralterte Information, Gesamtanzahl der flächenhaft abgegrenzten Trockenrasen: 682. Erstabgrenzung anhand der topographischen Karte ÖK 50; Abgrenzung vor allem in Ostösterreich (Sauberer), Ergänzung im Jahr 2008 durch VINCA und Aufbereitung durch Digitalisierung."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "TrockenrasenObjekt"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Trockenrasenobjekt"
-      },
-      {
-        "@language": "en",
-        "@value": "Dry meadow object"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
       }
     ],
     "http://www.w3.org/ns/adms#status": [

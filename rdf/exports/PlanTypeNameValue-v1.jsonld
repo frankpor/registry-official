@@ -1,5 +1,66 @@
 [
   {
+    "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue/zoningPlan",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/plu"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The zoning plan must classify the municipal area according to the intended goals and determine the types of zoning for all area."
+      },
+      {
+        "@language": "de",
+        "@value": "Der Flaechenwidmungsplan hat das Gemeindegebiet entsprechend den angestrebten Zielen zu gliedern und die Widmungsarten für alle Flaechen festzulegen."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "zoningPlan"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Zoning Plan"
+      },
+      {
+        "@language": "de",
+        "@value": "Flaechenwidmungsplan"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
     "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue/gravelControlPlan",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -122,6 +183,67 @@
     ]
   },
   {
+    "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/plu"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Sektorale Raumordnungsprogramme konkretisieren die Ziele des Landes NÖ für einzelne Landesteile und legen Maßnahmen verbindlich fest. Sie sind die Grundlage für die weitere räumliche Entwicklung Niederösterreichs."
+      },
+      {
+        "@language": "en",
+        "@value": "Sectoral spatial planning programs specify the goals of the Province of Lower Austria for individual parts of the country and set binding measures. They form the basis for the further spatial development of Lower Austria."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "sectoralSpatialPlanningProgram"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Sektorales Raumordnungsprogramm"
+      },
+      {
+        "@language": "en",
+        "@value": "Sectoral spatial planning program"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
     "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#ConceptScheme"
@@ -198,128 +320,6 @@
       {
         "@language": "en",
         "@value": "INSPIRE extensibility: open, internal by value"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/plu"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Sektorale Raumordnungsprogramme konkretisieren die Ziele des Landes NÖ für einzelne Landesteile und legen Maßnahmen verbindlich fest. Sie sind die Grundlage für die weitere räumliche Entwicklung Niederösterreichs."
-      },
-      {
-        "@language": "en",
-        "@value": "Sectoral spatial planning programs specify the goals of the Province of Lower Austria for individual parts of the country and set binding measures. They form the basis for the further spatial development of Lower Austria."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "sectoralSpatialPlanningProgram"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Sektorales Raumordnungsprogramm"
-      },
-      {
-        "@language": "en",
-        "@value": "Sectoral spatial planning program"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue/zoningPlan",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/plu"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "The zoning plan must classify the municipal area according to the intended goals and determine the types of zoning for all area."
-      },
-      {
-        "@language": "de",
-        "@value": "Der Flaechenwidmungsplan hat das Gemeindegebiet entsprechend den angestrebten Zielen zu gliedern und die Widmungsarten für alle Flaechen festzulegen."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "zoningPlan"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Zoning Plan"
-      },
-      {
-        "@language": "de",
-        "@value": "Flaechenwidmungsplan"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue"
       }
     ],
     "http://www.w3.org/ns/adms#status": [

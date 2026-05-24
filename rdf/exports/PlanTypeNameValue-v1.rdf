@@ -6,40 +6,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/PlanTypeNameValue/zoningPlan">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/plu"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="en">The zoning plan must classify the municipal area according to the intended goals and determine the types of zoning for all area.</skos:definition>
-    <skos:definition xml:lang="de">Der Flaechenwidmungsplan hat das Gemeindegebiet entsprechend den angestrebten Zielen zu gliedern und die Widmungsarten für alle Flaechen festzulegen.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue"/>
-    <skos:notation>zoningPlan</skos:notation>
-    <skos:prefLabel xml:lang="en">Zoning Plan</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Flaechenwidmungsplan</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/PlanTypeNameValue">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/base2"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-05T14:30:11+00:00</dcterms:created>
-    <dcterms:description xml:lang="de">Typen von Plänen gemäß Definition in den Mitgliedstaaten.</dcterms:description>
-    <dcterms:description xml:lang="en">Types of plans as defined in the Member States.</dcterms:description>
-    <dcterms:publisher rdf:resource="https://registry.inspire.gv.at/dataprovider/0021"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/"/>
-    <dcterms:title xml:lang="de">Bezeichnung des Plantyps</dcterms:title>
-    <dcterms:title xml:lang="en">Plan Type Name</dcterms:title>
-    <dcterms:type rdf:resource="http://inspire.ec.europa.eu/codelist/PlanTypeNameValue"/>
-    <owl:versionInfo>1.0.0</owl:versionInfo>
-    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue/zoningPlan"/>
-    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue/gravelControlPlan"/>
-    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue/greenArea"/>
-    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram"/>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/PlanTypeNameValue/greenArea">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/plu"/>
@@ -64,6 +30,40 @@
     <skos:notation>gravelControlPlan</skos:notation>
     <skos:prefLabel xml:lang="de">Kiesleitplan</skos:prefLabel>
     <skos:prefLabel xml:lang="en">gravel control plan</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/PlanTypeNameValue">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/base2"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-05T14:30:11+00:00</dcterms:created>
+    <dcterms:description xml:lang="de">Typen von Plänen gemäß Definition in den Mitgliedstaaten.</dcterms:description>
+    <dcterms:description xml:lang="en">Types of plans as defined in the Member States.</dcterms:description>
+    <dcterms:publisher rdf:resource="https://registry.inspire.gv.at/dataprovider/0021"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/"/>
+    <dcterms:title xml:lang="de">Bezeichnung des Plantyps</dcterms:title>
+    <dcterms:title xml:lang="en">Plan Type Name</dcterms:title>
+    <dcterms:type rdf:resource="http://inspire.ec.europa.eu/codelist/PlanTypeNameValue"/>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue/zoningPlan"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue/gravelControlPlan"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue/greenArea"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram"/>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/PlanTypeNameValue/zoningPlan">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/plu"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="en">The zoning plan must classify the municipal area according to the intended goals and determine the types of zoning for all area.</skos:definition>
+    <skos:definition xml:lang="de">Der Flaechenwidmungsplan hat das Gemeindegebiet entsprechend den angestrebten Zielen zu gliedern und die Widmungsarten für alle Flaechen festzulegen.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue"/>
+    <skos:notation>zoningPlan</skos:notation>
+    <skos:prefLabel xml:lang="en">Zoning Plan</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Flaechenwidmungsplan</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>

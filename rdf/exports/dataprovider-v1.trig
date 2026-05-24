@@ -459,6 +459,7 @@
             <https://registry.inspire.gv.at/dataprovider/0111>,
             <https://registry.inspire.gv.at/dataprovider/0115>,
             <https://registry.inspire.gv.at/dataprovider/0130>,
-            <https://registry.inspire.gv.at/dataprovider/0131> .
+            <https://registry.inspire.gv.at/dataprovider/0131> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 }
 

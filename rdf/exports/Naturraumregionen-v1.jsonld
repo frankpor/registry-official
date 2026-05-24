@@ -1,67 +1,6 @@
 [
   {
-    "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/KlBeck",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/br"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/br"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/ALP"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Kärntner Becken- und Tallandschaften"
-      },
-      {
-        "@language": "en",
-        "@value": "only available in german"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "KlBeck"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Klagenfurter Becken"
-      },
-      {
-        "@language": "en",
-        "@value": "Basin of Klagenfurt"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/SoeAV",
+    "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/Pann",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -83,7 +22,7 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Grazer Bucht, Hügelländer im mittleren und südlichen Burgenland"
+        "@value": "pannonische Flach- und Hügelländer Ostösterreichs"
       },
       {
         "@language": "en",
@@ -97,17 +36,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "SoeAV"
+        "@value": "Pann"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Südöstliches Alpenvorland"
+        "@value": "Pannonische Flach- und Hügelländer"
       },
       {
         "@language": "en",
-        "@value": "southern foothils of the Alps"
+        "@value": "pannonian lowland and hills"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -122,7 +61,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/SAlp",
+    "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/NAlp",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -144,7 +83,7 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "südliches Alpengebiet"
+        "@value": "nördliches Alpengebiet mit Einschluss der Flyschzone"
       },
       {
         "@language": "en",
@@ -156,19 +95,27 @@
         "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen"
       }
     ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/NAlpOst"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/NAlpMiWest"
+      }
+    ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "SAlp"
+        "@value": "NAlp"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
-        "@language": "de",
-        "@value": "Südalpen"
+        "@language": "en",
+        "@value": "Northalps"
       },
       {
-        "@language": "en",
-        "@value": "Southalps"
+        "@language": "de",
+        "@value": "Nordalpen"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -183,7 +130,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/ZAlpZ",
+    "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/NAlpMiWest",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -199,13 +146,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/ZAlp"
+        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/NAlp"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Untergliederund der Zentralalpen aufgrund pysiogeograühischer Charakteristika (überwiegend Hochgebirgscharakter und reicht vom Montafon im Westen über die Silvretta, den Ötzlater und Stubaier Alpen, den Hohen Tauern bis zu den Niederen Tauern im Westen)"
+        "@value": "mittlerer und westlicher Teil der Nordalpen aufgrund arealgeographischer Überlegungen"
       },
       {
         "@language": "en",
@@ -219,22 +166,172 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "ZAlpZ"
+        "@value": "NAlpMiWest"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Zentralalpen - zentraler Teil"
+        "@value": "Mittlere und westliche Nordalpen"
       },
       {
         "@language": "en",
-        "@value": "central Alps - central part"
+        "@value": "middle and western Northalps"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/KONT",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/br"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/br"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "entspricht der kontinentalen biogeographischen Region"
+      },
+      {
+        "@language": "en",
+        "@value": "only available in german"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/SoeAV"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/Pann"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/NoeGrGnHL"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/NAV"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "KONT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Kontinentale Region"
+      },
+      {
+        "@language": "en",
+        "@value": "continental region"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/ALP",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/br"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/br"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "only available in german"
+      },
+      {
+        "@language": "de",
+        "@value": "entspricht der alpinen biogeographischen Region"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/ZAlp"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/SAlp"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/NAlp"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/KlBeck"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "ALP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "alpine region"
+      },
+      {
+        "@language": "de",
+        "@value": "Alpine Region"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -320,265 +417,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/ALP",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/br"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/br"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "only available in german"
-      },
-      {
-        "@language": "de",
-        "@value": "entspricht der alpinen biogeographischen Region"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/ZAlp"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/SAlp"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/NAlp"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/KlBeck"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "ALP"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "alpine region"
-      },
-      {
-        "@language": "de",
-        "@value": "Alpine Region"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/NoeGrGnHL",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/br"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/br"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/KONT"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Böhmische Masse"
-      },
-      {
-        "@language": "en",
-        "@value": "only available in german"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "NoeGrGnHL"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Nördliches Granit- und Gneishochland"
-      },
-      {
-        "@language": "en",
-        "@value": "Bohemian Mountains"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/Pann",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/br"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/br"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/KONT"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "pannonische Flach- und Hügelländer Ostösterreichs"
-      },
-      {
-        "@language": "en",
-        "@value": "only available in german"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "Pann"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Pannonische Flach- und Hügelländer"
-      },
-      {
-        "@language": "en",
-        "@value": "pannonian lowland and hills"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/ZAlpSO",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/br"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/br"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/ZAlp"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Untegrliederung der Zentralalpen aufgrund physiogeographischer Charakteristika (überwiegend Mittelgebirgscharakter und umfaßt die Buckelige Welt, das steirische Bergland, die Fischbacher Alpen, die Gleinalpe, die Koralpe, die Seetaler Apen und die Nochberge)"
-      },
-      {
-        "@language": "en",
-        "@value": "only available in german"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "ZAlpSO"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Zentralalpen - südöstlicher Teil"
-      },
-      {
-        "@language": "en",
-        "@value": "central Alps - southeastern part"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/NAlp",
+    "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/SAlp",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -600,7 +439,7 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "nördliches Alpengebiet mit Einschluss der Flyschzone"
+        "@value": "südliches Alpengebiet"
       },
       {
         "@language": "en",
@@ -612,27 +451,19 @@
         "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen"
       }
     ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/NAlpOst"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/NAlpMiWest"
-      }
-    ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "NAlp"
+        "@value": "SAlp"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
-        "@language": "en",
-        "@value": "Northalps"
+        "@language": "de",
+        "@value": "Südalpen"
       },
       {
-        "@language": "de",
-        "@value": "Nordalpen"
+        "@language": "en",
+        "@value": "Southalps"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -694,6 +525,128 @@
       {
         "@language": "en",
         "@value": "eastern Northalps"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/ZAlpZ",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/br"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/br"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/ZAlp"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Untergliederund der Zentralalpen aufgrund pysiogeograühischer Charakteristika (überwiegend Hochgebirgscharakter und reicht vom Montafon im Westen über die Silvretta, den Ötzlater und Stubaier Alpen, den Hohen Tauern bis zu den Niederen Tauern im Westen)"
+      },
+      {
+        "@language": "en",
+        "@value": "only available in german"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "ZAlpZ"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Zentralalpen - zentraler Teil"
+      },
+      {
+        "@language": "en",
+        "@value": "central Alps - central part"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/KlBeck",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/br"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/br"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/ALP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Kärntner Becken- und Tallandschaften"
+      },
+      {
+        "@language": "en",
+        "@value": "only available in german"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "KlBeck"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Klagenfurter Becken"
+      },
+      {
+        "@language": "en",
+        "@value": "Basin of Klagenfurt"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -777,7 +730,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/NAlpMiWest",
+    "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/SoeAV",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -793,13 +746,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/NAlp"
+        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/KONT"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "mittlerer und westlicher Teil der Nordalpen aufgrund arealgeographischer Überlegungen"
+        "@value": "Grazer Bucht, Hügelländer im mittleren und südlichen Burgenland"
       },
       {
         "@language": "en",
@@ -813,17 +766,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "NAlpMiWest"
+        "@value": "SoeAV"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Mittlere und westliche Nordalpen"
+        "@value": "Südöstliches Alpenvorland"
       },
       {
         "@language": "en",
-        "@value": "middle and western Northalps"
+        "@value": "southern foothils of the Alps"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -899,7 +852,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/KONT",
+    "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/NoeGrGnHL",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -913,10 +866,15 @@
         "@id": "http://inspire.ec.europa.eu/theme/br"
       }
     ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/KONT"
+      }
+    ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "entspricht der kontinentalen biogeographischen Region"
+        "@value": "Böhmische Masse"
       },
       {
         "@language": "en",
@@ -928,33 +886,19 @@
         "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen"
       }
     ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/SoeAV"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/Pann"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/NoeGrGnHL"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/NAV"
-      }
-    ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "KONT"
+        "@value": "NoeGrGnHL"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Kontinentale Region"
+        "@value": "Nördliches Granit- und Gneishochland"
       },
       {
         "@language": "en",
-        "@value": "continental region"
+        "@value": "Bohemian Mountains"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -962,9 +906,65 @@
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/ZAlpSO",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/br"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/br"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen/ZAlp"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Untegrliederung der Zentralalpen aufgrund physiogeographischer Charakteristika (überwiegend Mittelgebirgscharakter und umfaßt die Buckelige Welt, das steirische Bergland, die Fischbacher Alpen, die Gleinalpe, die Koralpe, die Seetaler Apen und die Nochberge)"
+      },
+      {
+        "@language": "en",
+        "@value": "only available in german"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
         "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "ZAlpSO"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Zentralalpen - südöstlicher Teil"
+      },
+      {
+        "@language": "en",
+        "@value": "central Alps - southeastern part"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
       }
     ],
     "http://www.w3.org/ns/adms#status": [

@@ -1,6 +1,6 @@
 [
   {
-    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/eNTSORG",
+    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sONST",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -27,11 +27,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "Sewage disposal system/canal"
+        "@value": "Special building"
       },
       {
         "@language": "de",
-        "@value": "Abwasserentsorgungsanlage/Kanal"
+        "@value": "Sonderbauwerk"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -41,17 +41,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "eNTSORG"
+        "@value": "sONST"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "ENTSORG"
+        "@value": "SONST"
       },
       {
         "@language": "de",
-        "@value": "ENTSORG"
+        "@value": "SONST"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -71,78 +71,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kLRANL",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. STMK"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. STMK"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/am"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Sewage treatment plant"
-      },
-      {
-        "@language": "de",
-        "@value": "Klaeranlage"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "kLRANL"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "KLRANL"
-      },
-      {
-        "@language": "de",
-        "@value": "KLRANL"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sTAU",
+    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/rEGEN",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -169,11 +98,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Stauanlage"
+        "@value": "Regenentwaesserung"
       },
       {
         "@language": "en",
-        "@value": "Dam"
+        "@value": "Rainwater drainage"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -183,159 +112,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "sTAU"
+        "@value": "rEGEN"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "STAU"
+        "@value": "REGEN"
       },
       {
         "@language": "de",
-        "@value": "STAU"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vSRGANL",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. STMK"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. STMK"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/am"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Water supply system"
-      },
-      {
-        "@language": "de",
-        "@value": "Wasserversorgungsanlage"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "vSRGANL"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "VSRGANL"
-      },
-      {
-        "@language": "de",
-        "@value": "VSRGANL"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/qU",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. STMK"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. STMK"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/am"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Source"
-      },
-      {
-        "@language": "de",
-        "@value": "Quelle"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "qU"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "QU"
-      },
-      {
-        "@language": "de",
-        "@value": "QU"
+        "@value": "REGEN"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -426,7 +213,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/mUEHL",
+    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRFTW",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -453,11 +240,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Muehle"
+        "@value": "Wasserkraftwerk"
       },
       {
         "@language": "en",
-        "@value": "Mill"
+        "@value": "Hydroelectric power station"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -467,17 +254,88 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "mUEHL"
+        "@value": "kRFTW"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "MUEHL"
+        "@value": "KRFTW"
       },
       {
         "@language": "de",
-        "@value": "MUEHL"
+        "@value": "KRFTW"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sPEICHER",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. STMK"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. STMK"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/am"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Water storage"
+      },
+      {
+        "@language": "de",
+        "@value": "Wasserspeicher"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "sPEICHER"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "SPEICHER"
+      },
+      {
+        "@language": "de",
+        "@value": "SPEICHER"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -627,6 +485,77 @@
     ]
   },
   {
+    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bRUN",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. STMK"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. STMK"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/am"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Fountains"
+      },
+      {
+        "@language": "de",
+        "@value": "Brunnen"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "bRUN"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "BRUN"
+      },
+      {
+        "@language": "de",
+        "@value": "BRUN"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
     "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sOANL",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -698,7 +627,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/rEGEN",
+    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/mUEHL",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -725,11 +654,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Regenentwaesserung"
+        "@value": "Muehle"
       },
       {
         "@language": "en",
-        "@value": "Rainwater drainage"
+        "@value": "Mill"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -739,17 +668,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "rEGEN"
+        "@value": "mUEHL"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "REGEN"
+        "@value": "MUEHL"
       },
       {
         "@language": "de",
-        "@value": "REGEN"
+        "@value": "MUEHL"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -769,7 +698,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sEE",
+    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bETR",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -795,12 +724,12 @@
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@language": "de",
-        "@value": "Stehendes Gewaesser"
+        "@language": "en",
+        "@value": "Plant in general"
       },
       {
-        "@language": "en",
-        "@value": "Standing waters"
+        "@language": "de",
+        "@value": "Betriebsanlage allgemein"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -810,17 +739,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "sEE"
+        "@value": "bETR"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "SEE"
+        "@value": "BETR"
       },
       {
         "@language": "de",
-        "@value": "SEE"
+        "@value": "BETR"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -840,7 +769,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/wNUTZ",
+    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sTAU",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -867,11 +796,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Waermenutzung/Kuehlwasseranlage"
+        "@value": "Stauanlage"
       },
       {
         "@language": "en",
-        "@value": "Heat utilization/cooling water system"
+        "@value": "Dam"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -881,88 +810,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "wNUTZ"
+        "@value": "sTAU"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "WNUTZ"
+        "@value": "STAU"
       },
       {
         "@language": "de",
-        "@value": "WNUTZ"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/gWANL",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. STMK"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. STMK"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/am"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Grundwasseranlage/Entnahme/Versickerung"
-      },
-      {
-        "@language": "en",
-        "@value": "Groundwater system/collection/seepage"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "gWANL"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "GWANL"
-      },
-      {
-        "@language": "de",
-        "@value": "GWANL"
+        "@value": "STAU"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -1053,7 +911,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRFTW",
+    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sEE",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1080,11 +938,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Wasserkraftwerk"
+        "@value": "Stehendes Gewaesser"
       },
       {
         "@language": "en",
-        "@value": "Hydroelectric power station"
+        "@value": "Standing waters"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1094,17 +952,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "kRFTW"
+        "@value": "sEE"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "KRFTW"
+        "@value": "SEE"
       },
       {
         "@language": "de",
-        "@value": "KRFTW"
+        "@value": "SEE"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -1124,7 +982,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bRUN",
+    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/gWANL",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1150,12 +1008,12 @@
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@language": "en",
-        "@value": "Fountains"
+        "@language": "de",
+        "@value": "Grundwasseranlage/Entnahme/Versickerung"
       },
       {
-        "@language": "de",
-        "@value": "Brunnen"
+        "@language": "en",
+        "@value": "Groundwater system/collection/seepage"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1165,17 +1023,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "bRUN"
+        "@value": "gWANL"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "BRUN"
+        "@value": "GWANL"
       },
       {
         "@language": "de",
-        "@value": "BRUN"
+        "@value": "GWANL"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -1337,7 +1195,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sONST",
+    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/qU",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1364,11 +1222,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "Special building"
+        "@value": "Source"
       },
       {
         "@language": "de",
-        "@value": "Sonderbauwerk"
+        "@value": "Quelle"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1378,17 +1236,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "sONST"
+        "@value": "qU"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "SONST"
+        "@value": "QU"
       },
       {
         "@language": "de",
-        "@value": "SONST"
+        "@value": "QU"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -1408,7 +1266,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sPEICHER",
+    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/wNUTZ",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1434,12 +1292,12 @@
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@language": "en",
-        "@value": "Water storage"
+        "@language": "de",
+        "@value": "Waermenutzung/Kuehlwasseranlage"
       },
       {
-        "@language": "de",
-        "@value": "Wasserspeicher"
+        "@language": "en",
+        "@value": "Heat utilization/cooling water system"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1449,17 +1307,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "sPEICHER"
+        "@value": "wNUTZ"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "SPEICHER"
+        "@value": "WNUTZ"
       },
       {
         "@language": "de",
-        "@value": "SPEICHER"
+        "@value": "WNUTZ"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -1479,7 +1337,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bETR",
+    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/eNTSORG",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1506,11 +1364,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "Plant in general"
+        "@value": "Sewage disposal system/canal"
       },
       {
         "@language": "de",
-        "@value": "Betriebsanlage allgemein"
+        "@value": "Abwasserentsorgungsanlage/Kanal"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1520,17 +1378,159 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "bETR"
+        "@value": "eNTSORG"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "BETR"
+        "@value": "ENTSORG"
       },
       {
         "@language": "de",
-        "@value": "BETR"
+        "@value": "ENTSORG"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kLRANL",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. STMK"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. STMK"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/am"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Sewage treatment plant"
+      },
+      {
+        "@language": "de",
+        "@value": "Klaeranlage"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "kLRANL"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "KLRANL"
+      },
+      {
+        "@language": "de",
+        "@value": "KLRANL"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vSRGANL",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. STMK"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. STMK"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/am"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Water supply system"
+      },
+      {
+        "@language": "de",
+        "@value": "Wasserversorgungsanlage"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "vSRGANL"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "VSRGANL"
+      },
+      {
+        "@language": "de",
+        "@value": "VSRGANL"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
