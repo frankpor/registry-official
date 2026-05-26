@@ -134,128 +134,6 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/FeuchtgebietsObjekt",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/hb"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/hb"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Invntory of Wetlands in Austria; total area of wetlands assessd in Nov. 2008 ammounts to 2744 km2 divided into 889 wetland objects"
-      },
-      {
-        "@language": "de",
-        "@value": "Abgrenzung der Feuchtgebiete gemäß Feuchtgebietsinventar, Abgrenzung generalisiert; Insgesamt umfasst das Feuchtgebietsinventar Österreich im November 2008 insgesamt 889 Feuchtgebiete. Die Gesamtfläche der beschriebenen Gebiete beträgt mehr als 2744.0 km2. Das Inventar wird laufend durch Expertenmeldungen laufend erweitert."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "FeuchtgebietsObjekt"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Wetland object"
-      },
-      {
-        "@language": "de",
-        "@value": "Feuchtgebietsobjekt"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/AuenObjekt",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/hb"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/hb"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Inventory of floodplain objects in Austria (minimum area 20 ha) and detailed mapping in Carinthia and Styria (minimum area 5 ha).822 floodplain properties with a total area of 95,541 ha were designated.  Credits: Werner LAZOWSKI and Ulrich SCHWARZ, Aueninventar Austria: Report on the nationwide overview of floodplain objects, Vienna, 2011; Reference: Siehe: https://www.bmlrt.gv.at/dam/jcr:988293c2-2c0e-424d-86dd-91721197be61/%C3%96sterreichisches%20Aueninventar_Final_20111108.pdf"
-      },
-      {
-        "@language": "de",
-        "@value": "Inventar der Auobjekte Österreichs (Minimalfläche 20 ha) und Detailkartierung in Kärnten und Steiermark (Minimalfläche 5 ha). 822 Auenobjekte mit einer Gesamtfläche von 95.541 ha. , Credits: Werner LAZOWSKI und Ulrich SCHWARZ, Aueninventar Österreich: Bericht zur bundesweiten Übersicht der Auobjekte, Wien, 2011; Siehe: https://www.bmlrt.gv.at/dam/jcr:988293c2-2c0e-424d-86dd-91721197be61/%C3%96sterreichisches%20Aueninventar_Final_20111108.pdf"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "AuenObjekt"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Floodplain object"
-      },
-      {
-        "@language": "de",
-        "@value": "Auenobjekt"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
     "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/MoorObjekt",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -383,6 +261,128 @@
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
         "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/AuenObjekt",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/hb"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/hb"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Inventory of floodplain objects in Austria (minimum area 20 ha) and detailed mapping in Carinthia and Styria (minimum area 5 ha).822 floodplain properties with a total area of 95,541 ha were designated.  Credits: Werner LAZOWSKI and Ulrich SCHWARZ, Aueninventar Austria: Report on the nationwide overview of floodplain objects, Vienna, 2011; Reference: Siehe: https://www.bmlrt.gv.at/dam/jcr:988293c2-2c0e-424d-86dd-91721197be61/%C3%96sterreichisches%20Aueninventar_Final_20111108.pdf"
+      },
+      {
+        "@language": "de",
+        "@value": "Inventar der Auobjekte Österreichs (Minimalfläche 20 ha) und Detailkartierung in Kärnten und Steiermark (Minimalfläche 5 ha). 822 Auenobjekte mit einer Gesamtfläche von 95.541 ha. , Credits: Werner LAZOWSKI und Ulrich SCHWARZ, Aueninventar Österreich: Bericht zur bundesweiten Übersicht der Auobjekte, Wien, 2011; Siehe: https://www.bmlrt.gv.at/dam/jcr:988293c2-2c0e-424d-86dd-91721197be61/%C3%96sterreichisches%20Aueninventar_Final_20111108.pdf"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "AuenObjekt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Floodplain object"
+      },
+      {
+        "@language": "de",
+        "@value": "Auenobjekt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/FeuchtgebietsObjekt",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/hb"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/hb"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Invntory of Wetlands in Austria; total area of wetlands assessd in Nov. 2008 ammounts to 2744 km2 divided into 889 wetland objects"
+      },
+      {
+        "@language": "de",
+        "@value": "Abgrenzung der Feuchtgebiete gemäß Feuchtgebietsinventar, Abgrenzung generalisiert; Insgesamt umfasst das Feuchtgebietsinventar Österreich im November 2008 insgesamt 889 Feuchtgebiete. Die Gesamtfläche der beschriebenen Gebiete beträgt mehr als 2744.0 km2. Das Inventar wird laufend durch Expertenmeldungen laufend erweitert."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "FeuchtgebietsObjekt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Wetland object"
+      },
+      {
+        "@language": "de",
+        "@value": "Feuchtgebietsobjekt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
       }
     ],
     "http://www.w3.org/ns/adms#status": [

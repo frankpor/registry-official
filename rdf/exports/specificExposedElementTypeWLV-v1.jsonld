@@ -1,249 +1,5 @@
 [
   {
-    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/torrentCatchmentAreas",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Ein Wildbach (im Sinne des § 99 Abs. 1 ForstG) ist ein dauernd oder zeitweise fließendes Gewässer, das durch rasch eintretende und nur kurze Zeit dauernde Anschwellungen Feststoffe aus seinem Einzugsgebiet oder aus seinem Bachbett in gefahrdrohendem Ausmaße entnimmt, diese mit sich führt und innerhalb oder außerhalb seines Bettes ablagert oder einem anderen Gewässer zuführt. Das Einzugsgebiet eines Wildbaches (im Sinne des § 99 Abs. 3 ForstG) ist die Fläche des von diesem und seinen Zuflüssen entwässerten Niederschlagsgebietes sowie der Ablagerungsbereich des Wildbaches."
-      },
-      {
-        "@language": "en",
-        "@value": "A torrential catchment area comprises the area of the torrent, its tributaries and its alluvial fan. Torrents are perennial or partially active waters. They are characterized by sediment transport, debris flows and woody debris."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "torrentCatchmentAreas"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Wildbach-Einzugsgebiet"
-      },
-      {
-        "@language": "en",
-        "@value": "torrent catchment areas"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/blueReservationArea",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Blue reservation areas are areas which are to be kept free for future technical (e.g. construction of a sedimentation basin) or biological control measures (e.g. afforestation)."
-      },
-      {
-        "@language": "de",
-        "@value": "Blaue Vorbehaltsbereiche sind Flächen, die für zukünftige technische (z.B. Bau eines Absetzbeckens) oder biologische Bekämpfungsmaßnahmen (z.B. Aufforstungen) freigehalten werden sollen."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "blueReservationArea"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "blue reservation area"
-      },
-      {
-        "@language": "de",
-        "@value": "Blauer Vorbehaltsbereich"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/yellowHazardZone",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "In yellow hazard zones the permanent use for settlement and transport purposes is impaired by snow avalanches /torrential floods. Building in these areas is only possible with specific building control requirements"
-      },
-      {
-        "@language": "de",
-        "@value": "In gelben Gefahrenzonen ist die dauerhafte Nutzung für Siedlungs- und Transportzwecke durch Lawinen/sturzflutartiges Hochwasser beeinträchtigt. Das Bauen in diesen Gebieten ist nur unter besonderen Auflagen möglich."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "yellowHazardZone"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "yellow hazard zone"
-      },
-      {
-        "@language": "de",
-        "@value": "Gelbe Gefahrenzone"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/brownReferenceArea",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "The brown reference areas indicate hazards other than those evoked by torrents and avalanches (e.g. stone fall and slide areas)."
-      },
-      {
-        "@language": "de",
-        "@value": "Die braunen Hinweisbereiche weisen auf Gefahren hin, die nicht durch Wildbäche und Lawinen hervorgerufen werden (z.B. Steinschlag- und Rutschgebiete)."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "brownReferenceArea"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "brown reference area"
-      },
-      {
-        "@language": "de",
-        "@value": "Brauner Hinweisbereich"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
     "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/redHazardZone",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -305,7 +61,68 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/planArea",
+    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/torrentCatchmentAreas",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Ein Wildbach (im Sinne des § 99 Abs. 1 ForstG) ist ein dauernd oder zeitweise fließendes Gewässer, das durch rasch eintretende und nur kurze Zeit dauernde Anschwellungen Feststoffe aus seinem Einzugsgebiet oder aus seinem Bachbett in gefahrdrohendem Ausmaße entnimmt, diese mit sich führt und innerhalb oder außerhalb seines Bettes ablagert oder einem anderen Gewässer zuführt. Das Einzugsgebiet eines Wildbaches (im Sinne des § 99 Abs. 3 ForstG) ist die Fläche des von diesem und seinen Zuflüssen entwässerten Niederschlagsgebietes sowie der Ablagerungsbereich des Wildbaches."
+      },
+      {
+        "@language": "en",
+        "@value": "A torrential catchment area comprises the area of the torrent, its tributaries and its alluvial fan. Torrents are perennial or partially active waters. They are characterized by sediment transport, debris flows and woody debris."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "torrentCatchmentAreas"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Wildbach-Einzugsgebiet"
+      },
+      {
+        "@language": "en",
+        "@value": "torrent catchment areas"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/avalancheCatchmentArea",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -322,11 +139,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "The plan area defines the municipality or parts of a municipality for which the hazard zone map was elaborated."
+        "@value": "The avalanche catchment area indicates the eligibility of an avalanche to be fed, the area in which it breaks off and the area in which it deposits. A snow mass with typically a volume greater than 100 m³ and a minimum length of 50 meters that slides rapidly downhill."
       },
       {
         "@language": "de",
-        "@value": "Das Plangebiet im Sinne der Gefahrenzonenplanung der WLV umfasst gemäß § 3 der GZP-Verordnung in der Regel das Gebiet einer Gemeinde. Es darf aber, falls erforderlich und begründbar, auch auf Teile eines Gemeindegebietes beschränkt werden."
+        "@value": "Das Lawinen-Einzugsgebiet kennzeichnet den Nähr-, Abbruch- und Ablagerungsbereich einer Lawine. Eine Schneemasse mit typischerweise einem Volumen von mehr als 100 m³ und einer Mindestlänge von 50 Metern, die schnell talwärts rutscht."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -336,17 +153,78 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "planArea"
+        "@value": "avalancheCatchmentArea"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Plangebiet"
+        "@value": "Lawinen-Einzugsgebiet"
       },
       {
         "@language": "en",
-        "@value": "plan area"
+        "@value": "avalanche catchment area"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/purpleReferenceArea",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Gebiete, deren gegenwärtiger Zustand erhalten werden muss, um die Schutzfunktion auch in Zukunft zu gewährleisten (z.B. natürliche Umleitungsdämme, hochwasserrückhaltende Flächen in Form von Geländemulden), werden als violette Hinweisbereiche ausgewiesen."
+      },
+      {
+        "@language": "en",
+        "@value": "Areas whose present state has to be preserved in order to ensure the protective function also in the future (e.g. natural diversion dams, flood retarding areas in the form of terrain synclines) are identified as purple reference areas."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "purpleReferenceArea"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Violetter Hinweisbereich"
+      },
+      {
+        "@language": "en",
+        "@value": "purple reference area"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -524,7 +402,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/purpleReferenceArea",
+    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/yellowHazardZone",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -540,12 +418,12 @@
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@language": "de",
-        "@value": "Gebiete, deren gegenwärtiger Zustand erhalten werden muss, um die Schutzfunktion auch in Zukunft zu gewährleisten (z.B. natürliche Umleitungsdämme, hochwasserrückhaltende Flächen in Form von Geländemulden), werden als violette Hinweisbereiche ausgewiesen."
+        "@language": "en",
+        "@value": "In yellow hazard zones the permanent use for settlement and transport purposes is impaired by snow avalanches /torrential floods. Building in these areas is only possible with specific building control requirements"
       },
       {
-        "@language": "en",
-        "@value": "Areas whose present state has to be preserved in order to ensure the protective function also in the future (e.g. natural diversion dams, flood retarding areas in the form of terrain synclines) are identified as purple reference areas."
+        "@language": "de",
+        "@value": "In gelben Gefahrenzonen ist die dauerhafte Nutzung für Siedlungs- und Transportzwecke durch Lawinen/sturzflutartiges Hochwasser beeinträchtigt. Das Bauen in diesen Gebieten ist nur unter besonderen Auflagen möglich."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -555,17 +433,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "purpleReferenceArea"
+        "@value": "yellowHazardZone"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
-        "@language": "de",
-        "@value": "Violetter Hinweisbereich"
+        "@language": "en",
+        "@value": "yellow hazard zone"
       },
       {
-        "@language": "en",
-        "@value": "purple reference area"
+        "@language": "de",
+        "@value": "Gelbe Gefahrenzone"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -585,7 +463,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/avalancheCatchmentArea",
+    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/brownReferenceArea",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -602,11 +480,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "The avalanche catchment area indicates the eligibility of an avalanche to be fed, the area in which it breaks off and the area in which it deposits. A snow mass with typically a volume greater than 100 m³ and a minimum length of 50 meters that slides rapidly downhill."
+        "@value": "The brown reference areas indicate hazards other than those evoked by torrents and avalanches (e.g. stone fall and slide areas)."
       },
       {
         "@language": "de",
-        "@value": "Das Lawinen-Einzugsgebiet kennzeichnet den Nähr-, Abbruch- und Ablagerungsbereich einer Lawine. Eine Schneemasse mit typischerweise einem Volumen von mehr als 100 m³ und einer Mindestlänge von 50 Metern, die schnell talwärts rutscht."
+        "@value": "Die braunen Hinweisbereiche weisen auf Gefahren hin, die nicht durch Wildbäche und Lawinen hervorgerufen werden (z.B. Steinschlag- und Rutschgebiete)."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -616,17 +494,139 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "avalancheCatchmentArea"
+        "@value": "brownReferenceArea"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "brown reference area"
+      },
+      {
+        "@language": "de",
+        "@value": "Brauner Hinweisbereich"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/blueReservationArea",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Blue reservation areas are areas which are to be kept free for future technical (e.g. construction of a sedimentation basin) or biological control measures (e.g. afforestation)."
+      },
+      {
+        "@language": "de",
+        "@value": "Blaue Vorbehaltsbereiche sind Flächen, die für zukünftige technische (z.B. Bau eines Absetzbeckens) oder biologische Bekämpfungsmaßnahmen (z.B. Aufforstungen) freigehalten werden sollen."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "blueReservationArea"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "blue reservation area"
+      },
+      {
+        "@language": "de",
+        "@value": "Blauer Vorbehaltsbereich"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/planArea",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The plan area defines the municipality or parts of a municipality for which the hazard zone map was elaborated."
+      },
+      {
+        "@language": "de",
+        "@value": "Das Plangebiet im Sinne der Gefahrenzonenplanung der WLV umfasst gemäß § 3 der GZP-Verordnung in der Regel das Gebiet einer Gemeinde. Es darf aber, falls erforderlich und begründbar, auch auf Teile eines Gemeindegebietes beschränkt werden."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "planArea"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Lawinen-Einzugsgebiet"
+        "@value": "Plangebiet"
       },
       {
         "@language": "en",
-        "@value": "avalanche catchment area"
+        "@value": "plan area"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
