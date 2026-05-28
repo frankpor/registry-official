@@ -126,7 +126,8 @@ $(document).ready(function () {
         $('header').empty();
         $('header').removeClass('py-5');
         $('#data_providers').empty();
-        search(decodeURI(urlParams.get('search').replace(/[^a-z\p{L} -]/uig, "").slice(0, 25)));
+        let searchTerm = decodeURI(urlParams.get('search')).replace(/[^a-z\p{L} -]/uig, "").slice(0, 25);
+        searchTerm.length>0?search(searchTerm):$('#searchInput').attr('placeholder', 'Please enter a valid search term');
 
     } else if (urlParams.has('uri')) {
         $('header').empty();
