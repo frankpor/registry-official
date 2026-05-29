@@ -12,7 +12,8 @@ Custom styling in `css/style.css` defines registry-specific UI rules (search dro
 
 Bundled vendor scripts include `js/jquery.min.js`, `js/bootstrap.bundle.min.js`, `js/bootstrap.min.js`, `js/d3.v7.min.js`, `js/fuse.min.js`, and `js/echarts.js`; custom logic lives in `js/pv.js`, `js/pv_config.js`, `js/d3_data.js`, and `js/d3_tree.js`.
 ***
-\
+<br>
+  
 ### Codelist-Registry Publication Workflow
 
 ![Registry](registry.png)
