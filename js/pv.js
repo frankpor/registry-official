@@ -1183,7 +1183,7 @@ function createFrontPart(divID, uri, data, props) {
                     html += '<hr><div class="' + key + '">' + setUserLang(Array.from(ul).join('|').replace(/  <span class="lang">/g, '@').replace(/<\/span>/g, '')) + '</div>';
                     break;
                 case 'scope':
-                    html += '<br><p class="text-secondary">Anmerkung:<br>' + Array.from(ul).map(a => a.split('<')[0]).join('<br><br>') + '</p>';
+                    html += '<br><p class="text-secondary">' + PAGE.codelist.scope[USER_LANG] + ' ' + Array.from(ul).map(a => a.split('<')[0]).join('<br><br>') + '</p>';
                     break;
                 case 'citation':
                     let a = []; 

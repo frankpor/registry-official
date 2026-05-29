@@ -19,6 +19,10 @@ const PAGE = {
         desc: {
             de: 'Das österreichische Codelistenregister enthält Referenzcodes für Vokabulare und dessen Erweiterung für die INSPIRE Implementierung. Bestehende Codelisten und deren Werte können für weitere Anpassungen des kontrollierten Vokabulars ausserhalb INSPIRE verwendet werden. Das österreichische <a style="color:#295471" href="§?uri=https://registry.inspire.gv.at/dataprovider">Geodatenstellenregister</a> enthält die INSPIRE Datenanbieter.',
             en: 'The Austrian code list register provides reference codes for vocabulary extensions used for INSPIRE implementation. Existing code lists and their values can be used for further alignments of controlled vocabulary. The Austrian <a style="color:#295471" href="§?uri=https://registry.inspire.gv.at/dataprovider">data provider register</a> contains the contributing data providers.'
+        },
+        scope: {
+            de: 'Anmerkung:',
+            en: 'Scope note:'
         }
     },
     dataprovider: {
