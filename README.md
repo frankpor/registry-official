@@ -11,8 +11,8 @@ This repository is a static front-end prototype for the Austrian INSPIRE Registr
 Custom styling in `css/style.css` defines registry-specific UI rules (search dropdowns, relation tables, concept card grids, pagination tweaks, language/datatype badges, icon filters, and responsive spacing). `css/bootstrap.css` provides base layout/components.
 
 Bundled vendor scripts include `js/jquery.min.js`, `js/bootstrap.bundle.min.js`, `js/bootstrap.min.js`, `js/d3.v7.min.js`, `js/fuse.min.js`, and `js/echarts.js`; custom logic lives in `js/pv.js`, `js/pv_config.js`, `js/d3_data.js`, and `js/d3_tree.js`.
-***
-### Summary: Codelist-Registry Publication Workflow
+***<br>
+### Codelist-Registry Publication Workflow
 
 ![Registry](registry.png)
 
